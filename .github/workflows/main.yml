@@ -1,0 +1,40 @@
+name: Update list CI
+
+# Controls when the action will run. 
+on:
+
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    # branches: [ master ]
+    paths: paperlist.xml
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install xmllint
+      run: sudo apt install xsltproc
+    - run: chmod +x update-paperlist
+    - run: mkdir -p output
+    - name: Convert with xsltproc
+      run: ./update-paperlist
+    - run: ls -Ral
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: output
+        path: output
+    - name: Commit & Push
+      run: |
+        git config user.email "action@github.com"
+        git config user.name "GitHub Action"
+        git add .
+        git commit -m "Update list" -a
+        git pull
+        git push origin main

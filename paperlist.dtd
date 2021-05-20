@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-2022-JP" ?>
+
+  <!ELEMENT paperlist (authorlist?, afflist?, booktitlelist?, item*, etc?) >
+  <!ATTLIST paperlist lang (jp|en) "jp" 
+                      myname CDATA #IMPLIED 
+                      myname-e CDATA #IMPLIED
+                      paper-baseurl CDATA "."
+                      slide-baseurl CDATA "." 
+                      poster-baseurl CDATA "." >
+
+  <!ELEMENT authorlist (author-item*) >
+  <!ELEMENT author-item (#PCDATA) >
+  <!ATTLIST author-item id ID #REQUIRED
+                   aff IDREF #IMPLIED
+                   me (yes|no) "no" 
+                   href CDATA #IMPLIED>
+  <!ELEMENT afflist (aff-item*) >
+  <!ELEMENT aff-item (#PCDATA) >
+   <!ATTLIST aff-item id ID #REQUIRED>
+  <!ELEMENT booktitlelist (book-item*) >
+   <!ELEMENT book-item (#PCDATA) >
+   <!ATTLIST book-item id ID #REQUIRED
+                                   abbr CDATA #IMPLIED
+                                   href CDATA #IMPLIED >
+  <!ELEMENT item (text+ | (title, authors, 
+                  booktitle?, series?, eds?, vol?, no?, pp?, pub?, month?, 
+                  year, 
+                  abst?, eabst?, paperurl*, slideurl*, posterurl*, 
+                  award?, note?)) >
+  <!ATTLIST item type (ij|jj|lt|ln|ic|dr|dt|dc|iv|op|bc|th|rv|tr|pt|gr|sc|etc) 
+            #REQUIRED >
+    <!-- th: Thesis
+         ij: International journal
+         jj: Japanese journal
+         lt: Letter
+         ln: Lecture Notes etc.
+         ic: International conference
+         dr: Domestic reviewed conference (Japanese)
+         dt: Domestic technical report (Japanese, unreviewed)
+         dc: Domestic convention (Japanese, unreviewed)
+         iv: Invited paper
+         op: Oral presentation
+         bc: Book chapter
+         th: Thesis
+         rv: Review
+         tr: Translation
+         pt: Patent
+         gr: Grant
+         sc: Society    -->
+  <!ATTLIST item id ID #IMPLIED 
+                 lang (jp|en) "jp" 
+                 selected (yes|no) "no" >
+  <!ELEMENT text (#PCDATA) >
+  <!ELEMENT title (#PCDATA) >
+  <!ELEMENT authors (author+) >
+  <!ELEMENT author (#PCDATA) >
+  <!ATTLIST author idref IDREF #IMPLIED 
+                             aff CDATA #IMPLIED
+                             href CDATA #IMPLIED>
+  <!ELEMENT booktitle (#PCDATA) >
+  <!ATTLIST booktitle idref IDREF #IMPLIED >
+  <!ELEMENT series (#PCDATA) >
+  <!ELEMENT eds (#PCDATA) >
+  <!ELEMENT vol (#PCDATA) >
+  <!ELEMENT no (#PCDATA) >
+  <!ELEMENT pp (#PCDATA) >
+  <!ELEMENT pub (#PCDATA) >
+  <!ELEMENT doi (#PCDATA) >
+  <!ELEMENT month (#PCDATA) >
+  <!ELEMENT year (#PCDATA) >
+  <!ELEMENT abst (#PCDATA|em|sup|sub)* >
+  <!ELEMENT eabst (#PCDATA|em|sup|sub)* >
+  <!ELEMENT paperurl (#PCDATA) >
+  <!ATTLIST paperurl type CDATA #REQUIRED >
+  <!ELEMENT slideurl (#PCDATA) >
+  <!ATTLIST slideurl type CDATA #REQUIRED >
+  <!ELEMENT posterurl (#PCDATA) >
+  <!ATTLIST posterurl type CDATA #REQUIRED >
+  <!ELEMENT award (#PCDATA) >
+  <!ATTLIST award shortened (yes|no) "no" >
+  <!ELEMENT note (#PCDATA) >
+
+  <!ELEMENT etc (section*) >
+  <!ELEMENT section (item*) >
+  <!ATTLIST section name CDATA #REQUIRED >
+
+  <!-- compatible with html -->
+  <!ELEMENT em (#PCDATA) >
+  <!ELEMENT sup (#PCDATA) >
+  <!ELEMENT sub (#PCDATA) >

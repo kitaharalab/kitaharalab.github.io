@@ -1,0 +1,4 @@
+#!/bin/sh
+xsltproc paperlist.xml > output/paperlist.html
+cp output/paperlist.html index.html
+xsltproc toBibTeX.xsl paperlist.xml > output/paperlist.bib
