@@ -1,4 +1,18 @@
 #!/bin/sh
-xsltproc paperlist.xml > output/paperlist.html
+# Since 2010
+xsltproc paperlist.xml > output/paperlist_sinceFY2010.html
+cp output/paperlist_sinceFY2010.html paperlist_sinceFY2010.html
+xsltproc toBibTeX.xsl paperlist.xml > output/paperlist_sinceFY2010.bib
+
+# All
+xmllint --xinclude paperlist_all.xml > __paperlist_included.xml
+xsltproc -o output/paperlist.html paperlist.xsl __paperlist_included.xml
 cp output/paperlist.html index.html
-xsltproc toBibTeX.xsl paperlist.xml > output/paperlist.bib
+xsltproc -o output/paperlist4A.html paperlist4A.xsl __paperlist_included.xml
+xsltproc toLaTeX.xsl __paperlist_included.xml | sed -f toLaTeX.sed > output/paperlist.tex
+platex -kanji=utf8 paperlist.tex
+dvipdfmx paperlist.dvi
+
+xsltproc toBibTeX.xsl __paperlist_included.xml > output/paperlist.bib
+xsltproc toCSV_B.xsl __paperlist_included.xml | html2text -width 100000 -nobs | sed "s/, /,/g" | sed "s/_/ /g" > output/B.csv
+xsltproc toCSV_C.xsl __paperlist_included.xml | html2text -width 100000 -nobs | sed "s/, /,/g" | sed "s/_/ /g" > output/C.csv

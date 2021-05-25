@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="paperlist.xsl" ?>
+
+<!DOCTYPE paperlist SYSTEM "paperlist.dtd">
+<paperlist lang="jp" myname="北原 鉄朗" myname-e="Tetsuro Kitahara"
+           xmlns:xi="http://www.w3.org/2001/XInclude">
+  <authorlist>
+    <xi:include href="paperlist_untilFY2009.xml" xpointer="xpointer(/paperlist/authorlist/author-item)" parse="xml" />
+  </authorlist>
+  <afflist>
+    <xi:include href="paperlist_untilFY2009.xml" xpointer="xpointer(/paperlist/afflist/aff-item)" parse="xml" />
+  </afflist>
+  <booktitlelist>
+    <xi:include href="paperlist_untilFY2009.xml" xpointer="xpointer(/paperlist/booktitlelist/book-item)" parse="xml" />
+  </booktitlelist>
+
+  <xi:include href="paperlist_untilFY2009.xml" xpointer="xpointer(/paperlist/item)" parse="xml" />
+  <xi:include href="paperlist.xml" xpointer="xpointer(/paperlist/item)" parse="xml" />
+  <xi:include href="paperlist_etc.xml" xpointer="xpointer(/paperlist/item)" parse="xml" />
+
+</paperlist>

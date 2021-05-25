@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE paperlist SYSTEM "paperlist.dtd">
+<paperlist lang="jp" myname="北原 鉄朗" myname-e="Tetsuro Kitahara">
+
+  <!-- Society -->
+  <item type="sc">
+    <text>情報処理学会 音楽情報科学研究会 主査（2015年度〜2016年度）</text>
+  </item>
+  <item type="sc">
+    <text>2016年度人工知能学会全国大会（第30回） 大会委員</text>
+  </item>
+  <item type="sc">
+    <text>Special Session on Music Information Processing, the IEEE 8th International Conference on Knowledge and Systems Engineering (KSE 2016), Session Organier</text>
+  </item>
+  <item type="sc">
+    <text>情報処理学会論文誌「エンターテインメントコンピューティング」特集（2016年12月発行予定）編集委員会 編集委員</text>
+  </item>
+  <item type="sc">
+    <text>情報処理学会誌「音楽を軸に拡がる情報科学」特集（2016年6月号）ゲストエディタ</text>
+  </item>
+  <item type="sc">
+    <text>情報処理学会論文誌「音楽情報処理技術の進歩とその拡がり」特集（2016年5月号）編集委員会 幹事</text>
+  </item>
+  <item type="sc">
+    <text>2015年度人工知能学会全国大会（第29回） 大会委員</text>
+  </item>
+  <item type="sc">
+    <text>情報処理学会 第76回全国大会 プログラム編成WG 委員</text>
+  </item>
+  <item type="sc">
+    <text>情報処理学会／電子情報通信学会 第13回情報科学技術フォーラム（FIT 2014） プログラム委員会 委員</text>
+  </item>
+  <item type="sc">
+    <text>Special Session on Hot Topics in Music Information Processing, the 12th IEEE International Conference on Signal Processing, Session Co-organizer</text>
+  </item>
+  <item type="sc">
+    <text>日本音響学会2014年春季研究発表会 実行委員</text>
+  </item>
+  <item type="sc">
+    <text>情報処理学会／電子情報通信学会 第12回情報科学技術フォーラム（FIT 2013） 研究会担当委員</text>
+  </item>
+  <item type="sc">
+    <text>情報処理学会論文誌「音楽情報処理の新展開（音楽情報科学研究会20周年記念特集）」特集（2013年4月号）編集委員会 編集委員</text>
+  </item>
+  <item type="sc">
+    <text>情報処理学会 音楽情報科学研究会 幹事（2011年度〜2014年度）</text>
+  </item>
+  <item type="sc">
+    <text>電子情報通信学会 和文論文誌D 編集委員会 編集委員（2011年度〜2014年度）</text>
+  </item>
+  <item type="sc">
+    <text>情報処理学会 音楽情報科学研究会 運営委員（2007年度～2010年度）</text>
+  </item>
+  <item type="sc">
+    <text>ISMIR 2009, Local Organizing Committee Chair</text>
+  </item>
+  <item type="sc">
+    <text>科学技術新興機構デジタルメディア領域主催シンポジウム「表現の未来へ」推進委員（2007年度）</text>
+  </item>
+
+  <item type="sc">
+    <text>ピアノ演奏表情付けコンテスト「Rencon」Committee Member （2007年度〜2011年度）</text>
+  </item>
+
+<!--
+  <item type="sc">
+    <text>情報処理学会 第76回音楽情報科学研究会 チュートリアル</text>
+    <text>「音楽の信号処理とパターン処理の基礎技術：入門と実践」講師（2008年度）</text>
+  </item>
+
+  <item type="iv">
+    <title>音楽の信号処理とパターン処理の基礎技術：入門と実践</title>
+    <authors>
+      <author>情報処理学会 第76回音楽情報科学研究会 チュートリアル</author>
+    </authors>
+    <series>講師</series>
+    <month>8</month>
+    <year>2008</year>
+  </item>
+
+  <item type="sc">
+    <text>情報処理学会 第80回音楽情報科学研究会 チュートリアル</text>
+    <text>「CrestMuseXML Toolkitで始める音楽情報処理入門」講師（2009年度）</text>
+  </item>
+-->
+
+
+
+  <item type="sc">
+    <text>論文誌査読（複数回）：情報処理学会論文誌，電子情報通信学会論文誌，日本音響学会誌, 人工知能学会論文誌, IEEE Transactions on Acoustics, Speech, and Language, IEEE Journal of Selected Topics in Signal Processing, 芸術科学会, ヒューマンインタフェース学会</text>
+  </item>
+  <item type="sc">
+    <text>論文誌査読（1回のみ）：Journal of New Music Research, Signal Processing，日本神経回路学会誌</text>
+  </item>
+  <item type="sc">
+    <text>国際会議論文査読：ISMIR 2007, WASPAA 2007, ISMIR 2008, ISMIR 2009, ISMIR 2010, SAPA 2010, ISMIR 2011, ACE 2015, ACE 2016, IEEE-KSE 2016</text>
+  </item>
+  <item type="sc">
+    <text>国内会議論文査読：FIT 2008, FIT 2009</text>
+  </item>
+
+
+
+</paperlist>

@@ -18,8 +18,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Install xmllint
+    - name: Install xsltproc
       run: sudo apt install xsltproc
+    - name: Install xmllint
+      run: sudo apt install libxml2-utils
+    - name: Install platex
+      run: sudo apt install texlive-lang-japanese
+    - name: Install dvipdfmx
+      run: sudo apt install texlive-binaries
+    - name: Install html2text
+      run: sudo apt install html2text
     - run: chmod +x update-paperlist
     - run: mkdir -p output
     - name: Convert with xsltproc
