@@ -28,10 +28,10 @@ jobs:
       run: sudo apt install texlive-binaries
     - name: Install html2text
       run: sudo apt install html2text
-    - run: chmod +x update-paperlist
+    - run: chmod +x paperlist/update-paperlist
     - run: mkdir -p output
     - name: Convert with xsltproc
-      run: ./update-paperlist
+      run: ./paperlist/update-paperlist
     - run: ls -Ral
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
