@@ -7,7 +7,7 @@ xsltproc toBibTeX.xsl paperlist.xml > output/paperlist_sinceFY2010.bib
 # All
 xmllint --xinclude paperlist_all.xml > __paperlist_included.xml
 xsltproc -o output/paperlist.html paperlist.xsl __paperlist_included.xml
-cp output/paperlist.html index.html
+cp output/paperlist.html ../index.html
 xsltproc -o output/paperlist4A.html paperlist4A.xsl __paperlist_included.xml
 xsltproc toLaTeX.xsl __paperlist_included.xml | sed -f toLaTeX.sed > output/paperlist.tex
 platex -kanji=utf8 paperlist.tex
