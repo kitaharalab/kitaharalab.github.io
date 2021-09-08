@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20399' target='_blank'>おそ松さん</a></td><td>はなまるぴっぴはよいこだけ</td><td>A応P</td><td>コメディ/ギャグ,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/197277/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Mr. Osomatsu</td><td style='border-top-style:none;'>Hanamaru pippi wa yoiko dake</td><td style='border-top-style:none;'>AOP</td><td style='border-top-style:none;'>Comedy / Gag, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.33</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10338' target='_blank'>らきすた</a></td><td>もってけ!セーラーふく</td><td>泉こなた(平野綾)、柊かがみ(加藤英美里)、柊つかさ(福原香織)、高良みゆき(遠藤綾)</td><td>コメディ/ギャグ,日常/ほのぼの</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/54044/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Lucky Star</td><td style='border-top-style:none;'>Motteke! Serafuku</td><td style='border-top-style:none;'>Konata Izumi (Aya Hirano), Kagami Hiiragi (Emiri Kato), Tsukasa Hiiragi (Kaori Fukuhara) and Miyuki Takara (Aya Endo)</td><td style='border-top-style:none;'>Comedy / Gag, Daily / Heartwarming</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.30</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11117' target='_blank'>生徒会役員共＊</a></td><td>花咲く☆最強レジェンドDays</td><td>トリプルブッキング</td><td>恋愛/ラブコメ,コメディ/ギャグ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/158412/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Seitokai Yakuindomo＊</td><td style='border-top-style:none;'>Hanasaku☆saikyo Legend Days</td><td style='border-top-style:none;'>TRIPLE BOOKING</td><td style='border-top-style:none;'>Romance / Love Comedy, Comedy / Gag</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.23</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=21331' target='_blank'>ガヴリールドロップアウト</a></td><td>ガヴリールドロップキック</td><td>ガヴリール(CV:富田美憂)、ヴィーネ(CV:大西沙織)、サターニャ(CV:大空直美)、ラフィエル(CV:花澤香菜)</td><td>日常/ほのぼの,コメディ/ギャグ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/224905/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Gabriel DropOut</td><td style='border-top-style:none;'>Gabriel Drop Kick</td><td style='border-top-style:none;'>Gavril (CV: Miyu Tomita), Vine (CV: Saori Onishi), Satania (CV: Naomi Oozora) and Rafiel (CV: Kana Hanazawa) </td><td style='border-top-style:none;'>Daily / Heartwarming, Comedy / Gag</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.19</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10005' target='_blank'>とらドラ</a></td><td>プレパレード</td><td>逢坂大河(釘宮理恵), 櫛枝実乃梨(堀江由衣) & 川嶋亜美(喜多村英梨)</td><td>恋愛/ラブコメ,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/72090/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Toradora!</td><td style='border-top-style:none;'>Pure paredo</td><td style='border-top-style:none;'>Taiga Osaka (Rie Kugimiya), Minori Kushieda (Yui Horie) & Ami Kawashima (Eri Kitamura)</td><td style='border-top-style:none;'>Romance / Love Comedy, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.17</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10276' target='_blank'>けいおん!</a></td><td>Cagayake!GIRLS</td><td>桜高軽音部 [平沢唯・秋山澪・田井中律・琴吹紬(CV:豊崎愛生、日笠陽子、佐藤聡美、寿美菜子)]</td><td>日常/ほのぼの,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/79050/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>K-On!</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sakurakou keionbu [Yui Hirasawa, Mio Akiyama, Ritsu Tinaka and Tsumugi Kotobuki (CV: Aki Toyosaki, Youko Hikasa, Satomi Sato and Minako Kotobuki)]</td><td style='border-top-style:none;'>Daily / Heartwarming, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

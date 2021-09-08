@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=21591' target='_blank'>るろうに剣心_明治剣客浪漫譚</a></td><td>そばかす</td><td>JUDY AND MARY</td><td>歴史/戦記,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/8953/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Rurouni Kenshin: Meiji Swordsman Romantic Story</td><td style='border-top-style:none;'>Sobakasu</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>History / Records of War, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.37</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11330' target='_blank'>黒執事</a></td><td>モノクロのキス</td><td>シド</td><td>ホラー/サスペンス/推理,アクション/バトル,SF/ファンタジー</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/71560/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Black Butler</td><td style='border-top-style:none;'>Monokuro no kiss</td><td style='border-top-style:none;'>sid</td><td style='border-top-style:none;'>Horror / Suspense / Mystery, Action / Battle, SF / Fantasy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.35</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10005' target='_blank'>とらドラ</a></td><td>プレパレード</td><td>逢坂大河(釘宮理恵), 櫛枝実乃梨(堀江由衣) & 川嶋亜美(喜多村英梨)</td><td>恋愛/ラブコメ,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/72090/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Toradora!</td><td style='border-top-style:none;'>Pure paredo</td><td style='border-top-style:none;'>Taiga Osaka (Rie Kugimiya), Minori Kushieda (Yui Horie) & Ami Kawashima (Eri Kitamura)</td><td style='border-top-style:none;'>Romance / Love Comedy, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.32</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10332' target='_blank'>フルメタル・パニック_ふもっふ</a></td><td>それが、愛でしょう</td><td>下川みくに</td><td>戦争/ミリタリー,コメディ/ギャグ,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/17805/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Full Metal Panic? Fumoffu</td><td style='border-top-style:none;'>Sore ga ai desyou</td><td style='border-top-style:none;'>Mikuni Shimokawa</td><td style='border-top-style:none;'>War / Military, Comedy / Gag, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.31</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10853' target='_blank'>涼宮ハルヒの憂鬱</a></td><td>冒険でしょでしょ_</td><td>平野 綾</td><td>ドラマ/青春,恋愛/ラブコメ,SF/ファンタジー</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/42614/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>The Melancholy of Haruhi Suzumiya</td><td style='border-top-style:none;'>Bouken desyo desyo</td><td style='border-top-style:none;'>Aya Hirano</td><td style='border-top-style:none;'>Bloom of Youth / Drama, Romance / Love Comedy, SF / Fantasy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.30</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20385' target='_blank'>ハイキュー!!2</a></td><td>アイム・ア・ビリーバー</td><td>SPYAIR</td><td>スポーツ/競技</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/195405/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Haikyu!! 2</td><td style='border-top-style:none;'>I am a believer</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sport / Competition</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

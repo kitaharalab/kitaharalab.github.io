@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10011' target='_blank'>バカとテストと召喚獣</a></td><td>Perfect-area__complete!</td><td>麻生夏子</td><td>コメディ/ギャグ,アクション/バトル,恋愛/ラブコメ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/89628/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Baka and Test: Summon the Beasts</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Natsuko Aso</td><td style='border-top-style:none;'>Comedy / Gag, Action / Battle, Romance / Love Comedy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.49</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11237' target='_blank'>マンガ家さんとアシスタントさんと</a></td><td>純粋なフジュンブツ</td><td>StylipS</td><td>日常/ほのぼの,ショート,恋愛/ラブコメ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/164014/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>The Comic Artist and His Assistants</td><td style='border-top-style:none;'>Junsui na fujun butsu</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Daily / Heartwarming, Short, Romance / Love Comedy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.39</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=21331' target='_blank'>ガヴリールドロップアウト</a></td><td>ガヴリールドロップキック</td><td>ガヴリール(CV:富田美憂)、ヴィーネ(CV:大西沙織)、サターニャ(CV:大空直美)、ラフィエル(CV:花澤香菜)</td><td>日常/ほのぼの,コメディ/ギャグ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/224905/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Gabriel DropOut</td><td style='border-top-style:none;'>Gabriel Drop Kick</td><td style='border-top-style:none;'>Gavril (CV: Miyu Tomita), Vine (CV: Saori Onishi), Satania (CV: Naomi Oozora) and Rafiel (CV: Kana Hanazawa) </td><td style='border-top-style:none;'>Daily / Heartwarming, Comedy / Gag</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.35</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10132' target='_blank'>咲</a></td><td>Glossy_MMM</td><td>橋本みゆき</td><td>スポーツ/競技,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/79048/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Saki</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Miyuki Hashimoto</td><td style='border-top-style:none;'>Sport / Competition, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.33</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20616' target='_blank'>銀魂_4年目</a></td><td>Stairway__Generation</td><td>Base Ball Bear</td><td>コメディ/ギャグ,ドラマ/青春,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/82156/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Gin Tama 4th Year</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Comedy / Gag, Bloom of Youth / Drama, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.30</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10288' target='_blank'>鋼の錬金術師_FULLMETAL_ALCHEMIST</a></td><td>again</td><td>YUI</td><td>SF/ファンタジー,アクション/バトル,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/137393/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Fullmetal Alchemist: Brotherhood</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Action / Battle, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

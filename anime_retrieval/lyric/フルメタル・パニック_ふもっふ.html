@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10332' target='_blank'>フルメタル・パニック_ふもっふ</a></td><td>それが、愛でしょう</td><td>下川みくに</td><td>戦争/ミリタリー,コメディ/ギャグ,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/17805/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Full Metal Panic? Fumoffu</td><td style='border-top-style:none;'>Sore ga ai desyou</td><td style='border-top-style:none;'>Mikuni Shimokawa</td><td style='border-top-style:none;'>War / Military, Comedy / Gag, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.59</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10850' target='_blank'>夏目友人帳4</a></td><td>今、このとき。</td><td>ひいらぎ</td><td>ホラー/サスペンス/推理,ドラマ/青春,SF/ファンタジー</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/125259/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Natsume's Book of Friends 4</td><td style='border-top-style:none;'>Ima kono toki</td><td style='border-top-style:none;'>Hiiragi</td><td style='border-top-style:none;'>Horror / Suspense / Mystery, Bloom of Youth / Drama, SF / Fantasy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.50</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10838' target='_blank'>氷菓</a></td><td>優しさの理由</td><td>ChouCho</td><td>ホラー/サスペンス/推理,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/129191/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Hyouka</td><td style='border-top-style:none;'>Yasashisa no riyuu</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Horror / Suspense / Mystery, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.49</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20944' target='_blank'>GATE(ゲート)_自衛隊_彼の地にて、斯く戦えり</a></td><td>GATE~それは暁のように~</td><td>岸田教団&THE明星ロケッツ</td><td>戦争/ミリタリー,SF/ファンタジー,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/191077/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Gate: Thus the Japanese Self-Defense Force Fought There</td><td style='border-top-style:none;'>GATE～soreha akatsukino youni～</td><td style='border-top-style:none;'>Kishida Kyodan & the Akeboshi Rockets</td><td style='border-top-style:none;'>War / Military, SF / Fantasy, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.48</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11611' target='_blank'>冴えない彼女の育てかた</a></td><td>君色シグナル</td><td>春奈るな</td><td>恋愛/ラブコメ,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/search/?Aselect=2&Keyword=%E5%90%9B%E8%89%B2%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB&Bselect=3&x=27&y=16' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Saekano: How to Raise a Boring Girlfriend</td><td style='border-top-style:none;'>Mimiiro signal</td><td style='border-top-style:none;'>Luna Haruna</td><td style='border-top-style:none;'>Romance / Love Comedy, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.47</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20583' target='_blank'>ちはやふる</a></td><td>YOUTHFUL</td><td>99RadioService</td><td>スポーツ/競技,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/122726/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Chihayafuru</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sport / Competition, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

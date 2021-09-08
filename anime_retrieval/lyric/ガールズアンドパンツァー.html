@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/tp_pc' target='_blank'>ガールズアンドパンツァー</a></td><td>Dream__Riser</td><td>ChouCho</td><td>スポーツ/競技,戦争/ミリタリー,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/136783/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Girls and Tanks</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sport / Competition, War / Military, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.34</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11065' target='_blank'>ISインフィニット・ストラトス</a></td><td>STRAIGHT__JET</td><td>栗林みな実</td><td>SF/ファンタジー,ロボット/メカ,恋愛/ラブコメ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/107872/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Infinite Stratos</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Minami Kuribayashi</td><td style='border-top-style:none;'>SF / Fantasy, Robot / Mech., Romance / Love Comedy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.30</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10348' target='_blank'>彩雲国物語</a></td><td>はじまりの風</td><td>平原綾香</td><td>歴史/戦記,SF/ファンタジー,恋愛/ラブコメ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/38101/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>The Story of Saiunkoku</td><td style='border-top-style:none;'>Hajimari no kaze</td><td style='border-top-style:none;'>Ayaka Hirahara</td><td style='border-top-style:none;'>History / Records of War, SF / Fantasy, Romance / Love Comedy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.29</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10288' target='_blank'>鋼の錬金術師_FULLMETAL_ALCHEMIST</a></td><td>again</td><td>YUI</td><td>SF/ファンタジー,アクション/バトル,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/137393/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Fullmetal Alchemist: Brotherhood</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Action / Battle, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.26</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11175' target='_blank'>インフィニット・ストラトス2</a></td><td>True__Blue__Traveler</td><td>栗林みな実</td><td>SF/ファンタジー,ロボット/メカ,恋愛/ラブコメ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/154669/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Infinite Stratos2</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Minami Kuribayashi</td><td style='border-top-style:none;'>SF / Fantasy, Robot / Mech., Romance / Love Comedy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.25</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10801' target='_blank'>図書館戦争</a></td><td>あたしの街、明日の街</td><td>高橋 瞳</td><td>戦争/ミリタリー,ドラマ/青春,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/66178/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Library War</td><td style='border-top-style:none;'>Atashi no machi, asu no machi</td><td style='border-top-style:none;'>Hitomi Takahashi</td><td style='border-top-style:none;'>War / Military, Bloom of Youth / Drama, Action / Battle</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

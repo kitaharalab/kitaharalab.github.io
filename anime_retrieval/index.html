@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="LoadandSetData()">
+	<h1>Anime Song Retrieval Demo</h1>
+	<h2>made by Naoto Homma, Aiko Uemura and Tetsuro Kitarahara（Nihon University）</h2>
+	<h3>Select Anime Work</h3>
+	<select id="PullDownList">
+		<option></option>
+	</select>
+
+
+	<iframe id="AudioFrame" src="./mir/君じゃなきゃダメみたい.html"  scrolling="no" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+	
+	<iframe id="LyricFrame" src="./lyric/月刊少女野崎くん.html" scrolling="no" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+	
+	<iframe id="StoryFrame" src="./story/月刊少女野崎くん.html" scrolling="no" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+	<br>
+	
+	<script type="text/javascript">	
+	
+	var element = document.getElementById("PullDownList") ;
+	var val;
+	var result = []; // 0:songname  1:anime work
+	var audioframe = document.getElementById("AudioFrame");
+	var lyricframe = document.getElementById("LyricFrame");
+	var storyframe = document.getElementById("StoryFrame");
+	
+	element.onchange = function(){
+		let filename;
+		let animetitle;
+		val = this.value;
+		
+		//find ID
+		for (var i = 0; i < result.length; i++){
+			if (result[i][2] == val){
+				filename = result[i][0];
+				animetitle = result[i][1];
+				break;
+			}
+		}
+		
+		audiohtmlfile = "./mir/"+filename+".html";
+		lyrichtmlfile = "./lyric/"+animetitle+".html";
+		storyhtmlfile = "./story/"+animetitle+".html";
+		audioframe.src = audiohtmlfile;
+		lyricframe.src = lyrichtmlfile;
+		storyframe.src = storyhtmlfile;
+		
+		resizeIFrameToFitContent( audioframe );
+		resizeIFrameToFitContent( lyricframe );
+		resizeIFrameToFitContent( storyframe );
+	}
+	
+	function resizeIFrameToFitContent( iFrame ) {
+	    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    	iFrame.height = iFrame.contentWindow.document.body.scrollHeight+50;
+	}
+	
+	function LoadandSetData() {
+		var req = new XMLHttpRequest(); 
+		req.withCredentials = true;
+		req.open("get", "animelist.csv", true); 
+		req.send(null); 
+
+		req.onload = function() {
+			convertCSVtoArray(req.responseText); 
+		}
+		resizeIFrameToFitContent(audioframe);
+		resizeIFrameToFitContent(lyricframe);
+		resizeIFrameToFitContent(storyframe);
+	}
+
+	function convertCSVtoArray(str) {
+		var lines = str.split("\n");
+		for (var i = 0; i < lines.length; i++) {
+			let cells = lines[i].split(",");
+			if (cells.length != 1) {
+				result.push(cells);
+			}
+		}
+		for (var i = 0; i < result.length; i++) {
+			let opt = document.createElement("option");
+			opt.value = result[i][2];
+			opt.label = result[i][2];
+			document.getElementById("PullDownList").appendChild(opt);
+		}
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=22391' target='_blank'>宇宙兄弟</a></td><td>Feel__So__Moon</td><td>UNICORN</td><td>SF/ファンタジー,ロボット/メカ,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/131111/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Space Brothers</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Robot / Mech., Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.34</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11065' target='_blank'>ISインフィニット・ストラトス</a></td><td>STRAIGHT__JET</td><td>栗林みな実</td><td>SF/ファンタジー,ロボット/メカ,恋愛/ラブコメ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/107872/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Infinite Stratos</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Minami Kuribayashi</td><td style='border-top-style:none;'>SF / Fantasy, Robot / Mech., Romance / Love Comedy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.34</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10288' target='_blank'>鋼の錬金術師</a></td><td>メリッサ</td><td>ポルノグラフィティ</td><td>ドラマ/青春,SF/ファンタジー,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/17904/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Fullmetal Alchemist</td><td style='border-top-style:none;'>Melissa</td><td style='border-top-style:none;'>PornoGraffitti</td><td style='border-top-style:none;'>Bloom of Youth / Drama, SF / Fantasy, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.33</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10847' target='_blank'>夏目友人帳</a></td><td>一斉の声</td><td>中 孝介</td><td>ホラー/サスペンス/推理,ドラマ/青春,SF/ファンタジー</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/188515/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Natsume's Book of Friends</td><td style='border-top-style:none;'>Issei no sei</td><td style='border-top-style:none;'>Kosuke Atari</td><td style='border-top-style:none;'>Horror / Suspense / Mystery, Bloom of Youth / Drama, SF / Fantasy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.33</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10334' target='_blank'>フルメタル・パニック!The_Second_Raid</a></td><td>南風</td><td>下川みくに</td><td>戦争/ミリタリー,ロボット/メカ,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/33006/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Full Metal Panic! The Second Raid</td><td style='border-top-style:none;'>Minamikaze</td><td style='border-top-style:none;'>Mikuni Shimokawa</td><td style='border-top-style:none;'>War / Military, Robot / Mech., Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.31</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20053' target='_blank'>コードギアス_反逆のルルーシュR2</a></td><td>O2</td><td>ORANGE RANGE</td><td>SF/ファンタジー,ロボット/メカ,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/65750/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>CODE GEASS Lelouch of the Rebellion R2</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Robot / Mech., Bloom of Youth / Drama</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

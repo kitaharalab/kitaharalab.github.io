@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20616' target='_blank'>銀魂_4年目</a></td><td>Stairway__Generation</td><td>Base Ball Bear</td><td>コメディ/ギャグ,ドラマ/青春,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/82156/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Gin Tama 4th Year</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Comedy / Gag, Bloom of Youth / Drama, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.43</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10998' target='_blank'>織田信奈の野望</a></td><td>Link</td><td>愛美</td><td>歴史/戦記,SF/ファンタジー,恋愛/ラブコメ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/132558/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>The Ambition of Oda Nobuna</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Aimi</td><td style='border-top-style:none;'>History / Records of War, SF / Fantasy, Romance / Love Comedy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.38</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10847' target='_blank'>夏目友人帳</a></td><td>一斉の声</td><td>中 孝介</td><td>ホラー/サスペンス/推理,ドラマ/青春,SF/ファンタジー</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/188515/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Natsume's Book of Friends</td><td style='border-top-style:none;'>Issei no sei</td><td style='border-top-style:none;'>Kosuke Atari</td><td style='border-top-style:none;'>Horror / Suspense / Mystery, Bloom of Youth / Drama, SF / Fantasy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.36</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10288' target='_blank'>鋼の錬金術師_FULLMETAL_ALCHEMIST</a></td><td>again</td><td>YUI</td><td>SF/ファンタジー,アクション/バトル,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/137393/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Fullmetal Alchemist: Brotherhood</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Action / Battle, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.35</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11329' target='_blank'>偽物語</a></td><td>二言目</td><td>戦場ヶ原ひたぎ(斎藤千和)</td><td>SF/ファンタジー,ホラー/サスペンス/推理,恋愛/ラブコメ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/130230/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Nisemonogatari</td><td style='border-top-style:none;'>Futakotome</td><td style='border-top-style:none;'>Senjogahara Hitagi (Chiwa Saito)</td><td style='border-top-style:none;'>SF / Fantasy, Horror / Suspense / Mystery, Romance / Love Comedy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.34</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20944' target='_blank'>GATE(ゲート)_自衛隊_彼の地にて、斯く戦えり</a></td><td>GATE~それは暁のように~</td><td>岸田教団&THE明星ロケッツ</td><td>戦争/ミリタリー,SF/ファンタジー,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/191077/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Gate: Thus the Japanese Self-Defense Force Fought There</td><td style='border-top-style:none;'>GATE～soreha akatsukino youni～</td><td style='border-top-style:none;'>Kishida Kyodan & the Akeboshi Rockets</td><td style='border-top-style:none;'>War / Military, SF / Fantasy, Action / Battle</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

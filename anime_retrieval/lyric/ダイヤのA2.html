@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11202' target='_blank'>ダイヤのA2</a></td><td>Go__EXCEED!!</td><td>Tom-H@ck featuring 大石昌良</td><td>スポーツ/競技,コメディ/ギャグ,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/154526/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Ace of Diamond 2</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Tom-H@ck featuring Masayoshi Oishi</td><td style='border-top-style:none;'>Sport / Competition, Comedy / Gag, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.29</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20709' target='_blank'>はじめの一歩</a></td><td>Under__Star__(TV__edition)</td><td>Shocking Lemon</td><td>スポーツ/競技,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/152300/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Hajime no Ippo</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sport / Competition, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.24</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=21025' target='_blank'>NEW_GAME!</a></td><td>SAKURAスキップ</td><td>fourfolium</td><td>日常/ほのぼの</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/211929/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>NEW_GAME!</td><td style='border-top-style:none;'>SAKURA skip</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Daily / Heartwarming</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.22</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10472' target='_blank'>異世界の聖機師物語</a></td><td>Follow__Me__Feat.Sound__Around</td><td>加賀美セイラ</td><td>ロボット/メカ,SF/ファンタジー,恋愛/ラブコメ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/78090/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Isekai no Seikishi Monogatari </td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Kagami Seira</td><td style='border-top-style:none;'>Robot / Mech., SF / Fantasy, Romance / Love Comedy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.21</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20213' target='_blank'>オーバーロード</a></td><td>Clattanoia</td><td>OxT</td><td>SF/ファンタジー,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/193014/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Overlord</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.20</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10838' target='_blank'>氷菓</a></td><td>優しさの理由</td><td>ChouCho</td><td>ホラー/サスペンス/推理,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/129191/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Hyouka</td><td style='border-top-style:none;'>Yasashisa no riyuu</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Horror / Suspense / Mystery, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

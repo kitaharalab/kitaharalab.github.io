@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10108' target='_blank'>とある魔術の禁書目録II</a></td><td>No__Buts!</td><td>川田まみ</td><td>SF/ファンタジー,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/104121/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>A Certain Magical Index II</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Mami Kawada</td><td style='border-top-style:none;'>SF / Fantasy, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.34</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10107' target='_blank'>とある科学の超電磁砲</a></td><td>only__my__railgun</td><td>fripSide</td><td>SF/ファンタジー,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/86561/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>A Certain Scientific Railgun</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.34</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10717' target='_blank'>剣風伝奇_ベルセルク</a></td><td>TELL__ME__WHY</td><td>PENPALS</td><td>歴史/戦記,SF/ファンタジー,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/196966/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Berserk 1st series</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>History / Records of War, SF / Fantasy, Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.22</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11495' target='_blank'>寄生獣_セイの格率</a></td><td>Let__Me__Hear</td><td>Fear, and Loathing in Las Vegas</td><td>ホラー/サスペンス/推理,ドラマ/青春,SF/ファンタジー</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/177482/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Parasyte</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Horror / Suspense / Mystery, Bloom of Youth / Drama, SF / Fantasy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.22</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=21186' target='_blank'>ユーリ!!!onICE</a></td><td>History__Maker</td><td>DEAN FUJIOKA</td><td>スポーツ/競技,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/216441/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Yuri on Ice</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sport / Competition, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.19</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11443' target='_blank'>弱虫ペダル</a></td><td>リクライム</td><td>ROOKiEZ is PUNK'D</td><td>スポーツ/競技,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/155409/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Yowamushi Pedal </td><td style='border-top-style:none;'>Rikuraimu</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sport / Competition, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

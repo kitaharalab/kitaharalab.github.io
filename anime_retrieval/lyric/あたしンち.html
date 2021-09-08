@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11092' target='_blank'>あたしンち</a></td><td>さらば</td><td>キンモクセイ</td><td>日常/ほのぼの,コメディ/ギャグ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/15725/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Atashin'chi</td><td style='border-top-style:none;'>Saraba</td><td style='border-top-style:none;'>Kinmokusei</td><td style='border-top-style:none;'>Daily / Heartwarming, Comedy / Gag</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.26</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=21510' target='_blank'>エロマンガ先生</a></td><td>ヒトリゴト</td><td>ClariS</td><td>恋愛/ラブコメ,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/228311/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Eromanga Sensei</td><td style='border-top-style:none;'>Hitorigoto</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Romance / Love Comedy, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.17</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10850' target='_blank'>夏目友人帳4</a></td><td>今、このとき。</td><td>ひいらぎ</td><td>ホラー/サスペンス/推理,ドラマ/青春,SF/ファンタジー</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/125259/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Natsume's Book of Friends 4</td><td style='border-top-style:none;'>Ima kono toki</td><td style='border-top-style:none;'>Hiiragi</td><td style='border-top-style:none;'>Horror / Suspense / Mystery, Bloom of Youth / Drama, SF / Fantasy</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.17</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10702' target='_blank'>蒼穹のファフナー</a></td><td>Shangri-La</td><td>angela</td><td>SF/ファンタジー,ロボット/メカ,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/20298/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Fafner in the Azure</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Robot / Mech., Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.17</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10214' target='_blank'>ストライクウィッチーズ</a></td><td>STRIKE__WITCHES__~わたしにできること~</td><td>石田燿子</td><td>戦争/ミリタリー,ロボット/メカ,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/69948/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Strike Witches</td><td style='border-top-style:none;'>STRIKE WITCHES ~watashi ni dekirukoto~</td><td style='border-top-style:none;'>Yoko Ishida</td><td style='border-top-style:none;'>War / Military, Robot / Mech., Action / Battle</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.15</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=21746' target='_blank'>交響詩篇エウレカセブン</a></td><td>DAYS</td><td>FLOW</td><td>SF/ファンタジー,ロボット/メカ,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/26283/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Eureka Seven</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Robot / Mech., Action / Battle</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

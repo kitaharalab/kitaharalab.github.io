@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8" /><title>Lyric similarity</title>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+<script src="../js/jquery-3.6.0.slim.min.js"</script>
+<link href="../css/jquery.minipreview.css" rel="stylesheet">
+<script src="../js/jquery.minipreview.js"></script>
+<script type="text/javascript">
+$(function() {$('#p1 a').miniPreview({ prefetch: 'none', scale: 0.7});});
+</script>
+<script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<h1>Lyric similarity</h1><table border="1" cellspacing="0">
+<thead><tr bgcolor="#000000" style="color: #ffffff; font-size:14pt"><th></th><th>Cosine similarity</th><th>Anime work</th><th>Theme song</th><th>Artist</th><th>Genre</th><th>Lyric (Japanese)</th></tr></thead>
+<tbody>
+<tr bgcolor='#c0c0c0'><td rowspan='2'>Query</td><td rowspan='2' align='center'>-</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20099' target='_blank'>弱虫ペダル_GRANDROAD</a></td><td>Determination</td><td>LASTGASP</td><td>スポーツ/競技,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/174594/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr bgcolor='#c0c0c0'><td style='border-top-style:none;'>Yowamushi Pedal GRANDROAD</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sport / Competition, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>1</td><td align='center' rowspan='2'>0.42</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10811' target='_blank'>進撃の巨人</a></td><td>紅蓮の弓矢</td><td>Linked Horizon</td><td>SF/ファンタジー,アクション/バトル,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://j-lyric.net/artist/a056ab6/l02d861.html' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Attack on Titan</td><td style='border-top-style:none;'>Guren no yumiya</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Action / Battle, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>2</td><td align='center' rowspan='2'>0.41</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=11141' target='_blank'>ラブライブ!</a></td><td>僕らは今のなかで</td><td>μ's</td><td>スポーツ/競技,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/140447/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Love Live!</td><td style='border-top-style:none;'>Bokura wa ima no nakade</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sport / Competition, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>3</td><td align='center' rowspan='2'>0.39</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20525' target='_blank'>この素晴らしい世界に祝福を</a></td><td>fantastic__dreamer</td><td>Machico</td><td>SF/ファンタジー,コメディ/ギャグ</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/201261/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>KonoSuba: God's Blessing on this Wonderful World!</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>SF / Fantasy, Comedy / Gag</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>4</td><td align='center' rowspan='2'>0.37</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=20052' target='_blank'>ラブライブ!2</a></td><td>それは僕たちの奇跡</td><td>μ's</td><td>スポーツ/競技,ドラマ/青春</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/162995/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Love Live! 2</td><td style='border-top-style:none;'>Sore wa bokutachi no kiseki</td><td style='border-top-style:none;'>　</td><td style='border-top-style:none;'>Sport / Competition, Bloom of Youth / Drama</td></tr>
+<tr></tr>
+<tr><td rowspan='2' align='center'>5</td><td align='center' rowspan='2'>0.36</td><td><a href='https://anime.dmkt-sp.jp/animestore/ci_pc?workId=10332' target='_blank'>フルメタル・パニック_ふもっふ</a></td><td>それが、愛でしょう</td><td>下川みくに</td><td>戦争/ミリタリー,コメディ/ギャグ,アクション/バトル</td><td align='center' id='p1' rowspan='2'><a href='https://www.uta-net.com/song/17805/' target='_blank' rel='noopener'>lyric (ja)</a></td></tr>
+<tr><td style='border-top-style:none;'>Full Metal Panic? Fumoffu</td><td style='border-top-style:none;'>Sore ga ai desyou</td><td style='border-top-style:none;'>Mikuni Shimokawa</td><td style='border-top-style:none;'>War / Military, Comedy / Gag, Action / Battle</td></tr>
+<tr></tr>
+</tbody>
+</table>
+</body>
+</html>

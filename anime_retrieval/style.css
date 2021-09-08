@@ -1,0 +1,6 @@
+iframe {
+  display:inline-block;
+  align: top; 
+  border:none;
+  width: 100%;
+}
