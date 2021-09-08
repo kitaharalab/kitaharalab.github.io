@@ -1,0 +1,4214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="paperlist.xsl" ?>
+<!DOCTYPE paperlist SYSTEM "paperlist.dtd">
+<paperlist xmlns:xi="http://www.w3.org/2001/XInclude" lang="jp" myname="北原 鉄朗" myname-e="Tetsuro Kitahara">
+  <authorlist>
+    <author-item id="kitahara-jp" aff="KU-jp" me="yes">北原 鉄朗</author-item><author-item id="kitahara-en" aff="KU-en" me="yes">Tetsuro Kitahara</author-item><author-item id="goto-jp" aff="JST-AIST-jp" href="http://staff.aist.go.jp/m.goto/index-j.html">後藤 真孝</author-item><author-item id="goto-en" aff="JST-AIST-en" href="http://staff.aist.go.jp/m.goto/">Masataka Goto</author-item><author-item id="goto2-jp" aff="AIST-jp" href="http://staff.aist.go.jp/m.goto/index-j.html">後藤
+      真孝</author-item><author-item id="goto2-en" aff="AIST-en" href="http://staff.aist.go.jp/m.goto/">Masataka Goto</author-item><author-item id="okuno-jp" aff="KU-jp" href="http://winnie.kuis.kyoto-u.ac.jp/~okuno/">奥乃 博</author-item><author-item id="okuno-en" aff="KU-en" href="http://winnie.kuis.kyoto-u.ac.jp/~okuno/">Hiroshi
+      G. Okuno</author-item><author-item id="ogata-jp" aff="KU-jp" href="http://winnie.kuis.kyoto-u.ac.jp/~ogata/index_j.html">尾形 哲也</author-item><author-item id="ogata-en" aff="KU-en" href="http://winnie.kuis.kyoto-u.ac.jp/~ogata/">Tetsuya
+      Ogata</author-item><author-item id="komatani-jp" aff="KU-jp" href="http://winnie.kuis.kyoto-u.ac.jp/~komatani/">駒谷
+      和範</author-item><author-item id="komatani-en" aff="KU-en" href="http://winnie.kuis.kyoto-u.ac.jp/~komatani/">Kazunori Komatani</author-item><author-item id="sakuraba-jp" aff="KU-jp" href="http://winnie.kuis.kyoto-u.ac.jp/~sakuraba/">櫻庭
+      洋平</author-item><author-item id="sakuraba-en" aff="KU-en" href="http://winnie.kuis.kyoto-u.ac.jp/~sakuraba/">Yohei Sakuraba</author-item><author-item id="fujihara-jp" aff="KU-jp" href="http://winnie.kuis.kyoto-u.ac.jp/~fujihara/">藤原
+      弘将</author-item><author-item id="fujihara-en" aff="KU-en" href="http://winnie.kuis.kyoto-u.ac.jp/~fujihara/">Hiromasa Fujihara</author-item><author-item id="ishida-jp" aff="TUS-jp" href="http://issoft0.is.noda.tus.ac.jp/~kdi/">石田 克久</author-item><author-item id="ishida-en" aff="TUS-en" href="http://issoft0.is.noda.tus.ac.jp/~kdi/">Katsuhisa
+      Ishida</author-item><author-item id="takeda-jp" aff="TUS-jp" href="http://issoft0.is.noda.tus.ac.jp/~takeda/">武田 正之</author-item><author-item id="takeda-en" aff="TUS-en" href="http://issoft0.is.noda.tus.ac.jp/~takeda/">Masayuki Takeda</author-item><author-item id="kitahara2-jp" aff="CrestMuse-Kwansei-jp" me="yes">北原 鉄朗</author-item><author-item id="kitahara2-en" aff="CrestMuse-Kwansei-en" me="yes">Tetsuro Kitahara</author-item><author-item id="katayose-jp" aff="CrestMuse-Kwansei-jp" href="http://ist.ksc.kwansei.ac.jp/~katayose/intro.html">片寄 晴弘</author-item><author-item id="katayose-en" aff="CrestMuse-Kwansei-en" href="http://ist.ksc.kwansei.ac.jp/~katayose/intro.html">Haruhiro Katayose</author-item><author-item id="kitahara3-jp" aff="NU-jp" me="yes">北原 鉄朗</author-item><author-item id="kitahara3-en" aff="NU-en" me="yes">Tetsuro Kitahara</author-item>
+  </authorlist>
+  <afflist>
+    <aff-item id="KU-jp">京都大学大学院情報学研究科知能情報学専攻</aff-item><aff-item id="KU-en">Dept. of Intelligence Science and Technology, Graduate School of
+      Informatics, Kyoto University</aff-item><aff-item id="JST-AIST-jp">科学技術振興事業団さきがけ研究21「情報と知」領域 ／産業技術総合研究所</aff-item><aff-item id="JST-AIST-en"> "Information and Human Activity", PRESTO, JST / National Institute
+      of Advanced Industrial Science &amp; Technology (AIST)</aff-item><aff-item id="AIST-jp">産業技術総合研究所</aff-item><aff-item id="AIST-en"> National Institute of Advanced Industrial Science &amp; Technology
+      (AIST)</aff-item><aff-item id="TUS-jp">東京理科大学大学院理工学研究科情報科学専攻</aff-item><aff-item id="TUS-en">Dept. of Information Sciences, Tokyo University of Science</aff-item><aff-item id="CrestMuse-Kwansei-jp">科学技術新興機構戦略的創造研究推進事業CrestMuseプロジェクト／関西学院大学理工学研究科</aff-item><aff-item id="CrestMuse-Kwansei-en">CrestMuse Project, CREST, JST / Graduate School of Science
+    and Technology, Kwansei Gakuin University</aff-item><aff-item id="NU-jp">日本大学文理学部情報システム解析学科</aff-item><aff-item id="NU-en">College of Humanities and Sciences, Nihon University</aff-item>
+  </afflist>
+  <booktitlelist>
+    <book-item id="icassp2003" abbr="ICASSP 2003" href="http://www.icassp2003.org/">Proceedings of
+      the 2003 IEEE International Conference on Acoustics, Speech, and Signal Processing</book-item><book-item id="icassp2004" abbr="ICASSP 2004" href="http://www.icassp2004.org/">Proceedings of
+      the 2004 IEEE International Conference on Acoustics, Speech, and Signal Processing</book-item><book-item id="icassp2006" abbr="ICASSP 2006" href="http://www.icassp2006.org/">Proceedings of
+      the 2006 IEEE International Conference on Acoustics, Speech, and Signal Processing</book-item><book-item id="ismir2004" abbr="ISMIR 2004" href="http://ismir2004.ismir.net/">Proceedings of
+      the 5th International Conference on Music Information Retrieval</book-item><book-item id="ismir2005" abbr="ISMIR 2005" href="http://ismir2005.ismir.net/">Proceedings of
+      the 6th International Conference on Music Information Retrieval </book-item><book-item id="ismir2006" abbr="ISMIR 2006" href="http://ismir2006.ismir.net/">Proceedings of
+      the 7th International Conference on Music Information Retrieval </book-item><book-item id="ismir2008" abbr="ISMIR 2008" href="http://ismir2008.ismir.net/">Proceedings of
+      the 9th International Conference on Music Information Retrieval </book-item><book-item id="icslp2006" abbr="ICSLP 2006">Proceedings of the International Conference on
+      Spoken Language Processing</book-item><book-item id="icme2003" abbr="ICME 2003">Proceedings of the 2003 IEEE International Conference
+      on Multimedia &amp; Expo</book-item><book-item id="isma2004" abbr="ISMA 2004">Proceedings of the 2004 International Symposium on
+      Musical Acoustics</book-item><book-item id="nime2004" abbr="NIME 2004">Proceedings of the International Conference on New
+      Interfaces for Musical Expression </book-item><book-item id="sigmus">情報処理学会 音楽情報科学 研究報告</book-item><book-item id="ipsjnc2001">情報処理学会 第62回全国大会</book-item><book-item id="ipsjnc2002">情報処理学会 第64回全国大会</book-item><book-item id="ipsjnc2003">情報処理学会 第65回全国大会</book-item><book-item id="ipsjnc2004">情報処理学会 第66回全国大会</book-item><book-item id="ipsjnc2005">情報処理学会 第67回全国大会</book-item><book-item id="ipsjnc2006">情報処理学会 第68回全国大会</book-item><book-item id="ipsjnc2007">情報処理学会 第69回全国大会</book-item><book-item id="ipsjnc2008">情報処理学会 第70回全国大会</book-item><book-item id="asj2002a">日本音響学会2002年秋季研究発表会 講演論文集</book-item><book-item id="asj2004a">日本音響学会2004年秋季研究発表会 講演論文集</book-item><book-item id="asj2005a">日本音響学会2005年秋季研究発表会 講演論文集</book-item><book-item id="asj2006s">日本音響学会2006年春季研究発表会 講演論文集</book-item><book-item id="asj2006a">日本音響学会2006年秋季研究発表会 講演論文集</book-item><book-item id="asj2007a">日本音響学会2007年秋季研究発表会 講演論文集</book-item><book-item id="asj2008a">日本音響学会2008年秋季研究発表会 講演論文集</book-item><book-item id="si2005" abbr="SI 2005">計測自動制御学会 第6回システムインテグレーション部門講演会</book-item><book-item id="ism2006" abbr="ISM 2006">Proceesings of the 8th IEEE International Symposium on
+      Multimedia</book-item><book-item id="masp2008" abbr="ISM 2008 MASP Workshop" href="">Proceesings of the 10th IEEE
+      International Symposium on Multimedia, Workshop on Multimedia Audio and Speech Processing</book-item><book-item id="wiss2003" abbr="WISS 2003">Proceedings of the 11th Workshop on Interactive
+      Systems and Software</book-item><book-item id="wiss2004" abbr="WISS 2004">Proceedings of the 12th Workshop on Interactive
+      Systems and Software</book-item><book-item id="wiss2005" abbr="WISS 2005">Proceedings of the 13th Workshop on Interactive
+      Systems and Software</book-item><book-item id="ec2007" abbr="EC2007" href="http://ec2007.entcomp.org/">Proceedings of
+      Entertainment Computing 2007</book-item><book-item id="icmpc2008" abbr="ICMPC 2008">Proceedings of the 10th International Conference on
+      Music Perception and Cognition</book-item><book-item id="jsai2008">第22回人工知能学会全国大会</book-item>
+  </booktitlelist>
+
+  <item type="dc" id="KitaharaIPSJNC2001" lang="jp">
+    <title>楽器音オントロジー作成のための楽器音特徴抽出</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2001"/>
+    <series>4M-5</series>
+    <month>3</month>
+    <year>2001</year>
+  </item><item type="dt" id="KitaharaSIGMUS2001" lang="jp">
+    <title>音高による音色変化に着目した音源同定手法</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2001-MUS-40-2</series>
+    <vol>2001</vol>
+    <no>45</no>
+    <pp>7--14</pp>
+    <month>5</month>
+    <year>2001</year>
+  </item><item type="dc" id="YanagawaIPSJNC2002" lang="jp">
+    <title>即興演奏における演奏補正システム</title>
+    <authors>
+      <author>柳川 貴央</author>
+      <author idref="kitahara-jp"/>
+      <author idref="takeda-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2002"/>
+    <series>1L-5</series>
+    <month>3</month>
+    <year>2002</year>
+  </item><item type="dt" id="KitaharaSIGMUS2002" lang="jp">
+    <title>楽器音を対象とした音源同定：音高による音色変化を考慮する識別手法の検討</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2002-MUS-46-1</series>
+    <vol>2002</vol>
+    <no>63</no>
+    <pp>1--8</pp>
+    <month>7</month>
+    <year>2002</year>
+  </item><item type="dc" id="KitaharaASJ2002" lang="jp">
+    <title>音色空間の音高依存性を考慮した楽器音の音源同定</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="asj2002a"/>
+    <series>1-1-4</series>
+    <pp>643--644</pp>
+    <month>9</month>
+    <year>2002</year>
+    <slideurl type="pdf">FY2002/asj-2002-tetsu.pdf</slideurl>
+  </item><item type="dc" id="KitaharaIPSJNC2003" lang="jp">
+    <title>音響的類似性に基づく楽器音の階層的クラスタリング</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2002"/>
+    <series>1P-1</series>
+    <month>3</month>
+    <year>2003</year>
+    <award shortened="yes">学生奨励賞</award>
+  </item><item type="dc" id="YoshiiIPSJNC2003" lang="jp">
+    <title>教師なしクラスタリングと認識誤りパターンを利用した打楽器音の音源同定</title>
+    <authors>
+      <author>吉井 和佳</author>
+      <author idref="kitahara-jp"/>
+      <author idref="sakuraba-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2002"/>
+    <series>1P-3</series>
+    <month>3</month>
+    <year>2003</year>
+  </item><item type="dc" id="IshidaIPSJNC2003" lang="jp">
+    <title>統計的アプローチに基づく即興演奏補正</title>
+    <authors>
+      <author idref="ishida-jp"/>
+      <author idref="kitahara-jp"/>
+      <author>柳川 貴央</author>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2002"/>
+    <series>1P-3</series>
+    <month>3</month>
+    <year>2003</year>
+  </item><item type="ic" id="KitaharaICASSP2003" lang="en">
+    <title>Musical Instrument Identification based on F0-dependent Multivariate Normal Distribution</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="icassp2003"/>
+    <vol>V</vol>
+    <pp>421--424</pp>
+    <month>4</month>
+    <year>2003</year>
+    <abst> The <em>pitch dependency</em> of timbres has not been fully exploited in musical
+      instrument identification. In this paper, we present a method using an <em>F0-dependent
+        multivariate normal distribution</em> of which mean is represented by a function of
+      fundamental frequency (F0). This F0-dependent mean function represents the pitch dependency of
+      each feature, while the F0-normalized covariance represents the non-pitch dependency. Musical
+      instrument sounds are first analyzed by the F0-dependent multivariate normal distribution, and
+      then identified by using the discriminant function based on the Bayes decision rule.
+      Experimental results of identifying 6,247 solo tones of 19 musical instruments by 10-fold
+      cross validation showed that the proposed method improved the recognition rate at
+      individual-instrument level from 75.73% to 79.73%, and the recognition rate at category level
+      from 88.20% to 90.65%. </abst>
+    <paperurl type="pdf">FY2003/icassp-2003-tetsu.pdf</paperurl>
+    <note>Cancelled because of SARS</note>
+  </item><item type="ln" id="KitaharaIEAAIE2003" lang="en">
+    <title>Pitch-dependent Musical Instrument Identification and Its Application to Musical Sound
+      Ontology</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle>Developments in Applied Artificial Intelligence --- Proceedings of the 16th
+      International Conference on Industrial Engineering Applications of Artificial Intelligence and
+      Expert Systems (IEA/AIE-2003)</booktitle>
+    <series>LNAI 2718</series>
+    <eds>P. W. H. Chung, C. Hinde and M. Ali</eds>
+    <pp>112--122</pp>
+    <pub>Springer</pub>
+    <month>7</month>
+    <year>2003</year>
+  </item><item type="ic" id="KitaharaICME2003" lang="en">
+    <title>Musical Instrument Identification based on F0-dependent Multivariate Normal Distribution</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="icme2003"/>
+    <vol>III</vol>
+    <pp>409--412</pp>
+    <month>7</month>
+    <year>2003</year>
+    <posterurl type="pdf">icme-2004-tetsu_bigsize.pdf</posterurl>
+    <note>Reprint of the paper published in ICASSP 2003</note>
+  </item><item type="jj" id="KitaharaIPSJ2003" lang="jp">
+    <title>音高による音色変化に着目した楽器音の音源同定：F0依存多次元正規分布に基づく識別手法</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle>情報処理学会論文誌</booktitle>
+    <vol>44</vol>
+    <no>10</no>
+    <pp>2448--2458</pp>
+    <month>10</month>
+    <year>2003</year>
+    <abst>
+      本論文では，音高による音色変化を考慮する楽器音の音源同定手法を提案する．楽器音の音色が音高によって変化することは，従来から広く知られているにも関わらず，これを適切に扱える音源同定手法については，研究されてこなかった．本論文では，音高による音色変化を適切に扱うため，平均が基本周波数によって変化する多次元正規分布を提案する．そして，音色空間（楽器音の特徴空間）上で各楽器音データがこの分布に従うと仮定し，この分布のための識別関数をベイズ決定規則から定式化する．提案手法を実装・実験した結果，音高による音色変化を考慮しない多次元正規分布を用いた場合の誤認識全体のうち，個々の楽器レベルでは16.48\%，カテゴリーレベルでは20.67\%の誤認識を削減することができた． </abst>
+    <paperurl type="pdf">FY2003/ipsj-2003-tetsu.pdf</paperurl>
+    <award>電気通信普及財団 第19回テレコムシステム技術学生賞 受賞</award>
+  </item><item type="jj" id="KitaharaIPSJ2004" lang="jp">
+    <title>音響的類似性を反映した楽器の階層表現の獲得とそれに基づく未知楽器のカテゴリーレベルの音源同定</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle>情報処理学会論文誌</booktitle>
+    <series>特集「音楽情報科学」</series>
+    <vol>45</vol>
+    <no>3</no>
+    <pp>680--689</pp>
+    <month>3</month>
+    <year>2004</year>
+    <abst>
+      本論文では，音響的特徴から得られる楽器の階層表現に基づいた未知楽器（学習データに含まれない楽器）のカテゴリーレベルの音源同定について述べる．未知の楽器をどのように扱うかという問題は，楽器音の音源同定において不可避な問題であるにも関わらず，これまでの研究では扱われてこなかった．本研究では，未知の楽器をカテゴリーレベルで認識することを提案する．まず，未知楽器のカテゴリーレベルの認識に適した楽器の階層表現を自動的に獲得する手法について述べ，この手法に基づいて得られた楽器の階層表現を用いて，未知の楽器のカテゴリーレベルの認識を行う．さらに，楽器音が既知か未知か（すなわち，学習データに含まれる楽器か否か）を判定する処理を導入することで，既知の楽器は楽器名レベルで，未知の楽器はカテゴリーレベルで認識することを実現する．実験の結果，平均約77%の未知の楽器音をカテゴリーレベルで認識することができた． </abst>
+    <paperurl type="pdf">FY2003/ipsj-2004-tetsu.pdf</paperurl>
+  </item><item type="lt" id="IshidaIPSJ2004" lang="jp">
+    <title>N-gramによる即興演奏の旋律補正</title>
+    <authors>
+      <author idref="ishida-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="takeda-jp"/>
+    </authors>
+    <booktitle>情報処理学会論文誌（テクニカルノート）</booktitle>
+    <series>特集「音楽情報科学」</series>
+    <vol>45</vol>
+    <no>3</no>
+    <pp>743--746</pp>
+    <month>3</month>
+    <year>2004</year>
+    <paperurl type="pdf">FY2003/ipsj-2004-ishida.pdf</paperurl>
+  </item><item type="dr" id="IshidaWISS2003" lang="jp">
+    <title>ism：即興演奏の不自然な旋律を補正する演奏支援システム</title>
+    <authors>
+      <author idref="ishida-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="takeda-jp"/>
+    </authors>
+    <booktitle idref="wiss2003"/>
+    <pp>19--24</pp>
+    <month>12</month>
+    <year>2003</year>
+  </item><item type="dt" id="KitaharaSIGMUS2003" lang="jp">
+    <title>音響的特徴に基づく楽器の階層表現の獲得とそれに基づくカテゴリーレベルの楽器音認識の検討</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2003-MUS-51-9</series>
+    <vol>2003</vol>
+    <no>82</no>
+    <pp>51--58</pp>
+    <month>8</month>
+    <year>2003</year>
+  </item><item type="dc" id="KitaharaIPSJNC2004" lang="jp">
+    <title>未知の楽器を考慮する楽器音の音源同定</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2004"/>
+    <series>3ZA-3</series>
+    <month>3</month>
+    <year>2004</year>
+    <award shortened="yes">学生奨励賞</award>
+  </item><item type="dt" id="YoshiiSIGMUS2003" lang="jp">
+    <title>自己組織化マップによる教師なしクラスタリングを利用したドラム演奏の自動採譜</title>
+    <authors>
+      <author>吉井 和佳</author>
+      <author idref="kitahara-jp"/>
+      <author>櫻庭 洋平</author>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2003-MUS-51-8</series>
+    <vol>2003</vol>
+    <no>82</no>
+    <pp>43--40</pp>
+    <month>8</month>
+    <year>2003</year>
+  </item><item type="dt" id="GotoSIGMUS2003" lang="jp">
+    <title>パネルディスカッション「音楽情報処理研究者\{に，が\}望むこと」</title>
+    <authors>
+      <author idref="goto-jp"/>
+      <author>平田 圭二</author>
+      <author idref="katayose-jp"/>
+      <author>平井 重行</author>
+      <author>濱中 雅俊</author>
+      <author>武田 晴登</author>
+      <author idref="kitahara-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2003-MUS-51-5</series>
+    <vol>2003</vol>
+    <no>82</no>
+    <pp>25--28</pp>
+    <month>8</month>
+    <year>2003</year>
+  </item><item type="iv">
+    <title>パネルディスカッション「音楽情報処理研究者\{に，が\}望むこと」</title>
+    <booktitle>情報処理学会第51回音楽情報科学研究会</booktitle>
+    <series>パネリスト</series>
+    <month>8</month>
+    <year>2003</year>
+  </item><item type="dt" id="IshidaSIGMUS2003" lang="jp">
+    <title>ism：即興演奏支援のためのリアルタイム旋律補正システム</title>
+    <authors>
+      <author idref="ishida-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="takeda-jp"/>
+    </authors>
+    <booktitle>情報処理学会 ヒューマンインターフェース研究会/音楽情報科学研究会 研究報告</booktitle>
+    <series>2003-HI-106-2, 2003-MUS-52-2</series>
+    <vol>2003</vol>
+    <no>111</no>
+    <pp>9--15</pp>
+    <month>11</month>
+    <year>2003</year>
+  </item><item type="dc" id="YoshiokaIPSJNC2004" lang="jp">
+    <title>音楽音響信号を対象とした和音変化時刻と和音名の同時認識</title>
+    <authors>
+      <author>吉岡 拓也</author>
+      <author>吉井 和佳</author>
+      <author idref="kitahara-jp"/>
+      <author idref="sakuraba-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2004"/>
+    <series>3ZA-4</series>
+    <month>3</month>
+    <year>2004</year>
+  </item><item type="ic" id="KitaharaISMA2004" lang="en">
+    <title>Acoustical-similarity-based Musical Instrument Hierarchy and Its Application to Musical
+      Instrument Identification</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="isma2004"/>
+    <series>3-S2-12</series>
+    <pp>397--300</pp>
+    <month>4</month>
+    <year>2004</year>
+    <paperurl type="pdf">FY2004/isma-2004-tetsu.pdf</paperurl>
+    <slideurl type="pdf">FY2004/isma-2004-tetsu.pdf</slideurl>
+    <note>abstract reviewed</note>
+  </item><item type="ic" id="KitaharaICASSP2004" lang="en">
+    <title>Category-level Identification of Non-registered Musical Instrument Sounds</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="icassp2004"/>
+    <vol>IV</vol>
+    <pp>253--256</pp>
+    <month>5</month>
+    <year>2004</year>
+    <abst> This paper describes a method that identifies sounds of <em>non-registered musical
+        instruments </em>(i.e., musical instruments that are not contained in the training data) at
+      a category level. Although the problem of how to deal with non-registered musical instruments
+      is essential in musical instrument identification, it has not been dealt with in previous
+      studies. Our method solves this problem by distinguishing between registered and
+      non-registered instruments and identifying the category name of the non-registered
+      instruments. When a given sound is registered, its instrument name, e.g. violin, is
+      identified. Even if it is not registered, its category name, e.g. strings, can be identified.
+      The important issue in achieving such identification is to adopt a musical instrument
+      hierarchy reflecting the acoustical similarity. We present a method for acquiring such a
+      hierarchy from a musical instrument sound database. Experimental results show that around 77%
+      of non-registered instrument sounds, on average, were correctly identified at the category
+      level. </abst>
+    <paperurl type="pdf">FY2004/icassp-2004-tetsu.pdf</paperurl>
+    <posterurl type="pdf">FY2004/icassp-2004-tetsu.pdf</posterurl>
+  </item><item type="ic" id="SakurabaICASSP2004" lang="en">
+    <title>Comparing Features for Forming Music Streams in Automatic Music Transcription</title>
+    <authors>
+      <author idref="sakuraba-en"/>
+      <author idref="kitahara-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="icassp2004"/>
+    <vol>IV</vol>
+    <pp>273--376</pp>
+    <month>5</month>
+    <year>2004</year>
+    <abst> In formating temporal sequences of notes played by the same instrument (referred to as
+      music streams), timbre of musical instruments may be a predominant feature. In polyphonic
+      music, the performance of timber extraction based on power-related features deteriorates,
+      because such features are blurred when two or more frequency components are superimposed in
+      the same frequency. To cope with this problem, we integrated timbre similarity and direction
+      proximity with success, but left using other features as future work. In this paper, we
+      investigate four features, timbre similarity, direction proximity, pitch transition and pitch
+      relation consistency to clarify the precedence among them in music stream formation.
+      Experimental results with quartet music show that direction proximity is themost dominant
+      feature, and pitch transition is the secondary. In addition, the performance of music stream
+      formation was improved from 63.3% by only timbre similarity to 84.9% by integrating four
+      features. </abst>
+    <paperurl type="pdf">FY2004/icassp-2004-sakuraba.pdf</paperurl>
+  </item><item type="ic" id="IshidaNIME2004" lang="en">
+    <title>ism: Improvisation Supporting System based on Melody Correction</title>
+    <authors>
+      <author idref="ishida-en"/>
+      <author idref="kitahara-en"/>
+      <author idref="takeda-en"/>
+    </authors>
+    <booktitle idref="nime2004"/>
+    <pp>177--180</pp>
+    <month>6</month>
+    <year>2004</year>
+    <abst> In this paper, we describe a novel improvisation supporting system based on correcting
+      musically unnatural melodies. Since improvisation is the musical performance style that
+      involves creating melodies while playing, it is not easy even for the people who can play
+      musical instruments. However, previous studies have not dealt with improvisation support for
+      the people who can play musical instruments but cannot improvise. In this study, to support
+      such players' improvisation, we propose a novel improvisation supporting system called ism,
+      which corrects musically unnatural melodies automatically. The main issue in realizing this
+      system is how to detect notes to be corrected (i.e., musically unnatural or inappropriate). We
+      propose a method for detecting notes to be corrected based on the N-gram model. This method
+      first calculates N-gram probabilities of played notes, and then judges notes with low N-gram
+      probabilities to be corrected. Experimental results show that the N-gram-based melody
+      correction and the proposed system are useful for supporting improvisation. </abst>
+    <paperurl type="pdf">FY2004/nime-2004-ishida.pdf</paperurl>
+  </item><item type="ic" id="YoshiokaISMIR2004" lang="en">
+    <title>Automatic Chord Transcription with Concurrent Recognition of Chord Symbols and Boundaries</title>
+    <authors>
+      <author aff="KU-en">Takuya Yoshioka</author>
+      <author idref="kitahara-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="ismir2004"/>
+    <pp>100--105</pp>
+    <month>10</month>
+    <year>2004</year>
+    <abst> This paper describes a method that recognizes musical chords from real-world audio
+      signals in compact-disc recordings. The automatic recognition of musical chords is necessary
+      for music information retrieval (MIR) systems, since the chord sequences of musical pieces
+      capture the characteristics of their accompaniments. None of the previous methods can
+      accurately recognize musical chords from complex audio signals that contain vocal and drum
+      sounds. The main problem is that the chordboundary-detection and chord-symbol-identification
+      processes are inseparable because of their mutual dependency. In order to solve this mutual
+      dependency problem, our method generates hypotheses about tuples of chord symbols and chord
+      boundaries, and outputs the most plausible one as the recognition result. The certainty of a
+      hypothesis is evaluated based on three cues: acoustic features, chord progression patterns,
+      and bass sounds. Experimental results show that our method successfully recognized chords in
+      seven popular music songs; the average accuracy of the results was around 77%. </abst>
+  </item><item type="dr" id="IshidaWISS2004" lang="jp">
+    <title>演奏者に振動で情報提示する鍵盤楽器「ぶるぶるくん」</title>
+    <authors>
+      <author idref="ishida-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="takeda-jp"/>
+    </authors>
+    <booktitle idref="wiss2004"/>
+    <pp>59--64</pp>
+    <month>12</month>
+    <year>2004</year>
+  </item><item type="dt" id="KitaharaMA2004" lang="jp">
+    <title>TimbreTree：音色の類似度に基づいた楽器の階層的分類</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle>日本音響学会 音楽音響研究会 資料</booktitle>
+    <series>MA2004-7</series>
+    <vol>23</vol>
+    <no>2</no>
+    <pp>13--18</pp>
+    <month>6</month>
+    <year>2004</year>
+  </item><item type="dt" id="KitaharaSIGMUS2004" lang="jp">
+    <title>混合音テンプレートを用いた多重奏の音源同定</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2004-MUS-56-9</series>
+    <vol>2004</vol>
+    <no>84</no>
+    <pp>57--64</pp>
+    <month>8</month>
+    <year>2004</year>
+  </item><item type="dc" id="KitaharaIPSJNC2005" lang="jp">
+    <title>多重奏の音源同定のための混合音からのテンプレート作成法</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2005"/>
+    <series>3G-4</series>
+    <month>3</month>
+    <year>2005</year>
+    <award shortened="yes">大会奨励賞</award>
+  </item><item type="dt" id="YoshiokaMA2004" lang="jp">
+    <title>音楽音響信号を対象とした和音進行の認識</title>
+    <authors>
+      <author>吉岡 拓也</author>
+      <author idref="kitahara-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle>日本音響学会 音楽音響研究会 資料</booktitle>
+    <series>MA2004-8</series>
+    <vol>23</vol>
+    <no>2</no>
+    <pp>19--24</pp>
+    <month>6</month>
+    <year>2004</year>
+  </item><item type="dt" id="YoshiokaSIGMUS2004" lang="jp">
+    <title>和音区間検出と和音名同定の相互依存性を解決する和音認識手法</title>
+    <authors>
+      <author>吉岡 拓也</author>
+      <author idref="kitahara-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2005-MUS-56-6</series>
+    <vol>2004</vol>
+    <no>84</no>
+    <pp>33--40</pp>
+    <month>8</month>
+    <year>2004</year>
+  </item><item type="dt" id="HamanakaSIGMUS2004" lang="jp">
+    <title>デモンストレーション：若手による研究紹介</title>
+    <authors>
+      <author>浜中 雅俊</author>
+      <author>北原 鉄朗</author>
+      <author>石田 克久</author>
+      <author>谷井 章夫</author>
+      <author>竹川 佳成</author>
+      <author>吉井 和佳</author>
+      <author>宮下 芳明</author>
+      <author>上 田 健太郎</author>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2004-MUS-56-6</series>
+    <vol>2004</vol>
+    <no>84</no>
+    <pp>27--32</pp>
+    <month>8</month>
+    <year>2004</year>
+  </item><item type="dt" id="HamanakaSIGMUS2005" lang="jp">
+    <title>デモンストレーション：若手による研究紹介II</title>
+    <authors>
+      <author>浜中 雅俊</author>
+      <author>李 昇姫</author>
+      <author>池月 雄哉</author>
+      <author>石原 一志</author>
+      <author>北原 鉄朗</author>
+      <author>野池 賢二</author>
+      <author>中野 倫靖</author>
+      <author>梶 克彦</author>
+      <author>岡 良典</author>
+      <author>平田 圭二</author>
+      <author>松田 周</author>
+      <author>青木 忍</author>
+      <author>上田 健太郎</author>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2005-MUS-61-5</series>
+    <vol>2005</vol>
+    <no>82</no>
+    <pp>27--33</pp>
+    <month>8</month>
+    <year>2005</year>
+  </item><item type="dt" id="FujiharaSIGMUS2005" lang="jp">
+    <title>伴奏音抑制と高信頼度フレーム選択に基づく楽曲中の歌声の歌手名同定手法</title>
+    <authors>
+      <author idref="fujihara-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2005-MUS-61-16</series>
+    <vol>2005</vol>
+    <no>82</no>
+    <pp>97--104</pp>
+    <month>8</month>
+    <year>2005</year>
+  </item><item type="dc" id="IshidaASJ2004a" lang="jp">
+    <title>統計モデルに基づく旋律妥当性判定手法を用いた即興演奏支援</title>
+    <authors>
+      <author idref="ishida-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="takeda-jp"/>
+    </authors>
+    <booktitle idref="asj2004a"/>
+    <series>2-6-8</series>
+    <pp>783--784</pp>
+    <month>9</month>
+    <year>2004</year>
+  </item><item type="dc" id="FujiharaIPSJNC2005" lang="jp">
+    <title>歌声の調波構造抽出を用いた歌手名の同定</title>
+    <authors>
+      <author idref="fujihara-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2005"/>
+    <series>3R-8</series>
+    <month>3</month>
+    <year>2005</year>
+  </item><item type="jj" id="IshidaIPSJ2005" lang="jp">
+    <title>N-gramによる旋律の音楽的適否判定に基づいた即興演奏支援システム</title>
+    <authors>
+      <author idref="ishida-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="takeda-jp"/>
+    </authors>
+    <booktitle>情報処理学会論文誌</booktitle>
+    <series>特集「インタラクション：技術と展開」</series>
+    <vol>46</vol>
+    <no>7</no>
+    <pp>1549--1559</pp>
+    <month>7</month>
+    <year>2005</year>
+    <abst>
+        本論文では，即興演奏未習得者のための演奏支援について述べる．我々の最終目標は，即興演奏未習得者が通常の楽器を用いて即興演奏を行えるようになることである．この目標を達成するために，我々は「即時的旋律創作能力の補助」と「即興演奏の練習環境の提供」の2つのアプローチで，即興演奏の未習得者をサポートする．「即時的旋律創作能力の補助」に対しては，旋律中の不適切な音を自動的に補正する演奏支援システムismを開発した．これは，演奏された旋律中の不自然な個所をリアルタイムに検出し，適切な音に変換することで，即時的な旋律創作を容易にするためのものである．「即興演奏の練習環境の提供」に対しては振動により不適切な音を指摘する学習支援システムism<sub>v</sub>を構築した．このような支援システムを実現するうえで中心となる課題は，どのように不適切な音を検出するかである．これに対し我々は，N-gramで旋律をモデル化し，その確率値が小さなもののみを不適切と判定する手法を提案する．実験の結果，提案手法により旋律中の不適切な個所の検出精度を上させることができ，ism/ism<sub>v</sub>が即興未習得者の演奏支援に有効であることが示された． </abst>
+    <paperurl type="pdf">FY2005/ipsj-2005-ishida.pdf</paperurl>
+  </item><item type="ic" id="KitaharaISMIR2005" lang="en">
+    <title>Instrument Identification in Polyphonic Music: Feature Weighting with Mixed Sounds,
+      Pitch-dependent Timbre Modeling, and Use of Musical Context</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto2-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="ismir2005"/>
+    <pp>558--563</pp>
+    <month>9</month>
+    <year>2005</year>
+    <abst> This paper addresses the problem of identifying musical instruments in polyphonic music.
+      Musical instrument identification (MII) is an improtant task in music information retrieval
+      because MII results make it possible to automatically retrieving certain types of music (e.g.,
+      piano sonata, string quartet). Only a few studies, however, have dealt with MII in polyphonic
+      music. In MII in polyphonic music, there are three issues: feature variations caused by sound
+      mixtures, the pitch dependency of timbres, and the use of musical context. For the first
+      issue, templates of feature vectors representing timbres are extracted from not only isolated
+      sounds but also sound mixtures. Because some features are not robust in the mixtures, features
+      are weighted according to their robustness by using linear discriminant analysis. For the
+      second issue, we use an F0-dependent multivariate normal distribution, which approximates the
+      pitch dependency as a function of fundamental frequency. For the third issue, when the
+      instrument of each note is identified, the a priori probablity of the note is calculated from
+      the a posteriori probabilities of temporally neighboring notes. Experimental results showed
+      that recognition rates were improved from 60.8% to 85.8% for trio music and from 65.5% to
+      91.1% for duo music. </abst>
+    <paperurl type="pdf">FY2005/ismir-2005-tetsu.pdf</paperurl>
+    <posterurl type="pdf">FY2005/ismir-2005-tetsu.pdf</posterurl>
+  </item><item type="ic" id="FujiharaISMIR2005" lang="en">
+    <title>Singer Identification based on Accompaniment Sound Reduction and Reliable Frame Selection</title>
+    <authors>
+      <author idref="fujihara-en"/>
+      <author idref="kitahara-en"/>
+      <author idref="goto2-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="ismir2005"/>
+    <pp>329--336</pp>
+    <month>9</month>
+    <year>2005</year>
+    <abst> This paper describes a method for automatic singer identification from polyphonic musical
+      audio signals including sounds of various instruments. Because singing voices play an
+      important role in musical pieces with a vocal part, the identification of singer names is
+      useful for music information retrieval systems. The main problem in automatically identifying
+      singers is the negative influences caused by accompaniment sounds. To solve this problem, we
+      developed two methods, accompaniment sound reduction and reliable frame selection. The former
+      method makes it possible to identify the singer of a singing voice after reducing
+      accompaniment sounds. It first extracts harmonic components of the predominant melody from
+      sound mixtures and then resynthesizes the melody by using a sinusoidal model driven by those
+      components. The latter method then judges whether each frame of the obtained melody is
+      reliable (i.e. little influenced by accompaniment sound) or not by using two Gaussian mixture
+      models for vocal and non-vocal frames. It enables the singer identification using only
+      reliable vocal portions of musical pieces. Experimental results with forty popular-music songs
+      by ten singers showed that our method was able to reduce the influences of accompaniment
+      sounds and achieved an accuracy of 95%, while the accuracy for a conventional method was 53%. </abst>
+    <paperurl type="pdf">FY2005/ismir-2005-fujihara.pdf</paperurl>
+  </item><item type="ln" id="KitaharaICEC2005" lang="en">
+    <title>ism: Improvisation Supporting Systems with Melody Correction and Key Vibration</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="ishida-en"/>
+      <author idref="takeda-en"/>
+    </authors>
+    <booktitle>Entertainment Computing --- Proceedings of the 4th International Conference on
+      Entertainment Computing (ICEC 2005)</booktitle>
+    <series>LNCS 3711</series>
+    <eds>F. Kishino, Y. Kitamura, H. Kato and N. Nagata</eds>
+    <pp>315--327</pp>
+    <month>9</month>
+    <year>2005</year>
+    <abst> This paper describes improvisation support for musicians who do not have sufficient
+      improvisational playing experience. The goal of our study is to enable such players to learn
+      the skills necessary for improvisation and to enjoy it. In achieving this goal, we have two
+      objectives: enhancing their skill for instantaneous melody creation and supporting their
+      practice for acquiring this skill. For the first objective, we developed a system that
+      automatically corrects musically inappropriate notes in the melodies of users' improvisations.
+      For the second objective, we developed a system that points out musically inappropriate notes
+      by vibrating corresponding keys. The main issue in developing these systems is how to detect
+      musically inappropriate notes. We propose a method for detecting them based on the N-gram
+      model. Experimental results show that this N-gram-based method improves the accuracy of
+      detecting musically inappropriate notes and our systems are effective in supporting unskilled
+      musicians' improvisation. </abst>
+    <paperurl type="pdf">FY2005/icec-2005-tetsu.pdf</paperurl>
+    <slideurl type="pdf">icec-2005-tetsu.pdf</slideurl>
+  </item><item type="ij" id="KitaharaApplIntell2005" lang="en">
+    <title>Pitch-dependent Identification of Musical Instrument Sounds</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle>Applied Intelligence</booktitle>
+    <vol>23</vol>
+    <no>3</no>
+    <pp>267--275</pp>
+    <month>12</month>
+    <year>2005</year>
+    <abst> This paper describes a musical instrument identification method that takes into
+      consideration the <em>pitch dependency</em> of timbres of musical instruments. The difficulty
+      in musical instrument identification resides in the pitch dependency of musical instrument
+      sounds, that is, acoustic features of most musical instruments vary according to the pitch
+      (fundamental frequency, F0). To cope with this difficulty, we propose an <em>F0-dependent
+        multivariate normal distribution</em>, where each element of the mean vector is represented
+      by a function of F0. Our method first extracts 129 features (e.g., the spectral centroid, the
+      gradient of the straight line approximating the power envelope) from a musical instrument
+      sound and then reduces the dimensionality of the feature space into 18 dimension. In the
+      18-dimensional feature space, it calculates an <em>F0-dependent mean function</em> and an
+        <em>F0-normalized covariance</em>, and finally applies the Bayes decision rule. Experimental
+      results of identifying 6,247 solo tones of 19 musical instruments shows that the proposed
+      method improved the recognition rate from 75.73% to 79.73%. </abst>
+    <paperurl type="pdf">FY2005/AppliedIntelligence-2005-tetsu.pdf</paperurl>
+  </item><item type="dc" id="KaijiriSI2005" lang="jp">
+    <title>ロボットによる周囲状況把握のための雑音下での環境音認識</title>
+    <authors>
+      <author aff="KU-jp">海尻 聡</author>
+      <author aff="KU-jp">石原 一志</author>
+      <author idref="kitahara-jp"/>
+      <author>Valin Jean-Marc</author>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle>計測自動制御学会 第6回システムインテグレーション部門講演会 (SI2005)</booktitle>
+    <month>12</month>
+    <year>2005</year>
+  </item><item type="dc" id="ItoyamaIPSJNC2006" lang="jp">
+    <title>多重奏中特定パートの自動採譜における複数特徴量の自動重み付け</title>
+    <authors>
+      <author aff="KU-jp">糸山 克寿</author>
+      <author idref="kitahara-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2006"/>
+    <series>2L-6</series>
+    <month>3</month>
+    <year>2006</year>
+    <paperurl type="pdf">FY2005/ipsjnc-2006-itoyama.pdf</paperurl>
+  </item><item type="dc" id="NishiyamaIPSJNC2006" lang="jp">
+    <title>標題音楽アノテーションのための階層的物語タグの設計</title>
+    <authors>
+      <author aff="KU-jp">西山 正紘</author>
+      <author idref="kitahara-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2006"/>
+    <series>3L-6</series>
+    <month>3</month>
+    <year>2006</year>
+    <paperurl type="pdf">FY2005/ipsjnc-2006-nisiyama.pdf</paperurl>
+  </item><item type="dc" id="TaguchiIPSJNC2006" lang="jp">
+    <title>擬音語表現を利用した環境音のためのXMLタグの設計と自動付与</title>
+    <authors>
+      <author aff="KU-jp">田口 明裕</author>
+      <author idref="kitahara-jp"/>
+      <author aff="KU-jp">石原 一志</author>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2006"/>
+    <series>3L-7</series>
+    <month>3</month>
+    <year>2006</year>
+    <paperurl type="pdf">FY2005/ipsjnc-2006-taguchi.pdf</paperurl>
+  </item><item type="dc" id="KitaharaASJ2006s" lang="jp">
+    <title>Instrogram：楽器存在確率に基づく音楽視覚表現法</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="asj2006s"/>
+    <series>2-2-13</series>
+    <month>3</month>
+    <year>2006</year>
+    <paperurl type="pdf">FY2005/asj-2006-tetsu.pdf</paperurl>
+  </item><item type="dc" id="FujiharaASJ2006s" lang="jp">
+    <title>調波構造抽出と高信頼度フレーム選択を用いた雑音下での話者識別</title>
+    <authors>
+      <author idref="fujihara-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="asj2006s"/>
+    <series>1-11-17</series>
+    <month>3</month>
+    <year>2006</year>
+    <paperurl type="pdf">FY2005/asj-2006-fujihara.pdf</paperurl>
+  </item><item type="dr" id="MisawaWISS2005" lang="jp">
+    <title>Openism：旋律補正に基づく演奏支援機能付き遠隔地セッションシステム</title>
+    <authors>
+      <author>三澤 由宇</author>
+      <author>細野 裕</author>
+      <author>仁科 章史</author>
+      <author idref="ishida-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="takeda-jp"/>
+    </authors>
+    <booktitle idref="wiss2005"/>
+    <month>12</month>
+    <year>2005</year>
+  </item><item type="dt" id="KitaharaSIGMUS2005" lang="jp">
+    <title>振動機能付鍵盤楽器「ぶるぶるくん」を用いた即興演奏支援システム</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="ishida-jp"/>
+      <author idref="takeda-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2005-MUS-60-5</series>
+    <vol>2005</vol>
+    <no>45</no>
+    <pp>25--30</pp>
+    <month>5</month>
+    <year>2005</year>
+    <slideurl type="pdf">FY2005/SIGMUS-2005-tetsu.pdf</slideurl>
+  </item><item type="dc" id="KitaharaASJ2005" lang="jp">
+    <title>混合音からの特徴量テンプレート作成と音楽的文脈の利用による多重奏の音源同定</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="asj2005a"/>
+    <series>3-10-15</series>
+    <month>9</month>
+    <year>2005</year>
+    <slideurl type="pdf">FY2005/asj-2005-tetsu.pdf</slideurl>
+  </item><item type="ic" id="KitaharaICASSP2006" lang="en">
+    <title>Instrogram: A New Musical Instrument Recognition Technique without Using Onset Detection
+      nor F0 Estimation</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto2-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="icassp2006"/>
+    <vol>V</vol>
+    <pp>229--232</pp>
+    <month>5</month>
+    <year>2006</year>
+    <abst> This paper describes a new technique for recognizing musical instruments in polyphonic
+      music. Because the conventional framework for musical instrument recognition in polyphonic
+      music had to estimate the onset time and fundamental frequency (F0) of each note, instrument
+      recognition strictly suffered from errors of onset detection and F0 estimation. Unlike such a
+      note-based processing framework, our technique calculates the temporal trajectory of
+        <em>instrument existence probabilities</em> for every possible F0, and the results are
+      visualized with a spectrogram-like graphical representation called <em>instrogram</em>. The
+      instrument existence probability is defined as the product of a <em>nonspecific instrument
+        existence probability</em> calculated using PreFEst and a <em>conditional instrument
+        existence probability</em> calculated using the hidden Markov model. Experimental results
+      show that the obtained instrograms reflect the actual instrumentations and facilitate
+      instrument recognition. </abst>
+    <paperurl type="pdf">FY2006/icassp-2006-tetsu.pdf</paperurl>
+    <posterurl type="pdf">FY2006/icassp-2006-tetsu.pdf</posterurl>
+    <award>IEEE関西支部 第3回学生研究奨励賞 受賞</award>
+  </item><item type="ic" id="FujiharaICASSP2006" lang="en">
+    <title>F0 Estimation Method for Singing Voice in Polyphonic Audio Signal based on Statistical
+      Vocal Model and Viterbi Search</title>
+    <authors>
+      <author idref="fujihara-en"/>
+      <author idref="kitahara-en"/>
+      <author idref="goto2-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="icassp2006"/>
+    <vol>V</vol>
+    <pp>253--256</pp>
+    <month>5</month>
+    <year>2006</year>
+  </item><item type="jj" id="FujiharaIPSJ2006" lang="jp">
+    <title>伴奏音抑制と高信頼度フレーム選択に基づく楽曲の歌手名同定手法</title>
+    <authors>
+      <author idref="fujihara-jp"/>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle>情報処理学会論文誌</booktitle>
+    <series>特集「情報処理技術のフロンティア」</series>
+    <vol>47</vol>
+    <no>6</no>
+    <pp>1831--1843</pp>
+    <month>7</month>
+    <year>2006</year>
+    <abst>
+      本論文では，実世界の音楽音響信号に対する歌手名の同定手法について述べる．歌手名の同定を行う際に大きな問題となるのは，混在する伴奏音の影響である．本論文ではこの問題を解決するため，伴奏音抑制と高信頼度フレーム選択の手法を提案する．前者では，優勢なメロディの調波構造を抽出し再合成することで，伴奏音の影響を低減させることができる．後者は，歌声と非歌声を表す2種類の混合正規分布を用いて，それぞれのフレームが歌声として信頼できるか否かを判定するものである．実験の結果，本手法によって，10歌手40曲に対して95%の識別率を達成し，本手法を用いない場合と比較して誤り率を約89%削減した．また，20歌手256曲に対する実験の結果，約93%の識別率を達成し，誤り率を約65%削減した． </abst>
+    <paperurl type="pdf">FY2006/ipsj-2006-fujihara.pdf</paperurl>
+  </item><item type="dt" id="KitaharaSIGMUS2006" lang="jp">
+    <title>Instrogram: 発音時刻検出とF0推定の不要な楽器音認識手法</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2006-MUS-66</series>
+    <vol>2006</vol>
+    <no>90</no>
+    <pp>69--76</pp>
+    <month>8</month>
+    <year>2006</year>
+    <paperurl type="pdf">FY2006/SIGMUS-2006-tetsu.pdf</paperurl>
+    <slideurl type="pdf">FY2006/SIGMUS-2006-tetsu.pdf</slideurl>
+  </item><item type="ic" id="FujiharaICSLP2006" lang="en">
+    <title>Speaker Identification under Noisy Environments by using Harmonic Structure Extraction
+      and Reliable Frame Weighting</title>
+    <authors>
+      <author idref="fujihara-en"/>
+      <author idref="kitahara-en"/>
+      <author idref="goto2-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="icslp2006"/>
+    <month>9</month>
+    <year>2006</year>
+  </item><item type="ic" id="ItoyamaISMIR2006" lang="en">
+    <title>Automatic Feature Weighting in Automatic Transcription of Specified Part in Polyphonic
+      Music</title>
+    <authors>
+      <author aff="KU-en">Katsutoshi Itoyama</author>
+      <author idref="kitahara-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="ismir2006"/>
+    <month>10</month>
+    <year>2006</year>
+  </item><item type="jj" id="KitaharaIEICE2006" lang="jp">
+    <title>多重奏を対象とした音源同定： 混合音テンプレートを用いた音の重なりに頑健な特徴量の重みづけ および音楽的文脈の利用</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+
+    <booktitle>電子情報通信学会論文誌</booktitle>
+    <vol>J89-D</vol>
+    <no>12</no>
+    <pp>2721--2733</pp>
+    <month>12</month>
+    <year>2006</year>
+    <abst> 本論文では，多重奏に対する音源同定において不可避な課題である 「音の重なりによる特徴変動」について新たな解決法を提案する．
+      多重奏では複数の楽器が同時に発音するため，各々の周波数成分が 重なって干渉し，音響的特徴が変動する． 本研究では，混合音から抽出した学習データに対して，
+      各特徴量のクラス内分散・クラス間分散比を求めることで， 周波数成分の重なりの影響の大きさを定量的に評価する． そして，線形判別分析を用いることで，
+      これを最小化するように特徴量を重みづけした新たな特徴量軸を生成する． これにより，周波数成分の重なりの影響をできるだけ小さくした特徴空間が得られる．
+      さらに，音楽的文脈を利用することで音源同定のさらなる高精度化を図る． 実楽器音データベースから作成した二〜四重奏の音響信号を用いた 実験により，二重奏では50.9%から84.1%へ，
+      三重奏では46.1%から77.6%へ，四重奏では43.1%から72.3%へ 認識率の改善を得，本手法の有効性を確認した． </abst>
+    <paperurl type="pdf">FY2006/ieice-2006-kitahara.pdf</paperurl>
+  </item><item type="ij" id="KitaharaEURASIP2006" lang="en" selected="yes">
+    <title>Instrument Identification in Polyphonic Music: Feature Weighting to Minimize Influence of
+      Sound Overlaps</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto2-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle>EURASIP Journal on Advances in Signal Processing</booktitle>
+    <series>Special Issue on Music Information Retrieval based on Signal Processing</series>
+    <vol>2007</vol>
+    <no>51979</no>
+    <pp>1--15</pp>
+    <year>2007</year>
+    <abst> This paper provides a new solution to the problem of feature variations caused by the
+      overlapping of sounds in instrument identification in polyphonic music. When multiple
+      instruments simultaneously play, partials (harmonic components) of their sounds overlap and
+      interfere, which makes the acoustic features different from those of monophonic sounds. To
+      cope with this, we weight features based on how much they are affected by overlapping. First,
+      we quantitatively evaluate the influence of overlapping on each feature as the ratio of the
+      within-class variance to the between-class variance in the distribution of training data
+      obtained from polyphonic sounds. Then, we generate feature axes using a weighted mixture that
+      minimizes the influence via linear discriminant analysis. In addition, we improve instrument
+      identification using musical context. Experimental results showed that the recognition rates
+      using both feature weighting and musical context were 84.1% for duo, 77.6% for trio, and 72.3%
+      for quartet; those without using either were 53.4, 49.6, and 46.5%, respectively. </abst>
+    <paperurl type="pdf">FY2006/EURASIP-JASP-2007-tetsu.pdf</paperurl>
+  </item><item type="ij" id="KitaharaIPSJ2007" lang="en" selected="yes">
+    <title>Instrogram: Probabilistic Representation of Instrument Existence for Polyphonic Music</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto2-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle>IPSJ Journal</booktitle>
+    <series>Special Issue on Convenient, Familiar Music Information Processing</series>
+    <vol>48</vol>
+    <no>1</no>
+    <pp>214--226</pp>
+    <month>1</month>
+    <year>2007</year>
+    <paperurl type="pdf">FY2006/ipsj-2007-kitahara.pdf</paperurl>
+    <award>第3回IPSJ Digital Courier船井若手奨励賞</award>
+    <note>also published in IPSJ Digital Courier Vol.3, No.1, pp.1--13</note>
+  </item><item type="ic" id="KitaharaISM2006" lang="en">
+    <title>Musical Instrument Recognizer ``Instrogram'' and Its Application to Music Retrieval based
+      on Instrumentation Similarity</title>
+    <authors>
+      <author idref="kitahara-en"/>
+      <author idref="goto2-en"/>
+      <author idref="komatani-en"/>
+      <author idref="ogata-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="ism2006"/>
+    <pp>265--272</pp>
+    <month>12</month>
+    <year>2006</year>
+    <slideurl type="pdf">FY2006/ism-2006-tetsu.pdf</slideurl>
+  </item><item type="dc" id="KitaharaASJ2006a" lang="jp">
+    <title>Instrogramを用いた類似楽曲検索</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="asj2006a"/>
+    <series>2-7-1</series>
+    <month>9</month>
+    <year>2006</year>
+    <slideurl type="pdf">FY2006/asj-2006atm-tetsu_nosound.pdf</slideurl>
+  </item><item type="th" id="KitaharaPhDThesis" lang="en">
+    <title>Computational Musical Instrument Recognition and Its Application to Content-based Music
+      Information Retrieval</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+    </authors>
+    <series>博士論文 京都大学大学院情報学研究科</series>
+    <month>2</month>
+    <year>2007</year>
+    <slideurl type="pdf">FY2006/d-kochokai_kitahara.pdf</slideurl>
+    <award>第2回京都大学総長賞受賞</award>
+  </item><item type="dt" id="HamanakaSIGMUS2006" lang="jp">
+    <title>デモンストレーション：若手による研究紹介III</title>
+    <authors>
+      <author>浜中 雅俊</author>
+      <author>竹川 佳成</author>
+      <author>橋田 朋子</author>
+      <author>元川 洋一</author>
+      <author>馬場 哲晃</author>
+      <author>日暮 圭</author>
+      <author> 中野 倫靖</author>
+      <author>吉井 和佳</author>
+      <author>松原 正樹</author>
+      <author>梶 克彦</author>
+      <author>北原 鉄朗</author>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2006-MUS-66-10</series>
+    <vol>2006</vol>
+    <no>90</no>
+    <pp>55--61</pp>
+    <month>8</month>
+    <year>2006</year>
+  </item><item type="dt" id="HamanakaSIGMUS2006b" lang="jp">
+    <title>デモンストレーション：若手による研究紹介IV</title>
+    <authors>
+      <author>浜中 雅俊</author>
+      <author>竹川 佳成</author>
+      <author>岩井 憲一</author>
+      <author>高橋 直也</author>
+      <author> 中野 倫靖</author>
+      <author>大石 康智</author>
+      <author>糸山 克寿</author>
+      <author>北原 鉄朗</author>
+      <author>吉井 和佳</author>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2006-MUS-67-3</series>
+    <vol>2006</vol>
+    <no>113</no>
+    <pp>9--14</pp>
+    <month>10</month>
+    <year>2006</year>
+  </item><item type="dt" id="NishiyamaSIGMUS2007" lang="jp">
+    <title>マルチメディアコンテンツにおける音楽と映像の調和度計算モデル</title>
+    <authors>
+      <author>西山 正紘</author>
+      <author idref="kitahara-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2007-MUS-69</series>
+    <vol>2007</vol>
+    <no>15</no>
+    <pp>31--36</pp>
+    <month>2</month>
+    <year>2007</year>
+  </item><item type="dt" id="AbeMA2007" lang="jp">
+    <title>撥弦の物理モデルを用いた音響信号からのパラメータ推定</title>
+    <authors>
+      <author>安部 武宏</author>
+      <author idref="kitahara-jp"/>
+      <author>糸山 克寿</author>
+      <author>柳田 益造</author>
+    </authors>
+    <booktitle>日本音響学会音楽音響研究会資料</booktitle>
+    <series>MA2006-91</series>
+    <pp>35--40</pp>
+    <month>3</month>
+    <year>2007</year>
+  </item><item type="dc" id="NishiyamaIPSJNC2007" lang="jp">
+    <title>マルチメディアコンテンツにおける音楽と映像の調和に関する分析</title>
+    <authors>
+      <author>西山 正紘</author>
+      <author idref="kitahara-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2008"/>
+    <series>2N-6</series>
+    <month>3</month>
+    <year>2007</year>
+  </item><item type="dc" id="ShimizuIPSJNC2007" lang="jp">
+    <title>OnomaTree：擬音語と木構造を併用した環境音検索インターフェース</title>
+    <authors>
+      <author>清水 敬太</author>
+      <author idref="kitahara-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2007"/>
+    <series>3N-7</series>
+    <month>3</month>
+    <year>2007</year>
+  </item><item type="dr" id="TotaniInteraction2008" lang="jp">
+    <title>楽器構成に着目した楽曲サムネイルとプレイリスト生成機能つき音楽プレイヤー</title>
+    <authors>
+      <author>戸谷 直之</author>
+      <author idref="kitahara2-jp"/>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle>インタラクション2008（インタラクティブ発表）</booktitle>
+    <pp>173--174</pp>
+    <month>3</month>
+    <year>2008</year>
+  </item><item type="dt" id="KitaharaInteraction2008" lang="jp">
+    <title>演奏家型人形を利用した見えない演奏者の可視化の試み</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author>小林 一樹</author>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle>インタラクション2008（ポスター発表）</booktitle>
+    <month>3</month>
+    <year>2008</year>
+  </item><item type="dt" id="KitaharaSIGMUS2007" lang="jp">
+    <title>音楽情報科学研究のための共通データフォーマットの確立を目指して</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author>橋田 光代</author>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2006-MUS-66-12</series>
+    <vol>2007</vol>
+    <no>81</no>
+    <pp>149--154</pp>
+    <month>8</month>
+    <year>2007</year>
+    <slideurl type="pdf">FY2007/SIGMUS-2007-kitahara.pdf</slideurl>
+  </item><item type="dt" id="KitaharaEC2007" lang="jp">
+    <title>楽器音認識技術を用いた音楽の可視化</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="okuno-jp"/>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle idref="ec2007"/>
+    <pp>145--148</pp>
+    <month>10</month>
+    <year>2007</year>
+    <slideurl type="pdf">FY2007/ec-2007-kitahara.pdf</slideurl>
+  </item><item type="dt" id="TsuchihashiSIGMUS2008" lang="jp">
+    <title>音響信号を対象としたベースラインからの音楽ジャンル解析</title>
+    <authors>
+      <author>土橋 佑亮</author>
+      <author idref="kitahara2-jp"/>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle>情報処理学会 音楽情報科学/音声言語情報処理 研究報告</booktitle>
+    <series>2008-MUS-74-38, 2008-MUS-SLP-70-38</series>
+    <vol>2008</vol>
+    <no>12</no>
+    <pp>217--224</pp>
+    <month>2</month>
+    <year>2008</year>
+  </item><item type="dt" id="KatsuraSIGMUS2008" lang="jp">
+    <title>ベイジアンネットワークを用いたコード・ヴォイシング推定システム</title>
+    <authors>
+      <author>勝占 真規子</author>
+      <author idref="kitahara2-jp"/>
+      <author idref="katayose-jp"/>
+      <author>長田 典子</author>
+    </authors>
+    <booktitle>情報処理学会 音楽情報科学/音声言語情報処理 研究報告</booktitle>
+
+    <series>2008-MUS-74-29, 2008-MUS-SLP-70-29</series>
+    <vol>2008</vol>
+    <no>12</no>
+    <pp>163--168</pp>
+    <month>2</month>
+    <year>2008</year>
+  </item><item type="dt" id="FujitaSIGMUS2008" lang="jp">
+    <title>アーティストの個性を表す音楽的特徴に関する一考察</title>
+    <authors>
+      <author>藤田 徹</author>
+      <author idref="kitahara2-jp"/>
+      <author idref="katayose-jp"/>
+      <author>長田 典子</author>
+    </authors>
+    <booktitle>情報処理学会 音楽情報科学/音声言語情報処理 研究報告</booktitle>
+
+    <series>2008-MUS-74-35, 2008-MUS-SLP-70-35</series>
+    <vol>2008</vol>
+    <no>12</no>
+    <pp>199--204</pp>
+    <month>2</month>
+    <year>2008</year>
+  </item><item type="dc" id="KitaharaASJ2007a" lang="jp">
+    <title>音楽情報処理のための共通データフォーマットCrestMuseXML−全体構想と基本設計方針−</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author>橋田 光代</author>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle idref="asj2007a"/>
+    <series>2-1-4</series>
+    <month>9</month>
+    <year>2007</year>
+  </item><item type="dt" id="HashidaSIGMUS2007" lang="jp">
+    <title>音楽演奏表情データベースCrestMusePEDB ver1.0の公開について</title>
+    <authors>
+      <author>橋田 光代</author>
+      <author>松井 淑恵</author>
+      <author idref="kitahara2-jp"/>
+      <author>酒造 祐介</author>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2007-MUS-72-1</series>
+    <vol>2007</vol>
+    <no>102</no>
+    <pp>1--6</pp>
+    <month>10</month>
+    <year>2007</year>
+  </item><item type="dt" id="HirataSIGMUS2007" lang="jp">
+    <title>新博士にょるパネルディスカッション1「博士への道のりと将来への夢」</title>
+    <authors>
+      <author>平田 圭二</author>
+      <author>梶 克彦</author>
+      <author>亀岡 弘和</author>
+      <author idref="kitahara2-jp"/>
+      <author>齋藤 毅</author>
+      <author>武田 晴登</author>
+      <author>橋田 光代</author>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2007-MUS-71-7</series>
+    <vol>2007</vol>
+    <no>81</no>
+    <pp>39--42</pp>
+    <month>8</month>
+    <year>2007</year>
+  </item><item type="iv">
+    <title>新博士によるパネルディスカッション1「博士への道のりと将来への夢」</title>
+    <booktitle>情報処理学会第71回音楽情報科学研究会</booktitle>
+    <series>パネリスト</series>
+    <month>8</month>
+    <year>2007</year>
+  </item><item type="dt" id="GotoSIGMUS2008" lang="jp">
+    <title>パネルディスカッション「``音''研究の未来」</title>
+    <authors>
+      <author idref="goto2-jp"/>
+      <author>亀岡 弘和</author>
+      <author idref="kitahara2-jp"/>
+      <author>平賀 譲</author>
+      <author>緒方 淳</author>
+      <author>戸田 智基</author>
+    </authors>
+    <booktitle>情報処理学会 音楽情報科学/音声言語情報処理 研究報告</booktitle>
+    <series>2008-MUS-74-10, 2008-SLP-70-10</series>
+    <vol>2008</vol>
+    <no>12</no>
+    <pp>57--58</pp>
+    <month>2</month>
+    <year>2008</year>
+  </item><item type="iv">
+    <title>パネルディスカッション「``音''研究の未来」</title>
+    <booktitle>情報処理学会 音楽情報科学研究会・音声言語情報処理研究会 特別合同企画</booktitle>
+    <series>パネリスト</series>
+    <month>2</month>
+    <year>2008</year>
+  </item><item type="dc" id="KitaharaIEICE" lang="jp">
+    <title>Instrogram：多重奏中の楽器構成に関する確率論的表現法</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="okuno-jp"/>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle>電子情報通信学会2008年総合大会</booktitle>
+    <series>AS-5-4</series>
+    <month>3</month>
+    <year>2008</year>
+  </item><item type="dc" id="KazetaniIPSJNC2008" lang="jp">
+    <title>確率文脈自由文法を用いた事例参照型自動作曲システム</title>
+    <authors>
+      <author>風谷 真志</author>
+      <author idref="kitahara2-jp"/>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle idref="ipsjnc2008"/>
+    <series>3X-3</series>
+    <month>3</month>
+    <year>2008</year>
+  </item><item type="tr">
+    <title>デジタル音楽配信のためのコンテンツ管理</title>
+    <authors>
+      <author>Francois Pachet（著）</author>
+      <author>北原 鉄朗（訳）</author>
+    </authors>
+    <booktitle>Communications of the ACM 日本語版</booktitle>
+    <vol>4</vol>
+    <no>2</no>
+    <pp>1--6</pp>
+    <month>6</month>
+    <year>2004</year>
+  </item><item type="tr">
+    <title>音楽情報検索</title>
+    <authors>
+      <author>Bryan Pardo（著）</author>
+      <author>北原 鉄朗（訳）</author>
+    </authors>
+    <booktitle>Communications of the ACM 日本語版</booktitle>
+    <vol>6</vol>
+    <no>2</no>
+    <pp>1--3</pp>
+    <year>2007</year>
+  </item><item type="tr">
+    <title>Shazam 音楽認識サービス</title>
+    <authors>
+      <author>Avery Wang（著）</author>
+      <author>北原 鉄朗（訳）</author>
+    </authors>
+    <booktitle>Communications of the ACM 日本語版</booktitle>
+    <vol>6</vol>
+    <no>2</no>
+    <pp>17--21</pp>
+    <year>2007</year>
+  </item><item type="rv">
+    <title>楽曲の特徴量抽出と検索技術</title>
+    <authors>
+      <author idref="okuno-jp"/>
+      <author idref="kitahara-jp"/>
+      <author>吉井 和佳</author>
+    </authors>
+    <booktitle>電気学会誌</booktitle>
+    <series>特集「音響機器は進歩している」</series>
+    <vol>127</vol>
+    <no>7</no>
+    <pp>417--420</pp>
+    <month>7</month>
+    <year>2007</year>
+  </item><item type="op">
+    <title>音高による音色変化と未知楽器の問題を考慮した楽器音の音源同定</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle>日本音響学会関西支部 第6回若手研究者交流研究発表会</booktitle>
+    <month>12</month>
+    <year>2003</year>
+  </item><item type="op">
+    <title>多重奏の音源同定における音の重なりに対する頑健性の改善</title>
+    <authors>
+      <author idref="kitahara-jp"/>
+      <author idref="goto2-jp"/>
+      <author idref="komatani-jp"/>
+      <author idref="ogata-jp"/>
+      <author idref="okuno-jp"/>
+    </authors>
+    <booktitle>日本音響学会関西支部 第8回若手研究者交流研究発表会</booktitle>
+    <month>12</month>
+    <year>2005</year>
+    <award shortened="yes">若手奨励賞受賞</award>
+  </item><item type="pt">
+    <text>鍵盤楽器支援装置及び鍵盤楽器支援システム，特開2006-145681号（2006年6月8日），特願2004-333279（2004年11月17日），発明者：武田 正之，石田
+      克久，北原 鉄朗．</text>
+  </item><item type="pt">
+    <text>楽器音認識方法，楽器アノテーション方法，及び楽曲検索方法，特願2006-058649号（2006年3月3日），特開2007-240552号（2007年9月20日），発明者：北原
+      鉄朗，奥乃 博． </text>
+  </item><item type="gr">
+    <text>（財）C&amp;C振興財団 国際会議論文発表者助成 採択（IEA/AIE-2003での発表に対して）</text>
+  </item><item type="gr">
+    <text>（財）情報科学国際交流財団 研究者海外派遣助成 採択（ICME 2003での発表に対して）</text>
+  </item><item type="gr">
+    <text>（財）原総合知的通信システム基金 国際会議論文発表助成 採択（ICASSP 2004での発表に対して）</text>
+  </item><item type="gr">
+    <text>（財）電気通信普及財団 海外渡航旅費援助 採択（ISMIR 2005での発表に対して）</text>
+  </item><item type="gr">
+    <text>（財）立石科学技術振興財団 国際交流助成 採択（ICASSP 2006での発表に対して）</text>
+  </item><item type="gr">
+    <text>（財）電気通信普及財団 海外渡航旅費援助 採択（ISM 2008での発表に対して）</text>
+  </item><item type="gr">
+    <text>平成15年度 ASTEM学生ベンチャー奨励金制度 奨励金採択</text>
+    <text>「即興演奏の不自然な旋律を自動的に補正する機能を組み込んだ電子楽器の開発」</text>
+  </item><item type="gr">
+    <text>平成16年度 SCAT研究奨励金 採択</text>
+    <text>「音楽音響信号に対するMPEG-7タグの自動付与および音楽情報検索への応用」</text>
+  </item><item type="gr">
+    <text>21世紀COE「知識社会基盤構築のための情報学拠点形成」平成16年度 若手リーダーシップ養成プログラム研究費 採択</text>
+    <text>「高度な音楽検索実現のための音楽音響信号に対するMPEG-7タグの自動付与」</text>
+  </item><item type="gr">
+    <text>日本学術振興会 科学研究費補助金 特別研究員研究奨励費（平成17～18年度）</text>
+    <text>「音楽のディジタルアーカイブ化のためのMPEG-7タグの設計と自動付与」</text>
+  </item><item type="gr">
+    <text>日本学生支援機構 第1種奨学金「特に優れた業績による返還免除」認定（全額）</text>
+  </item><item type="iv">
+    <title>音楽の信号処理とパターン処理の基礎技術：入門と実践</title>
+    <booktitle>情報処理学会 第76回音楽情報科学研究会 チュートリアル</booktitle>
+    <series>講師</series>
+    <month>8</month>
+    <year>2008</year>
+  </item><item type="iv">
+    <title>CrestMuseXML Toolkitで始める音楽情報処理入門</title>
+    <booktitle>情報処理学会 第80回音楽情報科学研究会 チュートリアル</booktitle>
+    <series>講師</series>
+    <month>5</month>
+    <year>2009</year>
+  </item><item type="ic" id="KitaharaICMPC2008a" lang="en">
+    <title>Computational Model for Automatic Chord Voicing based on Bayesian Network</title>
+    <authors>
+      <author idref="kitahara2-en"/>
+      <author>Makiko Katsura</author>
+      <author idref="katayose-en"/>
+      <author>Noriko Nagata</author>
+    </authors>
+    <booktitle idref="icmpc2008"/>
+    <pp>395--398</pp>
+    <month>8</month>
+    <year>2008</year>
+    <paperurl type="pdf">FY2008/icmpc-2008-kitahara-1.pdf</paperurl>
+    <slideurl type="pdf">FY2008/icmpc-2008-katsura.pdf</slideurl>
+  </item><item type="ic" id="KitaharaICMPC2008b" lang="en">
+    <title>Computational Model of Congruency between Music and Video</title>
+    <authors>
+      <author idref="kitahara2-en"/>
+      <author>Masahiro Nishiyama</author>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle idref="icmpc2008"/>
+    <month>8</month>
+    <year>2008</year>
+    <posterurl type="pdf">FY2008/icmpc-2008-nisiyama.pdf</posterurl>
+    <note>abstract only</note>
+  </item><item type="ic" id="HashidaICMPC2008" lang="en">
+    <title>Rencon: Performance Rendering Contest for Automated Music Systems</title>
+    <authors>
+      <author>Mitsuyo Hashida</author>
+      <author>Teresa M. Nakra</author>
+      <author>Haruhiro Katayose</author>
+      <author>Tadahiro Murao</author>
+      <author>Keiji Hirata</author>
+      <author>Kenji Suzuki</author>
+      <author idref="kitahara2-en"/>
+    </authors>
+    <booktitle idref="icmpc2008"/>
+    <pp>53--57</pp>
+    <month>8</month>
+    <year>2008</year>
+    <paperurl type="pdf">FY2008/icmpc-2008-hashida.pdf</paperurl>
+  </item><item type="ic" id="TsuchihashiISMIR2008" lang="en">
+    <title>Using Bass-line Features for Content-based MIR</title>
+    <authors>
+      <author>Yusuke Tsuchihashi</author>
+      <author idref="kitahara2-en"/>
+      <author idref="katayose-en"/>
+    </authors>
+    <booktitle idref="ismir2008"/>
+    <pp>620--625</pp>
+    <month>9</month>
+    <year>2008</year>
+    <paperurl type="pdf">FY2008/ismir-2008-tsuchihashi.pdf</paperurl>
+    <posterurl type="pdf">FY2008/ismir-2008-tsuchihashi.pdf</posterurl>
+  </item><item type="ic" id="KitaharaMASP2008" lang="en">
+    <title>Music Genre Classification and Similarity Calculation Using Bass-line Features</title>
+    <authors>
+      <author idref="kitahara2-en"/>
+      <author>Yusuke Tsuchihashi</author>
+      <author idref="katayose-en"/>
+    </authors>
+    <booktitle idref="masp2008"/>
+    <pp>574--579</pp>
+    <month>12</month>
+    <year>2008</year>
+    <slideurl type="pdf">FY2008/masp-2008-kitahara.pdf</slideurl>
+  </item><item type="dt" id="KitaharaSIGMUS2008" lang="jp">
+    <title>CrestMuseXML (CMX) Toolkit ver.0.40について</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2008-MUS-75-17</series>
+    <vol>2008 </vol>
+    <no>50</no>
+    <pp>95--100</pp>
+    <month>5</month>
+    <year>2008</year>
+    <paperurl type="pdf">FY2008/SIGMUS-2008-kitahara.pdf</paperurl>
+  </item><item type="dt" id="KitaharaSIGMUS2008panel" lang="jp">
+    <title>新博士によるパネルディスカッションII「楽しくさせる音楽，楽しくさせる研究」</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author>平田 圭二</author>
+      <author>竹川 佳成</author>
+      <author>中野 倫靖</author>
+      <author>森勢 将雅</author>
+      <author>吉井 和佳</author>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2008-MUS-76-1</series>
+    <vol>2008 </vol>
+    <no>78</no>
+    <pp>1--4</pp>
+    <month>8</month>
+    <year>2008</year>
+  </item><item type="dt" id="HashimotoSIGMUS2008" lang="jp">
+    <title>音楽音響信号を対象とした指揮演奏システム：フェルマータ時における打楽器音抑制とスケジューラの検討</title>
+    <authors>
+      <author>橋本 祐輔</author>
+      <author idref="kitahara2-jp"/>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2008-MUS-76-7</series>
+    <vol>2008 </vol>
+    <no>78</no>
+    <pp>33--37</pp>
+    <month>8</month>
+    <year>2008</year>
+  </item><item type="dc" id="KitaharaASJ2008" lang="jp">
+    <title>MIDIデータのベロシティを異なる音源に適応させる試み</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author idref="katayose-jp"/>
+    </authors>
+    <booktitle idref="asj2008a"/>
+    <series>1-9-16</series>
+    <month>9</month>
+    <year>2008</year>
+    <slideurl type="pdf">FY2008/asj-2008atm-kitahara.pdf</slideurl>
+  </item><item type="dc" id="KobayashiJSAI2008" lang="jp">
+    <title>効率的なロボットプログラミング環境の実現に向けて</title>
+    <authors>
+      <author>小林 一樹</author>
+      <author idref="kitahara2-jp"/>
+    </authors>
+    <booktitle idref="jsai2008"/>
+    <series>2G1-1</series>
+    <month>5</month>
+    <year>2008</year>
+  </item><item type="dt" id="MiuraSIGMUS2008" lang="jp">
+    <title>パネルディスカッション：作るだけでいいの？調べるだけでいいの？</title>
+    <authors>
+      <author>三浦 雅展</author>
+      <author>江村 伯夫</author>
+      <author idref="kitahara2-jp"/>
+      <author>若槻 尚斗</author>
+      <author>藤島 琢哉</author>
+      <author>西口 磯春</author>
+      <author>平田 圭二</author>
+      <author>柳田 益造</author>
+      <author>後藤 真孝</author>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2008-MUS-78-11</series>
+    <vol>2008</vol>
+    <no>78</no>
+    <pp>59--66</pp>
+    <month>12</month>
+    <year>2008</year>
+  </item><item type="iv">
+    <title>パネルディスカッション：作るだけでいいの？調べるだけでいいの？</title>
+    <booktitle>情報処理学会第78回音楽情報科学研究会・日本音響学会音楽音響研究会 合同特別企画</booktitle>
+    <series>パネリスト</series>
+    <month>12</month>
+    <year>2008</year>
+  </item><item type="dt" id="HashidaSIGMUS2008" lang="jp">
+    <title>演奏表情付けコンテストICMPC-Rencon開催報告</title>
+    <authors>
+      <author>橋田 光代</author>
+      <author>片寄 晴弘</author>
+      <author>平田 圭二</author>
+      <author idref="kitahara2-jp"/>
+      <author>鈴木 健嗣</author>
+    </authors>
+    <booktitle idref="sigmus"/>
+    <series>2008-MUS-78-12</series>
+    <vol>2008</vol>
+    <no>78</no>
+    <pp>67--72</pp>
+    <month>12</month>
+    <year>2008</year>
+  </item><item type="jj" id="KitaharaIPSJ2009" lang="jp">
+    <title>ベイジアンネットワークを用いた自動コードヴォイシングシステム</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author>勝占 真規子</author>
+      <author>片寄 晴弘</author>
+      <author>長田 典子</author>
+    </authors>
+    <booktitle>情報処理学会論文誌</booktitle>
+    <series>特集「音楽情報処理」</series>
+    <vol>50</vol>
+    <no>3</no>
+    <pp>1067--1078</pp>
+    <month>3</month>
+    <year>2009</year>
+    <paperurl type="pdf">FY2008/ipsj-2009-kitahara.pdf</paperurl>
+
+  </item><item type="dr" id="KitaharaInteraction2009" lang="jp">
+    <title>BayesianBand：旋律の予測に基づいた自動伴奏システム</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author>徳網 亮輔</author>
+      <author>戸谷 直之</author>
+      <author>橋本 寿政</author>
+      <author>片寄 晴弘</author>
+    </authors>
+    <booktitle>インタラクション2009（インタラクティブ発表）</booktitle>
+
+
+
+    <pp>31--32</pp>
+    <month>3</month>
+    <year>2009</year>
+    <paperurl type="pdf">FY2008/interaction-2009-kitahara.pdf</paperurl>
+
+  </item><item type="rv" id="KitaharaDTMM2009" lang="jp">
+    <title>音楽情報処理最前線！ 楽器で音楽が探せる 「楽器認識技術」が叶える音楽の新しい聴き方・探し方</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+    </authors>
+    <booktitle>DTM Magazine</booktitle>
+    <vol>176</vol>
+    <pp>102--103</pp>
+    <month>2</month>
+    <year>2009</year>
+  </item><item type="jj" id="HashidaIPSJ009" lang="jp">
+    <title>ピアノ名演奏の演奏表現情報と音楽構造情報を対象とした音楽演奏表情データベースCrestMusePEDBの構築</title>
+    <authors>
+      <author>橋田 光代</author>
+      <author>松井 淑恵</author>
+      <author idref="kitahara2-jp"/>
+      <author>片寄 晴弘</author>
+    </authors>
+    <booktitle>情報処理学会論文誌</booktitle>
+    <series>特集「音楽情報処理」</series>
+    <vol>50</vol>
+    <no>3</no>
+    <pp>1090--1099</pp>
+    <month>3</month>
+    <year>2009</year>
+  </item><item type="dt" id="KitaharaSIGMUS2009" lang="jp">
+    <title>CrestMuseXML Toolkitで始める音楽情報処理入門</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+    </authors>
+    <booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+    <series>2009-MUS-50-1</series>
+    <month>5</month>
+    <year>2009</year>
+    <slideurl type="pdf">FY2009/SIGMUS-2009-kitahara-tutorial.pdf</slideurl>
+  </item><item type="lt" id="KitaharaIPSJ2009b" lang="jp">
+    <title>BayesianBand：ユーザとシステムが相互に予測し合うジャムセッションシステム</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+      <author>戸谷 直之</author>
+
+      <author>徳網 亮輔</author>
+      <author>片寄 晴弘</author>
+    </authors>
+    <booktitle>情報処理学会論文誌（テクニカルノート）</booktitle>
+    <series>特集「エンターテインメントコンピューティング」</series>
+    <vol>50</vol>
+    <no>12</no>
+    <pp>2949--2953</pp>
+    <month>12</month>
+    <year>2010</year>
+  </item><item type="ic" id="KitaharaICEC2009" lang="en">
+    <title>BayesianBand: Jam Session System based on Mutual Prediction by User and System</title>
+    <authors>
+      <author idref="kitahara2-en"/>
+      <author>Naoyuki Totani</author>
+      <author>Ryosuke Tokuami</author>
+      <author>Haruhiro Katayose</author>
+    </authors>
+    <booktitle>Entertainment Computing: Proceedings of the 10th International Conference on
+    Entertainment Computing (ICEC 2009)</booktitle>
+    <pp>179--184</pp>
+    <month>9</month>
+    <year>2009</year>
+    <slideurl type="pdf">FY2009/ieice-2009-kitahara.pdf</slideurl>
+  </item><item type="dt" id="TotaniEC2009" lang="jp">
+  <title>予測型ジャムセッションシステムBayesianBandにおける可視化機能の導入</title>
+  <authors>
+    <author>戸谷 直之</author>
+    <author idref="kitahara2-jp"/>
+    <author>片寄 晴弘</author>
+  </authors>
+  <booktitle>エンターテインメントコンピューティング2009</booktitle>
+  <month>9</month>
+  <year>2009</year>
+</item><item type="dt" id="HashidaEC2009" lang="jp">
+   <title>演奏表情付けコンテストEC-Rencon</title>
+   <authors>
+     <author>橋田 光代</author>
+     <author idref="kitahara2-jp"/>
+     <author>鈴木健嗣</author>
+     <author>平田 圭二</author>
+     <author>片寄 晴弘</author>
+   </authors>
+   <booktitle>エンターテインメントコンピューティング2009</booktitle>
+   <month>9</month>
+   <year>2009</year>
+ </item><item type="ij" id="FujiharaASLP2009" lang="en">
+    <title>Singing Voice Representation Robust to Accompaniment Sounds and Its Application to Singer
+      Identification and Vocal-timbre-similarity-based Music Information Retrieval</title>
+    <authors>
+      <author>Hiromasa Fujihara</author>
+      <author idref="goto2-en"/>
+      <author idref="kitahara2-en"/>
+      <author idref="okuno-en"/>
+    </authors>
+    <booktitle>IEEE Transaction on Audio, Speech, and Language Processing</booktitle>
+    <series>Special Issue on Signal Models and Representation of Musical and Environmental Sounds</series>
+    <vol>18</vol>
+    <no>3</no>
+    <pp>638--648</pp>
+    <month>3</month>
+    <year>2010</year>
+  </item><item type="rv" id="HiraiIPSJ2009" lang="jp">
+    <title>音楽とヒューマンインタフェース</title>
+    <authors>
+      <author>平井 重行</author>
+      <author>橋田 光代</author>
+      <author idref="kitahara2-jp"/>
+      <author>竹川 佳成</author>
+      <author>片寄 晴弘</author>
+    </authors>
+    <booktitle>情報処理</booktitle>
+    <series>特集「音楽処理技術の最前線」</series>
+    <vol>50</vol>
+    <no>8</no>
+    <pp>756--763</pp>
+    <month>8</month>
+    <year>2009</year>
+  </item><item type="rv" id="KitaharaJSAI2009" lang="jp">
+    <title>私のブックマーク「音楽情報処理」</title>
+    <authors>
+      <author idref="kitahara2-jp"/>
+    </authors>
+    <booktitle>人工知能学会誌</booktitle>
+    <vol>24</vol>
+    <no>5</no>
+    <pp>921--929</pp>
+    <month>11</month>
+    <year>2009</year>
+  </item><item type="bc" id="KitaharaAMIR2010" lang="en">
+    <title>Mid-level Representations of Musical Audio Signals for Music Information Retrieval</title>
+    <authors>
+      <author idref="kitahara2-en"/></authors>
+    <booktitle>Advances in Music Information Retrieval</booktitle>
+    <series>Studies in Computational Intelligence 274</series>
+    <eds>Zbigniew W. Ras and Alicja A. Wieczorkowska</eds>
+    <pub>Springer</pub>
+    <month>2</month>
+    <year>2010</year>
+  </item><item type="dc" id="YamakawaIPSJNC2010" lang="jp">
+    <title>環境音から擬音語への自動変換における特徴量抽出法の検討</title>
+  <authors><author>山川 暢英</author><author idref="kitahara2-jp"/><author>高橋 徹</author><author>駒谷 和範</author><author>尾形 哲也</author><author>奥乃 博</author></authors><booktitle>情報処理学会第72回全国大会</booktitle><series>3U-9</series><month>3</month><year>2010</year></item><item type="dc" id="MizumotoIPSJNC2010" lang="jp">
+    <title>エレキギターにおける演奏情報の特徴抽出</title>
+  <authors><author>水本 直希</author><author idref="kitahara2-jp"/><author>片寄 晴弘</author></authors><booktitle>情報処理学会第72回全国大会</booktitle><series>5T-1</series><month>3</month><year>2010</year></item><item type="dc" id="SuguruIPSJNC2010" lang="jp">
+    <title>奄美大島民謡風歌声合成のためのコブシに着目した歌声の特徴分析</title>
+  <authors><author>村主 大輔</author><author>森勢 将雅</author><author idref="kitahara2-jp"/> <author>片寄 晴弘</author></authors><booktitle>情報処理学会第72回全国大会</booktitle><series>6U-4</series><month>3</month><year>2010</year></item><item id="HashidaSIGMUS2009" type="dt">
+  <title>演奏表情付けコンテストEC-Rencon開催報告</title>
+  <authors>
+    <author>橋田 光代</author>
+    <author idref="kitahara2-jp"/>
+    <author>鈴木 健嗣</author>
+    <author>片寄 晴弘</author>
+    <author>平田 圭二</author>
+  </authors>
+  <booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+  <series>2009-MUS-83</series>
+  <month>11</month>
+  <year>2009</year>
+</item>
+  <item type="ic" id="YamakawaIS2010" lang="en">
+  <title>Effects of Within- and Between-frame Temporal Variations in Power Spectra on Non-verbal Sound Recognition</title>
+  <authors>
+    <author>Nobuhide Yamakawa</author>
+    <author>Tetsuro Kitahara</author>
+    <author>Toru Takahashi</author>
+    <author>Kozunori Komatani</author>
+    <author>Tetsuya Ogata</author>
+    <author>Hiroshi G. Okuno</author>
+  </authors>
+  <booktitle>Proceedings of the 11th International Congress on Spoken Language Processing (Interspeech 2010)</booktitle>
+  <month>9</month>
+  <year>2010</year>
+</item><item type="dr" id="KitaharaInteraction2011">
+  <title>OrpheusBB：Human-in-the-loop型の自動作曲システム</title>
+  <authors>
+    <author me="yes">北原 鉄朗</author>
+    <author>深山 覚</author>
+    <author>片寄 晴弘</author>
+    <author>嵯峨山 茂樹</author>
+    <author>長田 典子</author>
+  </authors>
+  <booktitle>情報処理学会 インタラクション2011（口頭発表）</booktitle>
+  <pp>57--64</pp>
+  <month>3</month>
+  <year>2011</year>
+  <slideurl type="pdf">FY2010/interaction-2011-kitahara.pdf</slideurl>
+  <posterurl type="pdf">FY2010/interaction-2011-kitahara_poster.pdf</posterurl>
+</item><item type="ic" id="KitaharaSMC2011" lang="en">
+  <title>An Interactive Music Composition System based on Autonomous Maintenance of Musical Consistency</title>
+  <authors>
+    <author me="yes">Tetsuro Kitahara</author>
+    <author>Satoru Fukayama</author>
+    <author>Shigeki Sagayama</author>
+    <author>Haruhiro Katayose</author>
+    <author>Noriko Nagata</author>
+  </authors>
+  <booktitle>Proceedings of the 8th Sound and Music Computing Conference</booktitle>
+  <pp>362--367</pp>
+  <doi>10.5281/zenodo.849875</doi>
+  <month>7</month>
+  <year>2011</year>
+  <posterurl type="pdf">FY2011/SMC2011-kitahara.pdf</posterurl>
+</item><item type="ln" id="YamakawaIEAAIE2011" lang="en">
+  <title>Environmental Sound Recognition for Robot Audition using Matching-pursuit</title>
+  <authors>
+    <author>Nobuhide Yamakawa</author>
+    <author>Toru Takahashi</author>
+    <author me="yes">Tetsuro Kitahara</author>
+    <author>Tetsuya Ogata</author>
+    <author>Hiroshi G. Okuno</author>
+  </authors>
+  <booktitle>Modern Approaches in Applied Intelligence: 24th International Conference on Industrial Engineering and Other Applications of Applied Intelligent Systems, IEA/AIE 2011</booktitle>
+  <series>Lecture Notes in Artificial Intelligence 6704</series>
+  <eds>K.G. Mehrotra et al.</eds>
+  <pp>1--10</pp>
+  <month>6</month>
+  <year>2011</year>
+</item><item type="dc" id="YamakawaJSAINC2011">
+  <title>擬音語と環境音の音響的関係性を考慮した環境音to擬音語変換システム</title>
+  <authors>
+    <author>山川 暢英</author>
+    <author me="yes">北原 鉄朗</author>
+    <author>高橋 徹</author>
+    <author>尾形 哲也</author>
+    <author>奥乃 博</author>
+  </authors>
+  <booktitle>2011年度人工知能学会全国大会</booktitle>
+  <series>1C2-OS4b-4</series>
+  <month>6</month>
+  <year>2011</year>
+</item><item type="dc" id="YamakawaRSJ2011">
+  <title>ロボット聴覚のための Matching-Pursuit による環境音の分離音認識</title>
+  <authors>
+    <author>山川 暢英</author>
+    <author>高橋 徹</author>
+    <author me="yes">北原 鉄朗</author>
+    <author>尾形 哲也</author>
+    <author>奥乃 博</author>
+  </authors>
+  <booktitle>日本ロボット学会第28回学術講演会</booktitle>
+  <series>1H2-4</series>
+  <month>9</month>
+  <year>2010</year>
+</item><item id="HashidaSIGMUS2011" type="dt">
+  <title>音楽演奏表情データベースCrestMusePEDB 3.0: 収録演奏の公開とフレーズ構造記述について</title>
+  <authors>
+    <author>橋田 光代</author>
+    <author>松井 淑恵</author>
+    <author>馬場 隆</author>
+    <author me="yes">北原 鉄朗</author>
+    <author>片寄 晴弘</author>
+  </authors>
+  <booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+  <series>2011-MUS-89</series>
+  <month>2</month>
+  <year>2011</year>
+</item><item id="MizumotoSIGMUS2010" type="dt">
+  <title>事例データに基づくエレキギターの表情付けシステム</title>
+  <authors>
+    <author>水本 直希</author>
+    <author me="yes">北原 鉄朗</author>
+    <author>片寄 晴弘</author>
+  </authors>
+  <booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+  <series>2009-MUS-87</series>
+  <month>10</month>
+  <year>2010</year>
+</item><item id="SyunpeiMML2012" type="ic" lang="en">
+  <title>Four-part Harmonization Using A Bayesian Network</title>
+  <authors>
+    <author>Syunpei Suzuki</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Proceedings of the 5th International Workshop on Machine Learning and Music (MML 2012)</booktitle>
+  <series>in conjunction with ICML 2012</series>
+  <month>6</month>
+  <year>2012</year>
+  <note>extended abstract</note>
+</item><item id="TsuchiyaMML2012" type="ic" lang="en">
+  <title>Mutual Transform between Note Sequence and Melodic Envelope</title>
+  <authors>
+    <author>Yuichi Tsuchiya</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Proceedings of the 5th International Workshop on Machine Learning and Music (MML 2012)</booktitle>
+  <series>in conjunction with ICML 2012</series>
+  <month>6</month>
+  <year>2012</year>
+  <note>extended abstract</note>
+</item><item id="MatsubaraJSSST2013" type="jj">
+<title>創作過程の分類に基づく自動音楽生成研究のサーベイ</title>
+<authors>
+<author>松原 正樹</author>
+<author>深山 覚</author>
+<author>奥村 健太</author>
+<author>寺村 佳子</author>
+<author>大村 英史</author>
+<author>橋田 光代</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>コンピュータソフトウェア（日本ソフトウェア科学会 学会誌）</booktitle>
+<vol>30</vol>
+<no>1</no>
+<pp>101--118</pp>
+<month>3</month>
+<year>2013</year>
+</item><item id="TsuchiyaIPSJ2013" type="lt">
+<title>音符を単位としない旋律編集のための旋律概形抽出手法</title>
+<authors>
+<author>土屋 裕一</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会論文誌（テクニカルノート）</booktitle>
+<vol>54</vol>
+<no>4</no>
+<pp>1302--1307</pp>
+<month>4</month>
+<year>2013</year>
+</item><item type="pt">
+<text>旋律編集装置，旋律編集方法及び旋律編集プログラム，特願2012-046062号（2012年3月2日），発明者: 北原 鉄朗，土屋 裕一．</text>
+</item><item type="gr">
+<text>平成24年度 SCAT研究助成 採択 
+「円滑なヒューマン・ロボット・コミュニケーションのための
+相手の反応に基づく振る舞いのリアルタイム適応」，研究代表者：北原 鉄朗．</text>
+</item><item type="gr">
+<text>平成24年度 総務省 戦略的情報通信研究開発推進制度（SCOPE）若手ICT研究者等育成型研究開発 採択
+「対話相手の状況をリアルタイムに推定して自身の挙動を適応させる音声対話ロボットの研究開発」，研究代表者：北原 鉄朗．</text>
+</item><item type="ic" id="SyunpeiSMC2013" lang="en">
+<title>Four-part Harmonization Using Probabilistic Models: Comparison of Models With and Without Chord Nodes</title>
+<authors>
+<author>Syunpei Suzuki</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>Proceedings of the 10th Sound and Music Computing Conference (SMC 2013)</booktitle>
+<pp>628--633</pp>
+<doi>10.5281/zenodo.850273</doi>
+<month>8</month>
+<year>2013</year>
+</item><item type="ic" id="TsuchiyaSMC2013" lang="en">
+<title>Melodic Outline Extraction Method for Non-note-level Melody Editing</title>
+<authors>
+<author>Yuichi Tsuchiya</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>Proceedings of the 10th Sound and Music Computing Conference (SMC 2013)</booktitle>
+<pp>762--767</pp>
+<doi>10.5281/zenodo.850305</doi>
+<month>8</month>
+<year>2013</year>
+</item><item type="ic" id="MatsukataSMAC2013" lang="en">
+<title>Muscle Activity in Playing Trumpet: The Dependence on the Playable Pitch Region and the Experience of a Non-trumpet Brass Instrument Player</title>
+<authors>
+<author>Shogo Matsukata</author>
+<author>Hiroko Terasawa</author>
+<author>Masaki Matsubara</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>Proceedings of the Stokholm Musical Acoustics Conference 2013 (SMAC 2013)</booktitle>
+<pp>529--533</pp>
+<month>8</month>
+<year>2013</year>
+</item><item type="dt" id="MisakiSIGMUS2013">
+<title>音素材の自動挿入機能を備えたループシーケンサ</title>
+<authors>
+<author>岡田 美咲</author>
+<author>山下 雄史</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2013-MUS-100-36</series>
+<month>9</month>
+<year>2013</year>
+</item><item type="dt" id="HashidaSIGMUS2013">
+<authors>
+<author>橋田 光代</author>
+<author>松井 淑恵</author>
+<author me="yes">北原 鉄朗</author>
+<author>片寄 晴弘</author>
+</authors>
+<title>定量的ピアノ演奏分析のための音楽演奏表情データベース</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2013-MUS-99-54</series>
+<month>5</month>
+<year>2013</year>
+</item><item type="dt" id="MatsukataSIGMUS2013">
+<authors>
+<author>松方 翔吾</author>
+<author>寺澤 洋子</author>
+<author>松原 正樹</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>トランペット演奏時の音高や強度の変化が口唇周囲の筋肉に及ぼす影響</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2013-MUS-99-39</series>
+<month>5</month>
+<year>2013</year>
+</item><item type="dt" id="KitaharaSIGMUS2012">
+<authors>
+<author me="yes">北原 鉄朗</author>
+<author>江村 伯夫</author>
+</authors>
+<title>パネルディスカッション「その研究って音楽の必要あるの?」</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2012-MUS-95-6</series>
+<month>6</month>
+<year>2012</year>
+</item><item type="dt" id="MizumotoSIGMUS2012">
+<authors>
+<author>水本 直希</author>
+<author>馬場 隆</author>
+<author me="yes">北原 鉄朗</author>
+<author>片寄 晴弘</author>
+</authors>
+<title>エレキギターの表情付け支援システム「Guitar-Case Maker」</title>
+<booktitle>情報処理学会 音楽情報科学・音声言語情報処理 研究報告</booktitle>
+<series>2012-MUS-94-30／2012-SLP-90-30</series>
+<month>1</month>
+<year>2012</year>
+</item><item type="dt" id="HashidaSIGMUS2011b">
+<authors>
+<author>橋田 光代</author>
+<author me="yes">北原 鉄朗</author>
+<author>鈴木 健嗣</author>
+<author>片寄 晴弘</author>
+<author>平田 圭二</author>
+</authors>
+<title>演奏表情付けコンテストSMC-Rencon開催報告</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2011-MUS-92-4</series>
+<month>10</month>
+<year>2011</year>
+</item><item type="dc" id="YamakawaIPSJNC2011">
+<authors>
+<author>山川 暢英</author>
+<author me="yes">北原 鉄朗</author>
+<author>高橋 徹</author>
+<author>尾形 哲也</author>
+<author>奧乃 博</author>
+</authors>
+<title>ロボット聴覚のためのMatching Pursuitによる複数環境音の同定</title>
+
+<booktitle>情報処理学会 第73回全国大会講演論文集</booktitle>
+<series>6P-3</series>
+<month>3</month>
+<year>2011</year>
+</item><item type="dt" id="HashidaSIGMUS2010">
+<authors>
+<author>橋田 光代</author>
+<author me="yes">北原 鉄朗</author>
+<author>鈴木 健嗣</author>
+<author>片寄 晴弘</author>
+<author>平田 圭二</author>
+</authors>
+<title>Rencon Workshop 2010: 演奏表情付けコンテスト</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2010-MUS-86-14</series>
+<month>7</month>
+<year>2010</year>
+</item><item type="dt" id="HashidaSIGMUS2010b">
+<authors>
+<author>橋田 光代</author>
+<author>松井 淑恵</author>
+<author me="yes">北原 鉄朗</author>
+<author>片寄 晴弘</author>
+</authors>
+<title>音楽演奏表情データベースCrestMusePEDB ver. 2.4の概要とフレーズ構造に基づく演奏データ収録状況</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2010-MUS-85-6</series>
+<month>5</month>
+<year>2010</year>
+</item><item type="dt" id="SyunpeiSIGMUS2013">
+<authors>
+<author>鈴木 峻平</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>ベイジアンネットワークを用いた四声体和声付け：音の前後関係を考慮したモデルを用いた検討</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2013-MUS-99-9</series>
+<month>5</month>
+<year>2013</year>
+</item><item type="dt" id="TsuchiyaSIGMUS2012">
+<authors>
+<author>土屋 裕一</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>旋律包絡抽出に基づく直感的な旋律編集手法</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2012-MUS-95-9</series>
+<month>6</month>
+<year>2012</year>
+</item><item type="dt" id="SyunpeiSIGMUS2012">
+<authors>
+<author>鈴木 峻平</author>
+<author>竹内 俊雄</author>
+<author>佐藤 挂亮</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>ベイジアンネットワークを用いた四声体和声付け</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2012-MUS-95-8</series>
+<month>6</month>
+<year>2012</year>
+</item><item type="dc" id="MatsumotoASJ2012">
+<authors>
+<author>松本 大希</author>
+<author>滝口 恭平</author>
+<author>小高 大典</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>複数人が共有する場のためのBGM選曲手法の検討</title>
+<booktitle>日本音響学会2012年春季研究発表会講演論文集</booktitle>
+<series>2-6-8</series>
+<month>3</month>
+<year>2012</year>
+</item><item type="dc" id="TsuchiyaASJ2012">
+<authors>
+<author>土屋 裕一</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>旋律編集の一手法</title>
+<booktitle>日本音響学会2012年春季研究発表会講演論文集</booktitle>
+<series>3-6-14</series>
+<month>3</month>
+<year>2012</year>
+</item><item type="dc" id="SyunpeiASJ2012">
+<authors>
+<author>鈴木 峻平</author>
+<author>竹内 俊雄</author>
+<author>佐藤 桂亮</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>確率推論を用いた四声体和声の自動生成</title>
+<booktitle>日本音響学会2012年春季研究発表会論文集</booktitle>
+<series>3-6-15</series>
+<month>3</month>
+<year>2012</year>
+</item><item type="dc" id="KimuraASJ2012">
+<authors>
+<author>木村 翔平</author>
+<author>鈴木 優</author>
+<author>鈴木 智文</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>音楽理論に基づいた鼻歌作曲支援システム“ハミコン”</title>
+<booktitle>日本音響学会2012年春季研究発表会講演論文集</booktitle>
+<series>3-6-16</series>
+<month>3</month>
+<year>2012</year>
+</item><item type="ic" id="KitaharaACMMM2012" lang="en">
+<title>Hummi-Com: Humming-based Music Composition System</title>
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Syohei Kimura</author>
+<author>Yuu Suzuki</author>
+<author>Tomofumi Suzuki</author>
+</authors>
+<booktitle>ACM Multimedia 2012 (Technical Demo)</booktitle>
+<pp>1321--1322</pp>
+<month>10</month>
+<year>2012</year>
+</item><item type="dc" id="MatsukataASJ2013">
+<title>トランペット演奏時における口唇周囲の筋活動と音響情報の関係性について</title>
+<authors>
+<author>松方 翔吾</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>日本音響学会2013年春季研究発表会講演論文集</booktitle>
+<series>1-1-7</series>
+<month>3</month>
+<year>2013</year>
+</item><item type="dc" id="OtsukaASJ2013">
+<title>ギター演奏者のためのリアルタイムベースライン生成システム</title>
+<authors>
+<author>大塚 匡紀</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>日本音響学会2013年春季研究発表会講演論文集</booktitle>
+<series>1-1-14</series>
+<month>3</month>
+<year>2013</year>
+</item><item type="dc" id="YamashitaASJ2013">
+<title>手書き入力によって盛り上がりをコントロールするループシーケンサ</title>
+<authors>
+<author>山下 雄史</author>
+<author>岡田 美咲</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>日本音響学会2013年春季研究発表会講演論文集</booktitle>
+<series>1-1-16</series>
+<month>3</month>
+<year>2013</year>
+</item><item type="dc" id="SyunpeiASJ2013">
+<title>確率推論を用いた四声体和声の自動生成 －讃美歌データベースによる実験結果の報告－</title>
+<authors>
+<author>鈴木 峻平</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>日本音響学会2013年春季研究発表会講演論文集</booktitle>
+<series>1-1-8</series>
+<month>3</month>
+<year>2013</year>
+</item><item type="dc" id="HokariIPSJNC2013">
+<title>ジョギングのペースに再生速度を同期させるスマートフォン用音楽プレイヤー</title>
+<authors>
+<author>帆苅 隼佑</author>
+<author>長安 達也</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第75回全国大会</booktitle>
+<series>4W-4</series>
+<month>3</month>
+<year>2013</year>
+</item><item type="dc" id="OkadaIPSJNC2013">
+<title>ロボットを用いたメッセージ着信通知の一手法</title>
+<authors>
+<author>岡田 風由子</author>
+<author>後藤 駿典</author>
+<author>小林 一樹</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第75回全国大会</booktitle>
+<series>6ZA-2</series>
+<month>3</month>
+<year>2013</year>
+<award>学生奨励賞受賞</award>
+</item><item type="dc" id="YamanouchiIPSJNC2013">
+<title>Kinectを用いたダンス学習支援システムの開発</title>
+<authors>
+<author>山内 雅史</author>
+<author>篠本 亮</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第75回全国大会</booktitle>
+<series>2ZG-7</series>
+<month>3</month>
+<year>2013</year>
+<award>学生奨励賞受賞</award>
+</item><item type="dc" id="KitaharaIEICE2013">
+<title>CrestMuse Toolkit: ロボット聴覚ソフトウェアHARKとの連携</title>
+<authors>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>電子情報通信学会2013年総合大会</booktitle>
+<series>D-14-12</series>
+<month>3</month>
+<year>2013</year>
+</item><item type="dc" id="YoshinagaIEICE2013">
+<title>Kinectを用いた音源定位の性能評価</title>
+<authors>
+<author>吉永 眞宏</author>
+<author>鈴木 光</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>電子情報通信学会2013年総合大会（ISS学生ポスターセッション）</booktitle>
+<series>ISS-P-268</series>
+<month>3</month>
+<year>2013</year>
+</item><item type="dt" id="YamanouchiEC2013">
+<title>Kinectとワイヤレスマウスを併用したダンス学習支援システムの試作</title>
+<authors>
+<author>山内 雅史</author>
+<author>篠本 亮</author>
+<author>西脇 絵里子</author>
+<author>小野澤 理沙</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>Entertainment Computing 2013 (EC 2013)</booktitle>
+<month>10</month>
+<year>2013</year>
+</item><item type="dc" id="MatsukataASJ2014">
+<title>トランペット演奏時における音響特徴量から筋活動量への変換</title>
+<authors>
+<author>松方 翔吾</author>
+<author>寺澤 洋子</author>
+<author>松原 正樹</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>日本音響学会2014年春季研究発表会講演論文集</booktitle>
+<series>1-5-2</series>
+<month>3</month>
+<year>2014</year>
+</item><item type="dc" id="TsuchiyaIPSJNC2014">
+<title>旋律概形を用いた作曲支援システム：ユーザビリティ実験の報告</title>
+<authors>
+<author>土屋 裕一</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第76回全国大会</booktitle>
+<series>1R-2</series>
+<month>3</month>
+<year>2014</year>
+<award>学生奨励賞受賞</award>
+</item><item type="dc" id="SyunpeiIPSJNC2014">
+<title>ベイジアンネットワークを用いた四声体和声付け:コードノードの有無による出力結果の比較</title>
+<authors>
+<author>鈴木 峻平</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第76回全国大会</booktitle>
+<series>2R-2</series>
+<month>3</month>
+<year>2014</year>
+<award>学生奨励賞受賞</award>
+</item><item type="dc" id="AyakaIPSJNC2014">
+<title>マッシュアップ音楽作成のための選曲支援の一検討</title>
+<authors>
+<author>小林 彩夏</author>
+<author>林　 義久</author>
+<author>中根 晴香</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第76回全国大会</booktitle>
+<series>6R-3</series>
+<month>3</month>
+<year>2014</year>
+<award>学生奨励賞受賞</award>
+</item><item type="dc" id="HikaruIPSJNC2014">
+<title>雑音環境下のための音声案内システム：周囲の雑音レベルに合わせた音量の自動調整</title>
+<authors>
+<author>鈴木 　光</author>
+<author>吉永 眞宏</author>
+<author>小暮 計貴</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第76回全国大会</booktitle>
+<series>6S-1</series>
+<month>3</month>
+<year>2014</year>
+</item><item type="dc" id="KogureIPSJNC2014">
+<title>雑音環境下のための音声案内システム:ユーザの聞き返しに基づく音量の自動調整</title>
+<authors>
+<author>小暮 計貴</author>
+<author>吉永 眞宏</author>
+<author>鈴木 　光</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第76回全国大会</booktitle>
+<series>6S-2</series>
+<month>3</month>
+<year>2014</year>
+</item><item type="dc" id="NishiwakiIPSJNC2014">
+<title>ユーザーの習熟度に合わせた初心者向けダンス学習支援システム</title>
+<authors>
+<author>西脇 絵里子</author>
+<author>小野澤 理紗</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第76回全国大会</booktitle>
+<series>4ZD-7</series>
+<month>3</month>
+<year>2014</year>
+</item><item type="dt" id="KitaharaAIChallenge2014">
+<title>騒音下における声の張り上げ現象の計算機による実現に向けて</title>
+<authors>
+<author me="yes">北原 鉄朗</author>
+<author>小暮 計貴</author>
+<author>吉永 眞宏</author>
+<author>鈴木 光</author>
+</authors>
+<booktitle>人工知能学会第39回AIチャレンジ研究会</booktitle>
+<pages>33--37</pages>
+<month>3</month>
+<year>2014</year>
+</item><item type="dc" id="KitaharaJSAI2014">
+<title>旋律を簡約・操作する一手法</title>
+<authors>
+<author me="yes">北原 鉄朗</author>
+<author>土屋 裕一</author>
+</authors>
+<booktitle>人工知能学会第28回全国大会</booktitle>
+<series>1K4-OS-07a-3</series>
+<month>5</month>
+<year>2014</year>
+</item><item type="dt" id="OtsukaSIGMUS2014">
+<title>MIDIギターの精度向上を目指した音響信号処理の検討</title>
+<authors>
+<author>大塚 匡紀</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2014-MUS-103-15</series>
+<month>5</month>
+<year>2014</year>
+</item><item type="dt" id="KogureSIGMUS2014">
+<title>周囲の雑音やユーザーの聞き返しに基づいて音量調節を行う音声対話システム</title>
+<authors>
+<author>小暮 計貴</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2014-MUS-103-28</series>
+<month>5</month>
+<year>2014</year>
+</item><item type="ic" id="KitaharaHCII2014" lang="en">
+<title>Music Synchronizer with Runner's Pace
+for Supporting Steady Pace Jogging</title>
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Shunsuke Hokari</author>
+<author>Tatsuya Nagayasu</author>
+</authors>
+<booktitle>HCI International 2014 - Posters’ Extended Abstracts</booktitle>
+<series>Communications in Computer and Information Science</series>
+<vol>435</vol>
+<pp>343--348</pp>
+<pub>Springer</pub>
+<month>6</month>
+<year>2014</year>
+<note>abstract reviwed</note>
+</item><item type="ic" id="KogureHCII2014" lang="en">
+<title>A Spoken Dialogue System
+for Noisy Environment</title>
+<authors>
+<author>Kazuki Kogure</author>
+<author>Masahiro Yoshinaga</author>
+<author>Hikaru Suzuki</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>HCI International 2014 - Posters’Extended Abstracts</booktitle>
+<series>Communications in Computer and Information Science</series>
+<vol>435</vol>
+<pp>577--582</pp>
+<pub>Springer</pub>
+<month>6</month>
+<year>2014</year>
+<note>abstract reviewed</note>
+</item><item type="ic" id="KitaharaICMCSMC2014" lang="en">
+<title>Short-term and Long-term Evaluations of Melody Editing Method based on Melodic Outline</title>
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Yuichi Tsuchiya</author>
+</authors>
+<booktitle>Proceedings of the Joint Conference of the 40th International Computer Music Conference (ICMC 2014) and the 11th Sound and Music Computing Conference (SMC 2014)</booktitle>
+<pp>1204--1211</pp>
+<doi>10.5281/zenodo.850818</doi>
+<month>9</month>
+<year>2014</year>
+</item><item type="ij" id="SyunpeiJNMR2014" lang="en" selected="yes">
+<title>Four-part Harmonization Using Bayesian Networks: Pros and Cons of Introducing Chord Nodes</title>
+<authors>
+<author>Syunpei Suzuki</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>Journal of New Music Research</booktitle>
+<vol>43</vol>
+<no>3</no>
+<pp>331--353</pp>
+<doi>10.1080/09298215.2014.911917</doi>
+<month>9</month>
+<year>2014</year>
+</item><item type="ic" id="KitaharaICSP2014" lang="en">
+<title>CrestMuse Toolkit: A Java-based Framework for Signal and Symbolic Music Processing</title>
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Haruhiro Katayose</author>
+</authors>
+<booktitle>Proceedings of 12th IEEE International Conference on Signal Processing (ICSP 2014)</booktitle>
+<pp>616--620</pp>
+<doi>10.1109/ICOSP.2014.7015077</doi>
+<month>10</month>
+<year>2014</year>
+</item><item type="ic" id="OtsukaICSP2014" lang="en">
+<title>An On-line Algorithm of Guitar Performance Transcription Using Non-negative Matrix Factorization</title>
+<authors>
+<author>Masaki Otsuka</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>Proceedings of 12th IEEE International Conference on Signal Processing (ICSP 2014)</booktitle>
+<pp>621--624</pp>
+<doi>10.1109/ICOSP.2014.7015078</doi>
+<month>10</month>
+<year>2014</year>
+</item><item type="ic" id="OtsukaISMIR2014" lang="en">
+<title>Towards Improvement of Transcription Accuracy of MIDI Guitar based on Integration with Audio Signal Processing</title>
+<authors>
+<author>Masaki Otsuka</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>The 15th Annual Meeting of the International Society for Music Information Retrieval (ISMIR 2014)</booktitle>
+<series>Late Breaking/Demo Session</series>
+<month>10</month>
+<year>2014</year>
+<note>not reviewed</note>
+</item><item type="ic" id="KitaharaMML2014" lang="en">
+<title>A Preliminary Experiment of Predicting Muscle Activity from Musical Acoustic Features</title>
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Shogo Matsukata</author>
+<author>Masaki Matsubara</author>
+<author>Hiroko Terasawa</author>
+</authors>
+<booktitle>Proceedings of the 7th International Workshop on Machine Learning and Music (MML 2014)</booktitle>
+<month>11</month>
+<year>2014</year>
+<note>extended abstract</note>
+</item><item type="dc" id="KogureIPSJNC2015">
+<title>周囲の雑音に基づき音量調節を行う音声対話システム:セミブラインド音源分離の導入の検討</title>
+<authors>
+<author>小暮計貴</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第77回全国大会</booktitle>
+<series>5P-04</series>
+<month>3</month>
+<year>2015</year>
+</item><item type="dc" id="IijimaIPSJNC2015">
+<title>手書き入力で盛り上がりをコントロールするループシーケンサ：スペクトログラムからの盛り上がり度の自動割り振り</title>
+<authors>
+<author>飯島孔右</author>
+<author>鶴岡亜也佳</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第77回全国大会</booktitle>
+<series>2S-03</series>
+<month>3</month>
+<year>2015</year>
+</item><item type="dc" id="JunichiIPSJNC2015">
+<title>複数ユーザー間での楽曲推薦を実現するミュージックプレイヤー</title>
+<authors>
+<author>鈴木潤一</author>
+<author>末次尚之</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第77回全国大会</booktitle>
+<series>3S-04</series>
+<month>3</month>
+<year>2015</year>
+<award>学生奨励賞受賞</award>
+</item><item type="dc" id="KinoshitaIPSJNC2015">
+<title>カラオケを盛り上げるためのタンバリン演奏支援システム</title>
+<authors>
+<author>木下尚洋</author>
+<author>栗原拓也</author>
+<author>山口竜之介</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第77回全国大会</booktitle>
+<series>4P-03</series>
+<month>3</month>
+<year>2015</year>
+</item><item type="dc" id="OtsukaIPSJNC2015">
+<title>MIDIギターと音響信号処理の統合によるギター演奏の自動採譜の検討</title>
+<authors>
+<author>大塚匡紀</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会第77回全国大会</booktitle>
+<series>5S-02</series>
+<month>3</month>
+<year>2015</year>
+</item><item type="lt" id="KitaharaIEICE2015" lang="en">
+<title>Supporting Jogging at an Even Pace by Synchronizing Music
+Playback Speed with Runner's Pace</title>
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Shunsuke Hokari</author>
+<author>Tatsuya Nagayasu</author>
+</authors>
+<booktitle>IEICE Transactions on Information and Systems (Letter)</booktitle>
+<vol>E98-D</vol>
+<no>4</no>
+<pp>968--971</pp>
+<month>4</month>
+<year>2015</year>
+<doi>10.1587/transinf.2014EDL8199</doi>
+</item><item type="ic" id="KitaharaSMC2015" lang="en">
+<title>A Loop Sequencer That Selects Music Loops based on the Degree of Excitement</title>
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Kosuke Iijima</author>
+<author>Misaki Okada</author>
+<author>Yuji Yamashita</author>
+<author>Ayaka Tsuruoka</author>
+</authors>
+<booktitle>Proceedings of the 12th Sound and Music Computing Conference (SMC 2015)</booktitle>
+<pp>435--438</pp>
+<doi>10.5281/zenodo.851065</doi>
+<month>7</month>
+<year>2015</year>
+</item><item type="ic" id="KuriharaSMC2015" lang="en">
+<title>A Tambourine Support System to Improve the Atmosphere of Karaoke</title>
+<authors>
+<author>Takuya Kurihara</author>
+<author>Naohiro Kinoshita</author>
+<author>Ryunosuke Yamaguchi</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>Proceedings of the 12th Sound and Music Computing Conference (SMC 2015)</booktitle>
+<pp>515--520</pp>
+<doi>10.5281/zenodo.851059</doi>
+<month>7</month>
+<year>2015</year>
+</item><item type="ic" id="OtsukaISMIR2015" lang="en">
+<title>Improving MIDI Guitar's Accuracy with NMF and Neural Net</title>
+<authors>
+<author>Masaki Otsuka</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>Proceedings of the 16th Internatiol Society for Music Information Retrieval Conference (ISMIR 2015)</booktitle>
+<pp>413--419</pp>
+<doi>10.5281/zenodo.1417531</doi>
+<month>10</month>
+<year>2015</year>
+</item><item type="dt" id="KuriharaEC2015" lang="ja">
+<title>「Wiiタンバリン」を用いたタンバリン演奏支援機能付きカラオケシステム</title>
+<authors>
+<author>栗原 拓也</author>
+<author>木下 尚洋</author>
+<author>山口 竜之介</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>エンタテインメントコンピューティングシンポジウム2015論文集</booktitle>
+<pp>37--39</pp>
+<month>9</month>
+<year>2015</year>
+</item><item type="dt" id="JunichiEC2015" lang="ja">
+<title>友人同士で好みの楽曲を聴かせ合うスマートフォン用ミュージックプレイヤー</title>
+<authors>
+<author>鈴木 潤一</author>
+<author>末次 尚之</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>エンタテインメントコンピューティングシンポジウム2015論文集</booktitle>
+<pp>186--189</pp>
+<month>9</month>
+<year>2015</year>
+</item><item type="dt" id="OhnoEC2015" lang="ja">
+<title>韻律変換実現のための一試行：高橋みなみ風の音声を小嶋陽菜風に変えてみた</title>
+<authors>
+<author>大野 涼平</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>エンタテインメントコンピューティングシンポジウム2015論文集</booktitle>
+<pp>483--486</pp>
+<month>9</month>
+<year>2015</year>
+</item><item type="dc" id="KitaharaJSAI2015" lang="ja">
+<title>音符表現によらない旋律の木構造表現の予備検討</title>
+<authors>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>人工知能学会第29回全国大会</booktitle>
+<series>2C4-OS-21a-2</series>
+<month>5</month>
+<year>2015</year>
+</item><item type="rv" id="KitaharaIEICEmag2015" lang="ja">
+<title>自動作曲・自動編曲の現状と課題</title>
+<authors>
+<author me="yes">北原 鉄朗</author>
+<author>深山 覚</author>
+</authors>
+<booktitle>電子情報通信学会誌</booktitle>
+<series>小特集「音楽情報処理技術：分析から合成・作曲・利活用まで」</series>
+<vol>98</vol>
+<no>6</no>
+<pp>475--479</pp>
+<month>6</month>
+<year>2015</year>
+</item><item type="dc" id="KoizumiIPSJNC2016" lang="ja">
+<title>カラオケにおける音痴の改善支援のための予備調査</title>
+<authors>
+<author>小泉　遼</author>
+<author>岩崎　順</author>
+<author>長村佳祐</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会 第78回全国大会</booktitle>
+<series>1Q-06</series>
+<month>3</month>
+<year>2016</year>
+<award>学生奨励賞受賞</award>
+</item><item type="dc" id="KuriharaIPSJNC2016" lang="ja">
+<title>カラオケを盛り上げるためのタンバリン演奏支援システム：複数人プレイへの対応</title>
+<authors>
+<author>栗原拓也</author>
+<author>横溝有希子</author>
+<author>竹腰美夏</author>
+<author>馬場哲晃</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会 第78回全国大会</booktitle>
+<series>1Q-07</series>
+<month>3</month>
+<year>2016</year>
+</item><item type="dc" id="OouchiIPSJNC2016" lang="ja">
+<title>ギター弾き語り演奏を入力した自動編曲システムの試作</title>
+<authors>
+<author>大内彬裕</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会 第78回全国大会</booktitle>
+<series>2Q-07</series>
+<month>3</month>
+<year>2016</year>
+</item><item type="dc" id="NakajoIPSJNC2016" lang="ja">
+<title>Androidを用いた演劇支援のためのUnity3Dアプリケーションの開発</title>
+<authors>
+<author>中條早織</author>
+<author>豊田裕也</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会 第78回全国大会</booktitle>
+<series>6Z-05</series>
+<month>3</month>
+<year>2016</year>
+</item><item type="dc" id="TakayashikiIPSJNC2016" lang="ja">
+<title>面接技能向上のための自己PR支援システム</title>
+<authors>
+<author>高屋敷弓恵</author>
+<author>棚橋　徹</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会 第78回全国大会</booktitle>
+<series>6X-02</series>
+<month>3</month>
+<year>2016</year>
+</item><item type="dc" id="JunichiIPSJNC2016" lang="ja">
+<title>友人同士で好みの楽曲を聴かせ合うスマートフォン用ミュージックプレイヤー：楽曲推薦手法の一改善</title>
+<authors>
+<author>鈴木潤一</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会 第78回全国大会</booktitle>
+<series>6B-03</series>
+<month>3</month>
+<year>2016</year>
+</item><item type="dc" id="OhnoASJ2016" lang="ja">
+<title>アニメ風音声への加工のための韻律分析</title>
+<authors>
+<author>大野 涼平</author>
+<author>森勢 将雅</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>日本音響学会 2016年春季研究発表会 講演論文集</booktitle>
+<series>3-P-30</series>
+<month>3</month>
+<year>2016</year>
+</item><item type="dc" id="SatoASJ2016" lang="ja">
+<title>トランペット演奏時の口唇周囲および腹部の筋活動と音響的特徴の関係</title>
+<authors>
+<author>佐藤 愛</author>
+<author me="yes">北原 鉄朗</author>
+<author>寺澤 洋子</author>
+<author>松原 正樹</author>
+</authors>
+<booktitle>日本音響学会 2016年春季研究発表会 講演論文集</booktitle>
+<series>2-10-7</series>
+<month>3</month>
+<year>2016</year>
+</item><item type="ic" id="JunichiISMIR2015" lang="en">
+<title>A Music Recommender for a Group of People</title>
+<authors>
+<author>Jun-ichi Suzuki</author>
+<author>Naoyuki Suetsugu</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>The 2015 International Society of Music Information Retrieval (ISMIR 2015)</booktitle>
+<series>Late Breaking/Demo</series>
+<month>10</month>
+<year>2015</year>
+<note>not reviewed</note>
+</item><item type="ic" id="KitaharaMML2016" lang="en">
+<title>Extracting Melodic Contour Using Wavelet-based Multi-resolution Analysis</title>
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Masaki Matsubara</author>
+</authors>
+<booktitle>Proceedings of the 9th International Workshop on Music and Machine Learning (MML 2016)</booktitle>
+<series>in conjuction with ECML-PKDD 2016</series>
+<pp>31--35</pp>
+<month>9</month>
+<year>2016</year>
+</item><item type="ic" id="TanahashiHCII2016" lang="en">
+<title>Support  System for Improving Speaking Skill in Job Interviews</title>
+<authors>
+<author>Tetsu Tanahashi</author>
+<author>Yumie Takayashiki</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>HCI International 2016 – Posters' Extended Abstracts, Part II</booktitle>
+<series>Communication in Computer and Information Science (CCIS)</series>
+<vol>618</vol>
+<pp>182--187</pp>
+<month>7</month>
+<year>2016</year>
+<note>abstract reviewed</note>
+</item><item type="ic" id="ToyodaHCII2016" lang="en">
+<title>An Android Application for Supporting Amateur Theatre</title>
+<authors>
+<author>Yuya Toyoda</author>
+<author>Saori Nakajo</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>HCI International 2016 – Posters' Extended Abstracts, Part II</booktitle>
+<series>Communication in Computer and Information Science (CCIS)</series>
+<vol>618</vol>
+<pp>558--563</pp>
+<month>7</month>
+<year>2016</year>
+<note>abstract reviewed</note>
+</item><item type="rv" id="KitaharaIPSJmag2016" lang="ja">
+<title>特集「音楽を軸に拡がる情報科学」編集にあたって</title>
+<authors>
+<author me="yes">北原 鉄朗</author>
+<author>永野 秀尚</author>
+</authors>
+<booktitle>情報処理（情報処理学会誌）</booktitle>
+<vol>57</vol>
+<no>6</no>
+<pp>504--505</pp>
+<month>6</month>
+<year>2016</year>
+</item><item type="dt" id="TanahashiSIGMUS2016" lang="ja">
+  <title>音声の韻律分析及び表情の特徴抽出による面接支援システム</title>
+  <authors>
+    <author>棚橋 徹</author>
+    <author>高屋敷 弓恵</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+  <vol>2016-MUS-111</vol>
+  <no>30</no>
+  <pp>1--5</pp>
+  <month>5</month>
+  <year>2016</year>
+</item><item type="dt" id="OhnoSIGMUS2016" lang="ja">
+  <title>音声における「かわいらしさ」の知覚と聴取時間の関係性の検討</title>
+  <authors>
+    <author>大野 涼平</author>
+    <author>森勢 将雅</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+  <vol>2016-MUS-111</vol>
+  <no>50</no>
+  <pp>1--5</pp>
+  <month>5</month>
+  <year>2016</year>
+  <award>学生奨励賞受賞</award>
+</item><item type="gr">
+<text>日本学術振興会 科学研究費助成事業 若手研究B（平成26〜27年度）「金管楽器演奏に対する音響空間と筋電空間の相互マッピング」（研究代表者）</text>
+</item><item type="gr">
+<text>日本学術振興会 科学研究費助成事業 基盤研究A（平成26〜28年度）「音楽の作曲・演奏・信号の数理モデルを融合する音楽音響情報処理の研究」（研究分担者）（代表：嵯峨山 茂樹）</text>
+</item><item type="gr">
+<text>日本学術振興会 科学研究費補助事業 基盤研究B（平成26〜28年度）「木構造に基づく時系列メディアの表現法の提案とその操作系の実現」（研究分担者）（代表：平田 圭二）</text>
+</item><item type="gr">
+<text>日本学術振興会 科学研究費補助事業 若手研究B（平成28〜30年度）「相互予測によるコミュニケーションの相互適応モデルの構築と音楽演奏を用いた検証」（研究代表者）</text>
+</item><item type="gr">
+<text>日本学術振興会 科学研究費補助事業 基盤研究A（平成28〜32年度）「統計的文法理論と構成的意味論に基づく音楽理解の計算モデル」（研究分担者）（代表：東条 敏）</text>
+</item><item type="iv">
+<title>計算機を用いた音楽創作支援の現状</title>
+<authors>
+  <author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>計測自動制御学会 先端電子計測部会講演会</booktitle>
+<series>招待講演</series>
+<month>11</month>
+<year>2014</year>
+</item><item type="iv">
+<title>パネルディスカッション「エンターテインメントを深化させる音楽情報処理研究」</title>
+<booktitle>Computer Entertainment Developers Conference (CEDEC 2015)</booktitle>
+<series>オーガナイザー兼パネリスト</series>
+<month>8</month>
+<year>2015</year>
+</item><item type="bc" id="KitaharaAKB2016" lang="ja">
+  <title>自動採譜</title>
+  <authors>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>音響キーワードブック</booktitle>
+  <eds>日本音響学会</eds>
+  <pub>コロナ社</pub>
+  <month>3</month>
+  <year>2016</year>
+</item><item type="rv" id="KitaharaVRSJ2012" lang="ja">
+  <title>BOOK REVIEW: 音楽はなぜ心に響くのか---音楽音響学と音楽を解き明かす諸科学---</title>
+  <authors>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>日本バーチャル・リアリティ学会誌</booktitle>
+  <vol>17</vol>
+  <no>4</no>
+  <pp>268</pp>
+  <month>12</month>
+  <year>2012</year>
+</item><item type="iv" lang="ja">
+  <title>大学で働く研究者</title>
+  <authors>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>日本音響学会2015年春季研究発表会 ビギナーズセミナー</booktitle>
+  <month>3</month>
+  <year>2015</year>
+</item><item type="ic" id="KuriharaKSE2016" lang="en">
+  <title> A Tambourine Support System to Improve the Atmosphere of Karaoke: Support of Play by Multiple Players</title>
+  <authors>
+    <author>Takuya Kurihara</author>
+    <author>Yukiko Yokomizo</author>
+    <author>Minatsu Takekoshi</author>
+    <author>Tetsuaki Baba</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Proceedings of the 8th IEEE International Conference on Knowledge and Systems Engineering (KSE 2016)</booktitle>
+  <pp>247--251</pp>
+  <doi>10.1109/KSE.2016.7758061</doi>
+  <month>10</month>
+  <year>2016</year>
+</item><item type="ic" id="JunichiKSE2016" lang="en">
+  <title>A Bluetooth-Networked Music Player for Playing Musical Pieces Stored in Separate Devices</title>
+  <authors>
+    <author>Junichi Suzuki</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Proceedings of the 8th IEEE International Conference on Knowledge and Systems Engineering (KSE 2016)</booktitle>
+  <doi>10.1109/KSE.2016.7758059</doi>
+  <month>10</month>
+  <year>2016</year>
+</item><item type="dc" id="KitaharaJSAI2016" lang="ja">
+  <title>音符表現によらない旋律の木構造表現の検討（第2報）</title>
+  <authors>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>人工知能学会第30回全国大会（JSAI2016）</booktitle>
+  <series>3G3-OS-15a-3</series>
+  <month>6</month>
+  <year>2016</year>
+</item><item type="dc" id="HirataJSAI2016" lang="ja">
+  <title>旋律の微分と簡約の導入</title>
+  <authors>
+    <author>平田 圭二</author>
+    <author>大村 英史</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>人工知能学会第30回全国大会（JSAI2016）</booktitle>
+  <series>3G3-OS-15a-4</series>
+  <month>6</month>
+  <year>2016</year>
+</item><item type="ic" id="KitaharaASA2016" lang="en">
+  <title>Smart Loop Sequencer: An Audio-based Approach for Ease of Music Creation</title>
+  <authors>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>6th Joint Meething of the Acoustical Society of America (ASA) and the Acoustical Society of Japan (ASJ)</booktitle>
+  <series>published in the Journal of the Acoustical Society of America (abstract only)</series>
+  <vol>140</vol>
+  <month>11</month>
+  <year>2016</year>
+  <note>invited talk</note>
+</item><item type="ic" id="KitaharaCML2016" lang="en">
+  <title>A Machine Learning Approach to Support Music Creation by Musically Untrained People</title>
+  <authors>
+    <author me="yes">Tetsuro Kitahara</author>
+    <author>Yuichi Tsuchiya</author>
+  </authors>
+  <booktitle>Proceedings of the Constructive Machine Learning Workshop</booktitle>
+  <series>in conjunction with NIPS 2016</series>
+  <month>12</month>
+  <year>2016</year>
+</item><item type="ic" id="KitaharaDMRN2016" lang="en">
+  <title>Towards Intuitive Music Creation Tools for Musically Untrained People</title>
+  <authors>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Digital Music Research Network One-day Workshop 2016 (DMRN+11)</booktitle>
+  <month>12</month>
+  <year>2016</year>
+  <note>extended abstract</note>
+</item><item type="dt" id="KuriharaSIGMUS2017" lang="ja">
+  <title>スマートタンバリン：音と光で場を盛り上げるカラオケ支援システム</title>
+  <authors>
+    <author>栗原 拓也</author>
+    <author>横溝 有希子</author>
+    <author>竹腰 美夏</author>
+    <author>馬場 哲晃</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+  <series>2017-MUS-114-3</series>
+  <month>2</month>
+  <year>2017</year>
+</item><item type="dt" id="JunichiSIGMUS2017" lang="ja">
+  <title>複数ユーザー間での楽曲推薦を実現するミュージックプレイヤー：楽曲類似度の導入と有効性の検証</title>
+  <authors>
+    <author>鈴木 潤一</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+  <series>2017-MUS-114-27</series>
+  <month>2</month>
+  <year>2017</year>
+</item><item type="dt" id="KitaharaInteraction2017" lang="ja">
+  <title>曲線描画に基づく即興演奏支援システム</title>
+  <authors>
+    <author me="yes">北原 鉄朗</author>
+    <author>Sergio Giraldo</author>
+    <author>Rafael Ramirez</author>
+  </authors>
+  <booktitle>情報処理学会 インタラクション2017（インタラクティブ発表）</booktitle>
+  <series>3-405-57</series>
+  <month>3</month>
+  <year>2017</year>
+</item><item type="dt" id="MizunoInteraction2017" lang="ja">
+  <title>スマートフォンセンサーを用いた即興合奏のための身体動作認識機構の試作</title>
+  <authors>
+    <author>水野 創太</author>
+    <author>一ノ瀬 修吾</author>
+    <author>白松 俊</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 インタラクション2017（インタラクティブ発表）</booktitle>
+  <series>3-410-69</series>
+  <month>3</month>
+  <year>2017</year>
+</item><item type="dc" id="HasesgawaASJ2017" lang="ja">
+  <title>男性両声類の女声らしさに関わる特徴量の分析</title>
+  <authors>
+    <author>長谷川 翔太</author>
+    <author>大野 涼平</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>日本音響学会 2017年春季研究発表会 講演論文集</booktitle>
+  <series>1-Q-39</series>
+  <month>3</month>
+  <year>2017</year>
+</item><item type="dc" id="OhnoASJ2017" lang="ja">
+  <title>統計的声質変換における印象変化の調査</title>
+  <authors>
+    <author>大野 涼平</author>
+    <author>高道 慎之介</author>
+    <author>森勢 将雅</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>日本音響学会 2017年春季研究発表会 講演論文集</booktitle>
+  <series>2-P-39</series>
+  <month>3</month>
+  <year>2017</year>
+</item><item type="dc" id="MatsuuraIPSJNC2017" lang="ja">
+  <title>パターン認識を用いた特定のベーシストの特徴の分析</title>
+  <authors>
+    <author>松浦 佳輝</author>
+    <author>棚橋 徹</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 第79回全国大会</booktitle>
+  <series>3L-01</series>
+  <month>3</month>
+  <year>2017</year>
+</item><item type="dc" id="ShimadaIPSJNC2017" lang="ja">
+  <title>ピアノ練習支援のための楽譜表示システムの試作</title>
+  <authors>
+    <author>島田 彩女</author>
+    <author>松村 ひかる</author>
+    <author>森尻 有貴</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 第79回全国大会</booktitle>
+  <series>5L-05</series>
+  <month>3</month>
+  <year>2017</year>
+  <award>学生奨励賞 受賞</award>
+</item><item type="dc" id="TanahashiIPSJNC2017" lang="ja">
+  <title>音によるヒューマン・エージェント・インタラクションのためのプロトタイプシステムの試作</title>
+  <authors>
+    <author>棚橋 徹</author>
+    <author>小林 一樹</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 第79回全国大会</booktitle>
+  <series>6Y-01</series>
+  <month>3</month>
+  <year>2017</year>
+  <award>学生奨励賞 受賞</award>
+</item><item type="dc" id="MizunoIPSJNC2017" lang="ja">
+  <title>即興合奏支援システムのためのスマートフォンセンサーを用いた身体動作認識手法</title>
+  <authors>
+    <author>水野 創太</author>
+    <author>白松 俊</author>
+    <author>一ノ瀬 修吾</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 第79回全国大会</booktitle>
+  <series>2ZA-04</series>
+  <month>3</month>
+  <year>2017</year>
+</item><item type="lt" id="JunichiIPSJ2016" lang="ja">
+  <title>複数人が同一空間で音楽を聴くための選曲・再生システム</title>
+  <authors>
+    <author>鈴木 潤一</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会論文誌（テクニカルノート）</booktitle>
+  <vol>57</vol>
+  <no>12</no>
+  <pp>2526--2530</pp>
+  <month>12</month>
+  <year>2016</year>
+</item><item type="ic" id="SatouISMA2017" lang="en">
+<title>Relationships between Abdominal and Around-Lip Muscle Activities
+and Acoustic Features when Playing the Trumpet</title>
+<authors>
+  <author>Megumi Satou</author>
+  <author me="yes">Tetsuro Kitahara</author>
+  <author>Hiroko Terasawa</author>
+  <author>Masaki Matsubara</author>
+</authors>
+<booktitle>Proceedings of the 2017 International Symposium on Musical Acoustics</booktitle>
+<pp>114--117</pp>
+<month>6</month>
+<year>2017</year>
+<award>Best Student Paper Award</award>
+</item><item type="jj" id="KuriharaIPSJ2017" lang="ja">
+<title>カラオケを盛り上げるためのタンバリン演奏支援システム</title>
+<authors>
+  <author>栗原 拓也</author>
+  <author>木下 尚洋</author>
+  <author>山口 竜之介</author>
+  <author>横溝 有希子</author>
+  <author>竹腰 美夏</author>
+  <author>馬場 哲晃</author>
+  <author me="yes">北原 鉄朗</author>
+</authors>
+<booktitle>情報処理学会論文誌</booktitle>
+<vol>58</vol>
+<no>5</no>
+<pp>1073--1092</pp>
+<month>5</month>
+<year>2017</year>
+</item><item type="ic" id="KitaharaNIME2017" lang="en">
+<title>JamSketch: A Drawing-based Real-time Evolutionary Improvisation Support System</title>
+<authors>
+  <author me="yes">Tetsuro Kitahara</author>
+  <author>Sergio Giraldo</author>
+  <author>Rafael Ramírez</author>
+</authors>
+<booktitle>Proceedings of the 2017 International Conference on New Interfaces for Musial Expression (NIME 2017)</booktitle>
+<pp>506--507</pp>
+<doi>10.5281/zenodo.1176344</doi>
+<month>5</month>
+<year>2017</year>
+</item><item type="dc" id="YamadaJSAI2017">
+  <title>LSTMを用いた四声体和声の生成</title>
+  <authors>
+    <author>山田 竜郎</author>
+    <author me="yes">北原 鉄朗</author>
+    <author>有江 浩明</author>
+    <author>尾形 哲也</author>
+  </authors>
+  <booktitle>人工知能学会第31回全国大会（JSAI 2017）</booktitle>
+  <series>2C3-OS-20a-1</series>
+  <month>5</month>
+  <year>2017</year>
+</item><item type="dc" id="MizunoJSAI2017">
+  <title>演奏未経験者のためのスマートフォンセンサーを用いた即興合奏支援システムの試作</title>
+  <authors>
+    <author>水野 創太</author>
+    <author>一ノ瀬 修吾</author>
+    <author>白松 俊</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>人工知能学会第31回全国大会（JSAI 2017）</booktitle>
+  <series>2C3-OS-20a-4</series>
+  <month>5</month>
+  <year>2017</year>
+</item><item type="dc" id="HirataJSAI2017">
+  <title>パネルディスカッション：人工知能は作曲家／演奏家になれるか?</title>
+  <authors>
+    <author>平田 圭二</author>
+    <author>伊藤 貴之</author>
+    <author me="yes">北原 鉄朗</author>
+    <author>深山 覚</author>
+    <author>今井 慎太郎</author>
+    <author>持橋 大地</author>
+  </authors>
+  <booktitle>人工知能学会第31回全国大会（JSAI 2017）</booktitle>
+  <series>2C4-OS-20b-3</series>
+  <month>5</month>
+  <year>2017</year>
+</item><item type="ic" id="IchinoseAAI2017">
+  <title>Improvisation Ensemble Support Systems for Music Beginners Based on Body Motion Tracking</title>
+  <authors>
+    <author>Shugo Ichinose</author>
+    <author>Souta Mizuno</author>
+    <author>Shun Shiramatsu</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Proceedings of the 6th IIAI International Congress on Advanced Applied Informatics (IIAI AAI 2017)</booktitle>
+  <pp>794-798</pp>
+  <doi>10.1109/IIAI-AAI.2017.145</doi>
+  <month>7</month>
+  <year>2017</year>
+</item><item type="ic" id="KitaharaAPSCOM2017">
+  <title>An Investigation of Pitch Perception of Poor-pitch Singers</title>
+  <authors>
+    <author me="yes">Tetsuro Kitahara</author>
+    <author>Jun Iwasaki</author>
+    <author>Haruka Koizumi</author>
+    <author>Keisuke Nagamura</author>
+  </authors>
+  <booktitle>Proceedings of the 6th Conference of the Asia-Pacific Society for the Cognitive Science of Music (APSCOM 2017)</booktitle>
+  <pp>51</pp>
+  <month>8</month>
+  <year>2017</year>
+  <note>extended abstract</note>
+</item><item type="ic" id="MatsuuraCSMC2017">
+  <title>A Pattern Recognition Approach to Analyze Temporal Evolution of a Bassist’s Musical Styles</title>
+  <authors>
+    <author>Yoshiki Matsuura</author>
+    <author>Tetsu Tanahashi</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Proceedings of the 2nd Conference on Computer Simulation of Musical Creativity</booktitle>
+  <month>9</month>
+  <year>2017</year>
+</item><item type="ln" id="OhnoSPECOM2017">
+  <title>Relationship Between Perception of Cuteness in Female Voices and Their Durations</title>
+  <authors>
+    <author>Ryohei Ohno</author>
+    <author>Masanori Morise</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Speech and Computer --- Proceedings of SPECOM 2017</booktitle>
+  <series>LNAI 10458</series>
+  <pp>642--650</pp>
+  <eds>Alexey Karpov, Rodmonga Potapova, and Iosif Mporas</eds>
+  <pub>Springer</pub>
+  <doi>10.1007/978-3-319-66429-3_64</doi>
+  <month>9</month>
+  <year>2017</year>
+</item><item type="ic" id="KitaharaECMLPKDD2017">
+  <title>Music Generation Using Bayesian Networks</title>
+  <authors>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Machine Learning and Knowledge Discovery in Databases --- Proceedings of ECML PKDD 2017, Part III (Nectar Track)</booktitle>
+  <series>LNAI 10536</series>
+  <pp>368--372</pp>
+  <eds>Michelangelo Ceci, Jaakko Hollmén, Ljupčo Todorovski, Celine Vens, and Sašo Džeroski</eds>
+  <pub>Springer</pub>
+  <doi>10.1007/978-3-319-71273-4_33</doi>
+  <month>9</month>
+  <year>2017</year>
+</item><item type="ic" id="KitaharaCMMR2017" selected="yes">
+  <title>JamSketch: Improvisation Support System with GA-based Melody Creation from User’s Drawing</title>
+  <authors>
+    <author me="yes">Tetsuro Kitahara</author>
+    <author>Sergio Giraldo</author>
+    <author>Rafael Ramirez</author>
+  </authors>
+  <booktitle>Proceedings of the 13th International Symposium on Computer Music Multidisciplinary Research</booktitle>
+  <pp>352--363</pp>
+  <month>9</month>
+  <year>2017</year>
+</item><item type="ic" id="YamadaCMMR2017">
+  <title>Four-part Harmonization: Comparison of a Bayesian Network and a Recurrent Neural Network</title>
+  <authors>
+    <author>Tatsuro Yamada</author>
+    <author me="yes">Tetsuro Kitahara</author>
+    <author>Hiroaki Arie</author>
+    <author>Tetsuya Ogata</author>
+  </authors>
+  <booktitle>Proceedings of the 13th International Symposium on Computer Music Multidisciplinary Research</booktitle>
+  <pp>137--148</pp>
+  <month>9</month>
+  <year>2017</year>
+</item><item type="dc" id="OhnoASJ2017a">
+  <title>音声の「かわいさ」における主観的傾向の一分析</title>
+  <authors>
+    <author>大野 涼平</author>
+    <author>高道 慎之介</author>
+    <author>森勢 将雅</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>日本音響学会2017年秋季研究発表会講演論文集</booktitle>
+  <series>3-P-32</series>
+  <month>9</month>
+  <year>2017</year>
+</item><item type="ic" id="OhnoASAASJ2016">
+  <title>The relationship between perception of cuteness and duration of voices</title>
+  <authors>
+    <author>Ryohei Ohno</author>
+    <author>Masanori Morise</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Journal of Acoustic Society of America (the abstract for 5th Joint Meeting of the Acoustic Society of America and the Acoustic Society of Japan)</booktitle>
+  <series>5aSC44</series>
+  <vol>140</vol>
+  <no>4</no>
+  <pp>3399</pp>
+  <month>12</month>
+  <year>2016</year>
+  <note>abstract reviewed</note>
+</item><item type="ic" id="TanahashiASAASJ2016">
+  <title>Relations on prosody of Japanese back-channeling word “hai”
+and listener’s impression: An investigation with synthesized voices</title>
+  <authors>
+    <author>Tetsu Tanahashi</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Journal of Acoustic Society of America (the abstract for 5th Joint Meeting of the Acoustic Society of America and the Acoustic Society of Japan)</booktitle>
+  <series>5aSC16</series>
+  <vol>140</vol>
+  <no>4</no>
+  <pp>3395</pp>
+  <month>12</month>
+  <year>2016</year>
+  <note>abstract reviewed</note>
+</item><item type="dt" id="IshiyamaEC2017">
+  <title>HMDを用いたヴァーチャルなドラム演奏環境の試作</title>
+  <authors>
+    <author>石山 俊之</author>
+    <author>蓮井 星良</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>エンターテインメントコンピューティングシンポジウム2017論文集</booktitle>
+  <pp>295--297</pp>
+  <month>9</month>
+  <year>2017</year>
+</item><item type="ic" id="JunichiISMIR2017">
+  <title>A Music Player with Song Selection Function for a Group of People</title>
+  <authors>
+    <author>Jun'ichi Suzuki</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Proceedings of the 18th International Society for Music Information Retrieval Conference (ISMIR 2017)</booktitle>
+  <pp>229--234</pp>
+  <doi>10.5281/zenodo.1414868</doi>
+  <month>10</month>
+  <year>2017</year>
+</item><item type="ic" id="MizunoKICSS2017">
+  <title>Support System of Improvisational Ensemble Based on User’s Motion Using Smartphone Sensors</title>
+  <authors>
+    <author>Souta Mizuno</author>
+    <author>Shugo Ichinose</author>
+    <author>Shun Siramatsu</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Proceedings of 12th International Conference on Knowledge, Information and Creativity Support System (KICSS 2017)</booktitle>
+  <pp>143--148</pp>
+  <month>11</month>
+  <year>2017</year>
+</item><item type="ic" id="KuriharaACE2017">
+  <title>Picognizer: A JavaScript Library for Detecting and Recognizing Synthesized Sounds</title>
+  <authors>
+    <author>Kazutaka Kurihara</author>
+    <author>Akari Itaya</author>
+    <author>Aiko Uemura</author>
+    <author me="yes">Tetsuro Kitahara</author>
+    <author>Katashi Nagao</author>
+  </authors>
+  <booktitle>Advances in Computer Entertainmento Technology --- Proceedings of ACE 2017</booktitle>
+  <eds>Adrian David Cheok, Masahiko Inami, and Teresa Romão</eds>
+  <series>LNCS 10714</series>  
+  <pp>339--359</pp>
+  <pub>Springer</pub>
+  <doi>10.1007/978-3-319-76270-8_24</doi>
+  <month>12</month>
+  <year>2017</year>
+</item><item type="dr" id="KuriharaWISS2017">
+  <title>Picognizer: 電子音の検出および認識のためのJavaScriptライブラリ</title>
+  <authors>
+    <author>栗原 一貴</author>
+    <author>板谷 あかり</author>
+    <author>植村 あい子</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>第21回インタラクティブシステムとソフトウェアに関するワークショップ論文集 (WISS 2017)</booktitle>
+  <month>12</month>
+  <year>2017</year>
+</item><item type="dt" id="KuriharaEC2017">
+  <title>電子音の認識のためのJavaScriptライブラリの開発</title>
+  <authors>
+    <author>栗原 一貴</author>
+    <author>板谷 あかり</author>
+    <author>植村 あい子</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>エンタテインメントコンピューティングシンポジウム2017論文集</booktitle>
+  <pp>1--10</pp>
+  <month>9</month>
+  <year>2017</year>
+  <note>プレミアムペーパー</note>
+</item><item type="dc" id="UdagawaIPSJNC2018">
+  <title>ギター初心者のための演奏練習支援システムの提案</title>
+    <authors>
+      <author>宇田川真唯</author>
+      <author>植村 あい子</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>情報処理学会 第80回全国大会 講演論文集</booktitle>
+  <series>1N-1</series>
+  <month>3</month>
+  <year>2018</year>
+</item><item type="dc" id="ShiraishiIPSJNC2018">
+  <title>カラオケのためのハモリパート練習システム〜ハモリパートの自動生 成および練習支援システムの試作〜</title>
+    <authors>
+      <author>白石 美南</author>
+      <author>小笠原 梢</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>情報処理学会 第80回全国大会 講演論文集</booktitle>
+  <series>1N-2</series>
+  <month>3</month>
+  <year>2018</year>
+</item><item type="dc" id="OgasawaraIPSJNC2018">
+  <title>カラオケのためのハモリパート練習支援システム〜試作システムを用
+いた被験者実験の報告〜</title>
+    <authors>
+      <author>小笠原 梢</author>
+      <author>白石 美南</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>情報処理学会 第80回全国大会 講演論文集</booktitle>
+  <series>1N-3</series>
+  <month>3</month>
+  <year>2018</year>
+  <award>学生奨励賞受賞</award>
+</item><item type="dc" id="HasuiIPSJNC2018">
+  <title>HMD を用いたヴァーチャルなドラム演奏環境の試作</title>
+    <authors>
+      <author>蓮井 星良</author>
+      <author>石山 俊之</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>情報処理学会 第80回全国大会 講演論文集</booktitle>
+  <series>1N-5</series>
+  <month>3</month>
+  <year>2018</year>
+</item><item type="dc" id="JinnoIPSJNC2018">
+  <title>合いの手「PPPH」が入る楽曲の特徴に関する一分析</title>
+    <authors>
+      <author>甚野 健太</author>
+      <author>大野 涼平</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>情報処理学会 第80回全国大会 講演論文集</booktitle>
+  <series>1N-9</series>
+  <month>3</month>
+  <year>2018</year>
+</item><item type="dc" id="KusanoIPSJNC2018">
+  <title>読書を促進する音楽付き読書アプリの提案</title>
+    <authors>
+      <author>草野 有沙</author>
+      <author>西由 佳梨</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>情報処理学会 第80回全国大会 講演論文集</booktitle>
+  <series>7Y-1</series>
+  <month>3</month>
+  <year>2018</year>
+  <award>学生奨励賞受賞</award>
+</item><item type="dc" id="TanahashiIPSJNC2018">
+  <title>言語情報を持たない音を用いたヒューマン・エージェント・インタラ クションシステムの開発 </title>
+    <authors>
+      <author>棚橋 徹</author>
+      <author>小林 一樹</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>情報処理学会 第80回全国大会 講演論文集</booktitle>
+  <series>6ZA-6</series>
+  <month>3</month>
+  <year>2018</year>
+</item><item type="dc" id="MatsushitaASJ2018">
+  <title>雑音が記憶や作業に与える影響に関する一調査</title>
+    <authors>
+      <author>松下 禎希</author>
+      <author>大野 涼平</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>日本音響学会 2018年春季研究発表会 講演論文集</booktitle>
+  <series>2-P-11</series>
+  <month>3</month>
+  <year>2018</year>
+</item><item type="dc" id="IthouASJ2018">
+  <title>イビキ音のマスキングに関する一検討</title>
+    <authors>
+      <author>伊藤 春菜</author>
+      <author>棚橋 徹</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>日本音響学会 2018年春季研究発表会 講演論文集</booktitle>
+  <series>2-P-16</series>
+  <month>3</month>
+  <year>2018</year>
+</item><item type="dc" id="OonoASJ2018">
+  <title>話者適応型 RBM を用いたユーザが所望するかわいい音声への声質変換</title>
+    <authors>
+      <author>大野 涼平</author>
+      <author>高道 慎之介</author>
+      <author>森勢 将雅</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>日本音響学会 2018年春季研究発表会 講演論文集</booktitle>
+  <series>2-Q-33</series>
+  <month>3</month>
+  <year>2018</year>
+</item><item id="KuriharaIPSJ2019" type="jj" lang="ja">
+<authors>
+  <author>栗原 一貴</author>
+  <author>植村 あい子</author>
+  <author>板谷 あかり</author>
+  <author me="yes">北原 鉄朗</author>
+  <author>長尾 確</author>
+</authors>
+<title>Picognizer: 電子音の認識のための JavaScript ライブラリの開発と評価</title>
+<booktitle>情報処理学会論文誌</booktitle>
+<vol>60</vol>
+<no>2</no>
+<pp>397--410</pp>
+<month>2</month>
+<year>2019</year>
+</item><item id="IchinoseIJSCAI2019" type="ij" lang="en">
+<authors>
+  <author>Shugo Ichinose</author>
+  <author>Souta Mizuno</author>
+  <author>Shun Shiramatsu</author>
+  <author me="yes">Tetsuro Kitahara</author>
+</authors>
+<title>Two Approaches to Supporting Improvisational Ensemble
+for Music Beginners based on Body Motion Tracking</title>
+<booktitle>International Journal of Smart Computing and Artificial Intelligence</booktitle>
+<vol>3</vol>
+<no>1</no>
+<pp>55--70</pp>
+<year>2019</year>
+</item><item id="KitaharaCMMR2017b" type="ln" lang="en">
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Sergio Giraldo</author>
+<author>Rafael Ramı́rez</author>
+</authors>
+<title>JamSketch: Improvisation Support
+System with GA-Based Melody Creation
+from User’s Drawing</title>
+<booktitle>Music Technology with Swing --- 13th International Symposium, CMMR 2017, Matosinhos, Portugal, September 25–28, 2017, Revised Selected Papers</booktitle>
+<eds>Mitsuko Aramaki
+Matthew E. P. Davies
+Richard Kronland-Martinet
+Sølvi Ystad</eds>
+<series>LNCS 11265</series>
+<pp>509--521</pp>
+<pub>Springer</pub>
+<doi>10.1007/978-3-030-01692-0_34</doi>
+<month>12</month>
+<year>2018</year>
+</item><item id="YamadaCMMR2017b" type="ln" lang="en">
+<authors>
+<author>Tatsuro Yamada</author>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Hiroaki Arie</author>
+<author>Tetsuya Ogata</author>
+</authors>
+<title>Four-Part Harmonization: Comparison
+of a Bayesian Network and a Recurrent
+Neural Network</title>
+<booktitle>Music Technology with Swing --- 13th International Symposium, CMMR 2017, Matosinhos, Portugal, September 25–28, 2017, Revised Selected Papers</booktitle>
+<eds>Mitsuko Aramaki
+Matthew E. P. Davies
+Richard Kronland-Martinet
+Sølvi Ystad</eds>
+<series>LNCS 11265</series>
+<pp>213--225</pp>
+<pub>Springer</pub>
+<doi>10.1007/978-3-030-01692-0_15</doi>
+<month>12</month>
+<year>2018</year>
+</item><item id="UemuraCSMC2018" type="ic" lang="en">
+<authors>
+<author>Aiko Uemura</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<title>Preliminary Study on Morphing of Chord
+Progression</title>
+<booktitle>
+Proceedings of 3rd International Conference on Computer Simulation of Musical Creativity (CSMC 2018)</booktitle>
+<month>8</month>
+<year>2018</year>
+</item><item id="UdagawaCSMC2018" type="ic" lang="en">
+<authors>
+<author>Mai Udagawa</author>
+<author>Aiko Uemura</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<title>Support System for Excercising Guitar Chord Performance</title>
+<booktitle>3rd International Conference on Computer Simulation of Musical Creativity (CSMC 2018)</booktitle>
+<series>Late Breaking Abstracts</series>
+<month>8</month>
+<year>2018</year>
+<note>not reviewed</note>
+</item><item id="KitaharaCSMC2018" type="ic" lang="en">
+<authors>
+<author me="yes">Tetsuro Kitahara</author>
+<author>Yasuyuki Saito</author>
+<author>Sergio Giraldo</author>
+<author>Rafael Ramírez</author>
+</authors>
+<title>An improvisation System for Disabilities based on Melody Creation with Gaze Control</title>
+<booktitle>3rd International Conference on Computer Simulation of Musical Creativity (CSMC 2018)</booktitle>
+<series>Late Breaking Abstracts</series>
+<month>8</month>
+<year>2018</year>
+<note>not reviewed</note>
+</item><item id="ShiraishiSMC2018" type="ic" lang="en">
+<authors>
+<author>Mina Shiraishi</author>
+<author>Kozue Ogasawara</author>
+<author me="yes">Tetsuro Kitahara</author>
+</authors>
+<title>HamoKara: A System for Practice of Backing Vocals for Karaoke</title>
+<booktitle>Proceedings of 15th Sound and Music Computing Conference (SMC 2018)</booktitle>
+<pp>511--518</pp>
+<doi>10.5281/zenodo.1422675</doi>
+<month>7</month>
+<year>2018</year>
+</item><item id="IshiyamaEC2018" type="dt" lang="ja">
+<authors>
+<author>石山 俊之</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>HMDを用いたヴァーチャルなドラム演奏環境の試作：合奏相手を表すヴァーチャルキャラクターの導入</title>
+<booktitle>エンタテインメントコンピューティングシンポジウム2018論文集</booktitle>
+<pp>76--79</pp>
+<month>9</month>
+<year>2018</year>
+</item><item id="KitaharaSIGMUS2018" type="dt" lang="ja">
+<authors>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>メロディ生成における生成単位に関する一調査</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2018-MUS-121-27</series>
+<pp>1-4</pp>
+<month>11</month>
+<year>2018</year>
+</item><item id="TakegawaSIGMUS2018" type="dt" lang="ja">
+<authors>
+<author>竹川 佳成</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>音楽情報科学のスーパーヒーローたち! シリーズI</title>
+<booktitle> 情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2018-MUS-120-17</series>
+<pp>1--1</pp>
+<month>8</month>
+<year>2018</year>
+</item><item id="HommaSIGMUS2018" type="dt" lang="ja">
+<authors>
+<author>本間 直人</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>アニメの主題歌による類似アニメ検索の検討</title>
+<booktitle> 情報処理学会 音楽情報科学／音声言語情報処理 研究報告（音学シンポジウム2018）</booktitle>
+<series>2018-MUS-119-42 / 2018-SLP-122-42</series>
+<pp>1--2</pp>
+<month>6</month>
+<year>2018</year>
+</item><item id="UemuraSIGMUS2018" type="dt" lang="ja">
+<authors>
+<author>植村 あい子</author>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>コード進行に関するモーフィングの初期検討</title>
+<booktitle> 情報処理学会 音楽情報科学／音声言語情報処理 研究報告（音学シンポジウム2018）</booktitle>
+<series>2018-MUS-119-20 / 2018-SLP-122-20</series>
+<pp>1--5</pp>
+<month>6</month>
+<year>2018</year>
+</item><item id="KitaharaMPCHandbook2019a" type="bc" lang="ja">
+<authors>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>楽器音の特徴と識別</title>
+<booktitle>音楽知覚認知ハンドブック</booktitle>
+<series>7.4.6節</series>
+<pub>北大路書房</pub>
+<month>2</month>
+<year>2020</year>
+</item><item id="KitaharaMPCHandbook2019b" type="bc" lang="ja">
+<authors>
+<author me="yes">北原 鉄朗</author>
+</authors>
+<title>レンダリングシステム</title>
+<booktitle>音楽知覚認知ハンドブック</booktitle>
+<series>7.6.3節</series>
+<pub>北大路書房</pub>
+<month>2</month>
+<year>2020</year>
+</item><item id="JSAI2017panel" type="iv" lang="ja">
+<title>人工知能は作曲家／演奏家になれるか?</title>
+<booktitle>2017年人工知能学会全国大会</booktitle>
+<series>パネリスト</series>
+<month>5</month>
+<year>2017</year>
+</item><item id="NanjoSIGMUS2017" type="dt">
+<authors>
+  <author>南條 浩輝</author>
+  <author>高道 慎之介</author>
+  <author me="yes">北原 鉄朗</author>
+  <author>森勢 将雅</author>
+</authors>
+<title>外国語音声を好みの声質にかえる技術の検討 - 聞きつづけたくなる外国語教材をめざして -</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告（音学シンポジウム2017）</booktitle>
+<series>2017-MUS-115-60</series>
+<pp>1--3</pp>
+<month>6</month>
+<year>2017</year>
+</item><item id="MizunoVRST2018" type="ic" lang="en">
+<authors>
+  <author>Souta Mizuno</author>
+  <author me="yes">Tetsuro Kitahara</author>
+  <author>Shun Shiramatsu</author>
+  <author>Shugo Ichinose</author>
+</authors>
+<title>JamGesture: An Improvisation Support System Based on Physical Gesture Observed with Smartphone</title>
+<booktitle>Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology (VRST 2018)</booktitle>
+<series>Poster Session</series>
+<no>101</no>
+<doi>10.1145/3281505.3283380</doi>
+<month>11</month>
+<year>2018</year>
+</item><item id="MizunoSIGMUS2017" type="dt" lang="ja">
+<authors>
+  <author>水野 創太</author>
+  <author>白松 俊</author>
+  <author me="yes">北原 鉄朗</author>
+  <author>一ノ瀬 修吾</author>
+</authors>
+<title>JamGesture:スマートフォンを用いた身体動作による即興演奏支援システム</title>
+<booktitle>情報処理学会 音楽情報科学 研究報告</booktitle>
+<series>2017-MUS-117-4</series>
+<pp>1--4</pp>
+<month>11</month>
+<year>2017</year>
+</item><item type="dt" id="AbeInteraction2019" lang="ja">
+  <title>運転中の音楽に変化を与え眠気を気付かせるシステム</title>
+  <authors>
+    <author>阿部 賢人</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 インタラクション2019（インタラクティブ発表）</booktitle>
+  <series>1B-29</series>
+  <month>3</month>
+  <year>2019</year>
+</item><item type="dt" id="YasuharaInteraction2019" lang="ja">
+  <title>旋律概形と筆圧感知を用いた作曲支援システム</title>
+  <authors>
+    <author>安原 茜</author>
+    <author>藤井 潤子</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 インタラクション2019（インタラクティブ発表）</booktitle>
+  <series>2A-05</series>
+  <month>3</month>
+  <year>2019</year>
+</item><item type="dt" id="YagasakiInteraction2019" lang="ja">
+  <title>音楽がきっかけとなるコミュニケーション支援システム</title>
+  <authors>
+    <author>矢ヶ崎 里咲</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 インタラクション2019（インタラクティブ発表）</booktitle>
+  <series>2B-40</series>
+  <month>3</month>
+  <year>2019</year>
+</item><item type="dt" id="HommaInteraction2019" lang="ja">
+  <title>アニメの主題歌による類似アニメ検索の検討</title>
+  <authors>
+    <author>本間 直人</author>
+    <author>植村 あい子</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 インタラクション2019（インタラクティブ発表）</booktitle>
+  <series>3B-53</series>
+  <month>3</month>
+  <year>2019</year>
+</item><item type="dc" id="ShigaASJ2019">
+  <title>ジャズのベースラインの自動生成</title>
+    <authors>
+      <author>志賀 あゆみ</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>日本音響学会 2019年春季研究発表会 講演論文集</booktitle>
+  <series>3-1-1</series>
+  <month>3</month>
+  <year>2019</year>
+</item><item type="dc" id="UemuraASJ2019">
+  <title>コードモーフィングに基づくリハーモナイゼーションの一検討</title>
+    <authors>
+      <author>植村 あい子</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>日本音響学会 2019年春季研究発表会 講演論文集</booktitle>
+  <series>3-1-5</series>
+  <month>3</month>
+  <year>2019</year>
+</item><item type="dc" id="MasudaASJ2019">
+  <title>グラフィックイコライザによる音色操作と印象との関係</title>
+    <authors>
+      <author>増田 誠也</author>
+      <author>饗庭 絵里子</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>日本音響学会 2019年春季研究発表会 講演論文集</booktitle>
+  <series>3-1-7</series>
+  <month>3</month>
+  <year>2019</year>
+</item><item type="dc" id="KawamuraASJ2019">
+  <title>歌詞と音楽が与える印象の分析</title>
+    <authors>
+      <author>河村 翔太</author>
+      <author>植村 あい子</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+  <booktitle>日本音響学会 2019年春季研究発表会 講演論文集</booktitle>
+  <series>3-1-9</series>
+  <month>3</month>
+  <year>2019</year>
+</item><item type="ic" id="MasudaWIMP2019" lang="en">
+  <title>An Investigation towards Verbally Controllable Equalizer for Singing Voices</title>
+  <authors>
+    <author>Seiya Masuda</author>
+    <author>Eriko Aiba</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Proceedings of the 5th Workshop on Intelligent Music Production (WIMP 2019)</booktitle>
+  <month>9</month>
+  <year>2019</year>
+</item><item type="ic" id="ShigaCMMR2019" lang="en">
+<title>Generating Walking Bass Lines with HMM</title>
+<authors>
+  <author>Ayumi Shiga</author>
+  <author me="yes">Tetsuro Kitahara</author>
+</authors>
+<booktitle>Proceedings of the 14th International Symposium on Computer Music Multidisciplinary Research (CMMR 2019)</booktitle>
+<pp>83--90</pp>
+<month>10</month>
+<year>2019</year>
+</item><item type="ij" id="ShiraishiJIP2019" lang="en">
+  <title>HamoKara: A System that Enables Amateur Singers to Practice Backing Vocals for Karaoke</title>
+  <authors>
+    <author>Mina Shiraishi</author>
+    <author>Kozue Ogasawara</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Journal of Information Processing</booktitle>
+  <vol>27</vol>
+  <pp>683--692</pp>
+  <doi>10.2197/ipsjjip.27.683</doi>
+  <month>11</month>
+  <year>2019</year>
+</item><item type="lt" id="KusanoIPSJ2019" lang="ja">
+  <title>ゲーム風演出で読書を促進するモバイルアプリケーション</title>
+  <authors>
+    <author>草野 有沙</author>
+    <author>西 由佳梨</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会論文誌（テクニカルノート）</booktitle>
+  <vol>60</vol>
+  <no>11</no>
+  <pp>1978--1982</pp>
+  <month>11</month>
+  <year>2019</year>
+</item><item type="ij" id="TsuchiyaJCMS2019" lang="en">
+  <title>A Non-notewise Melody Editing Method for Supporting Musically Untrained People's Music Composition</title>
+  <authors>
+    <author>Yusuke Tsuchiya</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <booktitle>Journal of Creative Music Systems</booktitle>
+  <vol>3</vol>
+  <no>1</no>
+  <doi>10.5920/jcms.624</doi>
+  <month>11</month>
+  <year>2019</year>
+</item><item type="dt" id="InoueSIGMUS2020" lang="ja">
+  <authors>
+    <author>井上 湧哉</author>
+    <author>植村 あい子</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <title>音楽と印象に関する一分析</title>
+  <booktitle>情報処理学会研究報告（音楽情報科学）</booktitle>
+  <vol>2020-MUS-126</vol>
+  <no>1</no>
+  <pp>1--17</pp>
+  <month>2</month>
+  <year>2020</year>
+</item><item type="dt" id="ItoInteraction2020" lang="ja">
+  <title>カラオケにおける自動楽曲推薦</title>
+  <authors>
+    <author>伊藤 健友</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>インタラクション2020（インタラクティブ発表）</booktitle>
+  <series>1A-08</series>
+  <month>3</month>
+  <year>2020</year>
+</item><item type="dt" id="YamamotoInteraction2020" lang="ja">
+<title>BGMの再生速度変化を用いた体幹トレーニング支援システム</title>
+<authors>
+  <author>山本 鷹人</author>
+  <author me="yes">北原 鉄朗</author>
+</authors>
+  <booktitle>インタラクション2020（インタラクティブ発表）</booktitle>
+  <series>1A-09</series>
+  <month>3</month>
+  <year>2020</year>
+</item><item type="dt" id="YasusakaInteraction2020" lang="ja">
+<title>動画の盛り上がり度に基づいたループシーケンサ</title>
+<authors>
+  <author>安坂 文汰</author>
+  <author me="yes">北原 鉄朗</author>
+</authors>
+  <booktitle>インタラクション2020（インタラクティブ発表）</booktitle>
+  <series>2A-07</series>
+  <month>3</month>
+  <year>2020</year>
+</item><item type="dt" id="KusachiInteraction2020" lang="ja">
+<title>ピアノ用自動バラード調アレンジシステム</title>
+<authors>
+  <author>草地 澪</author>
+  <author>植村 あい子</author>
+  <author me="yes">北原 鉄朗</author>
+</authors>
+  <booktitle>インタラクション2020（インタラクティブ発表）</booktitle>
+  <series>3A-09</series>
+  <month>3</month>
+  <year>2020</year>
+</item><item type="op" id="SekiSIGMUS2020" lang="ja">
+  <title>ドラム演奏表情付けに向けたドラム演奏のベロシティの分析</title>
+  <authors>
+    <author>関 晋之介</author>
+    <author>井上 湧哉</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 第126回音楽情報科学研究会 萌芽・デモ・議論セッション</booktitle>
+  <month>2</month>
+  <year>2020</year>
+</item><item type="op" id="TsukamotoSIGMUS2020" lang="ja">
+  <title>クラシック曲の楽譜データに対する自動和声付与システムの構築に向けて</title>
+  <authors>
+    <author>塚本 康太</author>
+    <author>饗庭 絵里子</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <booktitle>情報処理学会 第126回音楽情報科学研究会 萌芽・デモ・議論セッション</booktitle>
+  <month>2</month>
+  <year>2020</year>
+</item><item id="UemuraCSMCMuMe2020" type="ic" lang="en">
+<authors>
+  <author>Aiko Uemura</author>
+  <author me="yes">Tetsuro Kitahara</author>
+</authors>
+<title>Morphing-Based Reharmonization using LSTM-VAE</title>
+<booktitle>The 2020 Joint Conference on AI Music Creativity (CSMC + MuMe 2020)</booktitle>
+<month>10</month>
+<year>2020</year>
+</item><item id="KusachiCSMCMuMe2020" type="ic" lang="en">
+  <authors>
+    <author>Mio Kusachi</author>
+    <author>Aiko Uemura</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <title>A Piano Ballad Arrangement System</title>
+  <booktitle>The 2020 Joint Conference on AI Music Creativity (CSMC + MuMe 2020)</booktitle>
+  <month>10</month>
+  <year>2020</year>
+</item><item id="TaharaMUS2021" type="dt" lang="ja">
+  <authors>
+    <author>田原花蓮</author>
+    <author>植村あい子</author>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>遺伝的アルゴリズムを用いたファミコン風自動編曲システムの生成</title>
+  <booktitle>情報処理学会研究報告 音楽情報科学 (MUS)</booktitle>
+  <vol>2021-MUS-130(9)</vol>
+  <month>03</month>
+  <year>2021</year>
+</item><item id="InanoMUS2021" type="dt" lang="ja">
+  <authors>
+    <author>稲野友哉</author>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>世代間ギャップの解消を目的とした楽曲再生システムの試作</title>
+  <booktitle>情報処理学会研究報告 音楽情報科学 (MUS)</booktitle>
+  <vol>2021-MUS-130(41)</vol>
+  <month>03</month>
+  <year>2021</year>
+</item><item id="NiinumaMUS2021" type="dt" lang="ja">
+  <authors>
+    <author>新沼菫</author>
+    <author>饗庭絵里子</author>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>BGM に含まれる言語が計算課題と読解課題に及ぼす影響</title>
+  <booktitle>情報処理学会研究報告 音楽情報科学 (MUS)</booktitle>
+  <vol>2021-MUS-130(23)</vol>
+  <month>03</month>
+  <year>2021</year>
+</item><item id="SekiMUS2021" type="dt" lang="ja">
+  <authors>
+    <author>関晋之介</author>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>ユーザの演奏のベロシティ変化を考慮するドラム演奏表情付けシステム</title>
+  <booktitle>情報処理学会研究報告 音楽情報科学 (MUS)</booktitle>
+  <vol>2021-MUS-130(36)</vol>
+  <month>03</month>
+  <year>2021</year>
+</item><item id="FurushoMUS2021" type="dt" lang="ja">
+  <authors>
+    <author>古庄優樹</author>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>ギターの弦を正しく押さえるための初心者支援システム</title>
+  <booktitle>情報処理学会研究報告 音楽情報科学 (MUS)</booktitle>
+  <vol>2021-MUS-130(35)</vol>
+  <month>03</month>
+  <year>2021</year>
+</item><item id="HirookaMUS2021" type="dt" lang="ja">
+  <authors>
+    <author>廣岡彩笑</author>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>スマートフォンを用いた合奏システムの試作</title>
+  <booktitle>情報処理学会研究報告 音楽情報科学 (MUS)</booktitle>
+  <vol>2021-MUS-130(24)</vol>
+  <month>03</month>
+  <year>2021</year>
+</item>
+  <item type="sc">
+    <text>情報処理学会 音楽情報科学研究会 主査（2015年度〜2016年度）</text>
+  </item><item type="sc">
+    <text>2016年度人工知能学会全国大会（第30回） 大会委員</text>
+  </item><item type="sc">
+    <text>Special Session on Music Information Processing, the IEEE 8th International Conference on Knowledge and Systems Engineering (KSE 2016), Session Organier</text>
+  </item><item type="sc">
+    <text>情報処理学会論文誌「エンターテインメントコンピューティング」特集（2016年12月発行予定）編集委員会 編集委員</text>
+  </item><item type="sc">
+    <text>情報処理学会誌「音楽を軸に拡がる情報科学」特集（2016年6月号）ゲストエディタ</text>
+  </item><item type="sc">
+    <text>情報処理学会論文誌「音楽情報処理技術の進歩とその拡がり」特集（2016年5月号）編集委員会 幹事</text>
+  </item><item type="sc">
+    <text>2015年度人工知能学会全国大会（第29回） 大会委員</text>
+  </item><item type="sc">
+    <text>情報処理学会 第76回全国大会 プログラム編成WG 委員</text>
+  </item><item type="sc">
+    <text>情報処理学会／電子情報通信学会 第13回情報科学技術フォーラム（FIT 2014） プログラム委員会 委員</text>
+  </item><item type="sc">
+    <text>Special Session on Hot Topics in Music Information Processing, the 12th IEEE International Conference on Signal Processing, Session Co-organizer</text>
+  </item><item type="sc">
+    <text>日本音響学会2014年春季研究発表会 実行委員</text>
+  </item><item type="sc">
+    <text>情報処理学会／電子情報通信学会 第12回情報科学技術フォーラム（FIT 2013） 研究会担当委員</text>
+  </item><item type="sc">
+    <text>情報処理学会論文誌「音楽情報処理の新展開（音楽情報科学研究会20周年記念特集）」特集（2013年4月号）編集委員会 編集委員</text>
+  </item><item type="sc">
+    <text>情報処理学会 音楽情報科学研究会 幹事（2011年度〜2014年度）</text>
+  </item><item type="sc">
+    <text>電子情報通信学会 和文論文誌D 編集委員会 編集委員（2011年度〜2014年度）</text>
+  </item><item type="sc">
+    <text>情報処理学会 音楽情報科学研究会 運営委員（2007年度～2010年度）</text>
+  </item><item type="sc">
+    <text>ISMIR 2009, Local Organizing Committee Chair</text>
+  </item><item type="sc">
+    <text>科学技術新興機構デジタルメディア領域主催シンポジウム「表現の未来へ」推進委員（2007年度）</text>
+  </item><item type="sc">
+    <text>ピアノ演奏表情付けコンテスト「Rencon」Committee Member （2007年度〜2011年度）</text>
+  </item><item type="sc">
+    <text>論文誌査読（複数回）：情報処理学会論文誌，電子情報通信学会論文誌，日本音響学会誌, 人工知能学会論文誌, IEEE Transactions on Acoustics, Speech, and Language, IEEE Journal of Selected Topics in Signal Processing, 芸術科学会, ヒューマンインタフェース学会</text>
+  </item><item type="sc">
+    <text>論文誌査読（1回のみ）：Journal of New Music Research, Signal Processing，日本神経回路学会誌</text>
+  </item><item type="sc">
+    <text>国際会議論文査読：ISMIR 2007, WASPAA 2007, ISMIR 2008, ISMIR 2009, ISMIR 2010, SAPA 2010, ISMIR 2011, ACE 2015, ACE 2016, IEEE-KSE 2016</text>
+  </item><item type="sc">
+    <text>国内会議論文査読：FIT 2008, FIT 2009</text>
+  </item>
+
+</paperlist>
