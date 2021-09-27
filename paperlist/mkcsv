@@ -1,0 +1,6 @@
+#!/bin/sh
+
+xsltproc toCSV_A.xsl paperlist.xml | html2text -width 100000 -nobs | sed "s/, /,/g" | sed "s/_/ /g" > A.csv
+xsltproc toCSV_B.xsl paperlist.xml | html2text -width 100000 -nobs | sed "s/, /,/g" | sed "s/_/ /g" > B.csv
+xsltproc toCSV_C.xsl paperlist.xml | html2text -width 100000 -nobs | sed "s/, /,/g" | sed "s/_/ /g" > C.csv
+
