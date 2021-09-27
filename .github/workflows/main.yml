@@ -28,18 +28,16 @@ jobs:
       run: sudo apt install texlive-binaries
     - name: Install html2text
       run: sudo apt install html2text
-    - run: cd paperlist
-    - run: pwd
-    - run: chmod +x update-paperlist
-    - run: mkdir -p output
+    - run: chmod +x paperlist/update-paperlist
+    - run: mkdir -p paperlist/output
     - name: Convert with xsltproc
-      run: ./update-paperlist
+      run: ./paperlist/update-paperlist
     - run: ls -Ral
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
         name: output
-        path: output
+        path: paperlist/output
     - name: Commit & Push
       run: |
         git config user.email "action@github.com"
