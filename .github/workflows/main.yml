@@ -29,7 +29,8 @@ jobs:
     - name: Install html2text
       run: sudo apt install html2text
     - run: cd paperlist
-    - run: chmod +x ./update-paperlist
+    - run: pwd
+    - run: chmod +x update-paperlist
     - run: mkdir -p output
     - name: Convert with xsltproc
       run: ./update-paperlist
