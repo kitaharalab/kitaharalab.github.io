@@ -1,10 +1,10 @@
 #!/bin/sh
 # make output/
+cd paperlist
 mkdir -p output
 
 # Since 2010
 xsltproc paperlist.xml > output/paperlist_sinceFY2010.html
-#cp output/paperlist_sinceFY2010.html paperlist_sinceFY2010.html
 xsltproc toBibTeX.xsl paperlist.xml > output/paperlist_sinceFY2010.bib
 
 # All
