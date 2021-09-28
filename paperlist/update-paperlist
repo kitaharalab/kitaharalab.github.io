@@ -2,6 +2,7 @@
 # make output/
 cd paperlist
 mkdir -p output
+cp paperlist.dtd output/
 
 # Since 2010
 xsltproc paperlist.xml > output/paperlist_sinceFY2010.html
@@ -11,7 +12,7 @@ xsltproc toBibTeX.xsl paperlist.xml > output/paperlist_sinceFY2010.bib
 xmllint --xinclude paperlist_all.xml > output/__paperlist_included.xml
 xsltproc -o output/paperlist.html paperlist.xsl output/__paperlist_included.xml
 # cp output/paperlist.html ../index.html
-#xsltproc -o output/paperlist4A.html paperlist4A.xsl output/__paperlist_included.xml
+xsltproc -o output/paperlist4A.html paperlist4A.xsl output/__paperlist_included.xml
 xsltproc toLaTeX.xsl output/__paperlist_included.xml | nkf -w | sed -f toLaTeX.sed > output/paperlist.tex
 platex -output-directory=output/ -kanji=utf8 output/paperlist.tex
 dvipdfmx output/paperlist.dvi
