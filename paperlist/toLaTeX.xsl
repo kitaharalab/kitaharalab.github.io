@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="ISO-2022-JP" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<?xml version="1.0" encoding="ISO-2022-JP" ?>-->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -13,8 +14,8 @@
 \setlength{\itemsep}{7pt} }
 {\setcounter{savedenumi}{\theenumi} \end{enumerate}}
 
-\title{$B8&5f6H@S(B
-  <xsl:if test="@note">$B!J(B<xsl:value-of select="@note" />$B!K(B</xsl:if>
+\title{研究業績
+  <xsl:if test="@note">（<xsl:value-of select="@note" />）</xsl:if>
 }
 \author{<xsl:value-of select="@myname" />}
 \date{}
@@ -23,7 +24,7 @@
 \maketitle
 
 <xsl:if test="item[@type='th']">
-\section*{$B3X0LO@J8(B}
+\section*{学位論文}
 \begin{Enumerate}
   <xsl:apply-templates select="item[@type='th']">
     <xsl:sort select="year" data-type="number" order="ascending" />
@@ -32,7 +33,7 @@
 \end{Enumerate}
 </xsl:if>
 <xsl:if test="item[@type='jj' or @type = 'ij']">
-\section*{$B3X=QO@J8(B}
+\section*{学術論文}
 \begin{Enumerate}
   <xsl:apply-templates 
        select="item[@type='jj' or @type='ij']">
@@ -42,7 +43,7 @@
 \end{Enumerate}
 </xsl:if>
 <xsl:if test="item[@type='lt']">
-\section*{$B%7%g!<%H%Z!<%Q!<(B}
+\section*{ショートペーパー}
 \begin{Enumerate}
   <xsl:apply-templates select="item[@type='lt']">
     <xsl:sort select="year" data-type="number" order="ascending" />
@@ -51,7 +52,7 @@
 \end{Enumerate}
 </xsl:if>
 <xsl:if test="item[@type='ic']">
-\section*{$B9q:]2q5D(B}
+\section*{国際会議}
 \begin{Enumerate}
   <xsl:apply-templates select="item[@type='ic' or @type='ln']">
     <xsl:sort select="year" data-type="number" order="ascending" />
@@ -60,7 +61,7 @@
 \end{Enumerate}
 </xsl:if>
 <xsl:if test="item[@type='dr']">
-\section*{$B9qFb::FIIU$-2q5D(B}
+\section*{国内査読付き会議}
 \begin{Enumerate}
   <xsl:apply-templates select="item[@type='dr']">
     <xsl:sort select="year" data-type="number" order="ascending" />
@@ -69,7 +70,7 @@
 \end{Enumerate}
 </xsl:if>
 <xsl:if test="item[@type='dt']">
-\section*{$B9qFb8&5f2q(B}
+\section*{国内研究会}
 \begin{Enumerate}
   <xsl:apply-templates select="item[@type='dt']">
     <xsl:sort select="year" data-type="number" order="ascending" />
@@ -78,7 +79,7 @@
 \end{Enumerate}
 </xsl:if>
 <xsl:if test="item[@type='dc']">
-\section*{$B9qFbA49qBg2q(B}
+\section*{国内全国大会}
 \begin{Enumerate}
   <xsl:apply-templates select="item[@type='dc']">
     <xsl:sort select="year" data-type="number" order="ascending" />
@@ -87,7 +88,7 @@
 \end{Enumerate}
 </xsl:if>
 <xsl:if test="item[@type='op']">
-\section*{$B8}F,H/I=(B}
+\section*{口頭発表}
 \begin{Enumerate}
   <xsl:apply-templates select="item[@type='op']">
     <xsl:sort select="year" data-type="number" order="ascending" />
@@ -96,7 +97,7 @@
 \end{Enumerate}
 </xsl:if>
 <xsl:if test="item[@type='rv']">
-\section*{$B2r@b5-;v(B}
+\section*{解説記事}
 \begin{Enumerate}
   <xsl:apply-templates select="item[@type='rv']">
     <xsl:sort select="year" data-type="number" order="ascending" />
@@ -105,7 +106,7 @@
 \end{Enumerate}
 </xsl:if>
   <xsl:if test="item[@type='bc']">
-    \section*{$B>OJ,C4(B}
+    \section*{章分担}
     \begin{Enumerate}
     <xsl:apply-templates select="item[@type='bc']">
       <xsl:sort select="year" data-type="number" order="ascending" />
@@ -114,7 +115,7 @@
     \end{Enumerate}
   </xsl:if>
   <xsl:if test="item[@type='tr']">
-\section*{$BK]Lu(B}
+\section*{翻訳}
 \begin{Enumerate}
   <xsl:apply-templates select="item[@type='tr']">
     <xsl:sort select="year" data-type="number" order="ascending" />
@@ -123,7 +124,7 @@
 \end{Enumerate}
 </xsl:if>
  <xsl:if test="item[@type='iv']">
-   \section*{$B>7BT9V1i!&%Q%M%k%G%#%9%+%C%7%g%s$J$I(B}
+   \section*{招待講演・パネルディスカッションなど}
    \begin{itemize}
    <xsl:apply-templates select="item[@type='iv']">
      <xsl:sort select="year" data-type="number" order="ascending" />
@@ -132,31 +133,31 @@
    \end{itemize}
  </xsl:if>
 <xsl:if test="item[@type='pt']">
-\section*{$BFC5v(B}
+\section*{特許}
 \begin{itemize}
   <xsl:apply-templates select="item[@type='pt']" />
 \end{itemize}
 </xsl:if>
 <xsl:if test="item[@type='gr']">
-\section*{$B=u@.6b(B}
+\section*{助成金}
 \begin{itemize}
   <xsl:apply-templates select="item[@type='gr']" />
 \end{itemize}
 </xsl:if>
 <xsl:if test="item/award">
-\section*{$B<u>^(B}
+\section*{受賞}
 \begin{itemize}
   <xsl:apply-templates select="item/award" />
 \end{itemize}
 </xsl:if>
 <xsl:if test="item[@type='sc']">
-\section*{$B3X2q3hF0(B}
+\section*{学会活動}
 \begin{itemize}
   <xsl:apply-templates select="item[@type='sc']" />
 \end{itemize}
 </xsl:if>
  <xsl:if test="item[@type='etc']">
-   \section*{$B$=$NB>(B}
+   \section*{その他}
    \begin{itemize}
    <xsl:apply-templates select="item[@type='etc']" />
    \end{itemize}
