@@ -29,7 +29,7 @@ jobs:
     - name: Install html2text
       run: sudo apt install html2text
     - run: chmod +x paperlist/update-paperlist
-    - run: mkdir -p output
+    #- run: mkdir -p paperlist/output
     - name: Convert with xsltproc
       run: ./paperlist/update-paperlist
     - run: ls -Ral
@@ -37,7 +37,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: output
-        path: output
+        path: paperlist/output
     - name: Commit & Push
       run: |
         git config user.email "action@github.com"
