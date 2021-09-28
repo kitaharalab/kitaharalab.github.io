@@ -2743,4 +2743,25 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <year>2021</year>
 </item>
 
+<item id="KitaharaOtogaku2021" type="iv" lang="ja">
+  <authors>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>誰もが創作を通じて音楽を楽しめる世界を目指して</title>
+  <booktitle>音学シンポジウム2021</booktitle>
+  <month>6</month>
+  <year>2021</year>
+  <note>招待講演</note>
+</item>
+
+<item id="KitaharaMuana2021" type="iv" lang="ja">
+  <authors>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>北原研究室の研究事例紹介：ベーシストの旋律分析とイコライザーの印象分析</title>
+  <booktitle>Music×Analytics Meetup #5</booktitle>
+  <month>6</month>
+  <year>2021</year>
+</item>
+
 </paperlist>
