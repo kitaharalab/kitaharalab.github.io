@@ -15,7 +15,7 @@ xsltproc -o output/paperlist.html paperlist.xsl output/__paperlist_included.xml
 xsltproc -o output/paperlist4A.html paperlist4A.xsl output/__paperlist_included.xml
 xsltproc toLaTeX.xsl output/__paperlist_included.xml | nkf -w | sed -f toLaTeX.sed > output/paperlist.tex
 platex -output-directory=output/ -kanji=utf8 output/paperlist.tex
-dvipdfmx output/paperlist.dvi
+dvipdfmx -o output/paperlist.pdf output/paperlist.dvi
 
 xsltproc toBibTeX.xsl output/__paperlist_included.xml > output/paperlist.bib
 xsltproc toCSV_B.xsl output/__paperlist_included.xml | html2text -width 100000 -nobs | sed "s/, /,/g" | sed "s/_/ /g" > output/B.csv
