@@ -4162,12 +4162,22 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <vol>2021-MUS-130(24)</vol>
   <month>03</month>
   <year>2021</year>
-</item><item id="dummy" type="dt" lang="ja">
+</item><item id="KitaharaOtogaku2021" type="iv" lang="ja">
   <authors>
-    <author>北原 鉄朗</author>
+    <author me="yes">北原鉄朗</author>
   </authors>
-  <title>入力テスト</title>
-  <booktitle>ダミー</booktitle>
+  <title>誰もが創作を通じて音楽を楽しめる世界を目指して</title>
+  <booktitle>音学シンポジウム2021</booktitle>
+  <month>6</month>
+  <year>2021</year>
+  <note>招待講演</note>
+</item><item id="KitaharaMuana2021" type="iv" lang="ja">
+  <authors>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>北原研究室の研究事例紹介：ベーシストの旋律分析とイコライザーの印象分析</title>
+  <booktitle>Music×Analytics Meetup #5</booktitle>
+  <month>6</month>
   <year>2021</year>
 </item>
   <item type="sc">

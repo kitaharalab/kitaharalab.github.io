@@ -28,6 +28,8 @@ jobs:
       run: sudo apt install texlive-binaries
     - name: Install html2text
       run: sudo apt install html2text
+    - name: Install nkf
+      run: sudo apt install nkf
     - run: chmod +x paperlist/update-paperlist
     #- run: mkdir -p paperlist/output
     - name: Convert with xsltproc
