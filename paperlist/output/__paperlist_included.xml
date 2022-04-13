@@ -4179,7 +4179,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <booktitle>Music×Analytics Meetup #5</booktitle>
   <month>6</month>
   <year>2021</year>
-</item><item id="KitaharaIEEEMIPR2021" type="" lang="en">
+</item><item id="KitaharaIEEEMIPR2021" type="ic" lang="en">
   <authors>
     <author>Naoto Homm</author>
     <author>)Aiko Uemura</author>
@@ -4189,6 +4189,80 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <booktitle>IEEE 4th International Conference on Multimedia Information Processing and Retrieval (IEEE MIPR 2021)</booktitle>
   <month>9</month>
   <year>2021</year>
+</item><item id="KitaharaCMMR2021" type="ic" lang="en">
+  <authors>
+    <author>Misato Watanabe</author>
+    <author>Yosuke Onoue</author>
+    <author>Aiko Uemura</author>
+    <author me="yes">Tetsuro Kitahara</author>
+  </authors>
+  <title>A Web-based Application that Enables Users to Practice Wind Instrument Performance</title>
+  <booktitle>15th International Symposium on CMMR, Online, Nov. 15-19, 2021</booktitle>
+</item><item id="ShimamuraASJ2022" type="dc" lang="ja">
+  <authors>
+    <author>島村 美羽</author>
+    <author>阿久井 愛</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <title>多人数演奏楽譜から連弾譜への自動編曲</title>
+  <booktitle>日本音響学会 2022年 春季研究発表会</booktitle>
+  <month>3</month>
+  <year>2022</year>
+</item><item id="AkuiASJ2022" type="dc" lang="ja">
+  <authors>
+    <author>阿久井 愛</author>
+    <author>島村 美羽</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <title>Jpopのラテン風ピアノ編曲システムの試作</title>
+  <booktitle>日本音響学会 2022年 春季研究発表会</booktitle>
+  <month>3</month>
+  <year>2022</year>
+</item><item id="YamakawaASJ2022" type="dc" lang="ja">
+  <authors>
+    <author>山川 峻</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <title>GTTM分析のオープンソース実装</title>
+  <booktitle>日本音響学会 2022年 春季研究発表会</booktitle>
+  <month>3</month>
+  <year>2022</year>
+</item><item id="OshitaASJ2022" type="dc" lang="ja">
+  <authors>
+    <author>大下 沙偉</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <title>フルート練習システム構築のための音響分析</title>
+  <booktitle>日本音響学会 2022年 春季研究発表会</booktitle>
+  <month>3</month>
+  <year>2022</year>
+</item><item id="ShidaSIG2022" type="dt" lang="ja">
+  <authors>
+    <author>次田 直樹</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <title>PC用キーボードを用いた演奏システムの試作</title>
+  <booktitle>情報処理学会 第197回 ヒューマンコンピュータインタラクション研究会</booktitle>
+  <month>3</month>
+  <year>2022</year>
+</item><item id="SugiuraSIG2022" type="dt" lang="ja">
+  <authors>
+    <author>杉浦 磨矢</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <title>振りのタイミングを評価するダンス練習システム</title>
+  <booktitle>情報処理学会 第197回 ヒューマンコンピュータインタラクション研究会</booktitle>
+  <month>3</month>
+  <year>2022</year>
+</item><item id="IwamotoSIG2022" type="dt" lang="ja">
+  <authors>
+    <author>岩本 祐輝</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <title>盛り上がり度に基づくループシーケンサにおけるユーザ適応の試み</title>
+  <booktitle>情報処理学会 第197回 ヒューマンコンピュータインタラクション研究会</booktitle>
+  <month>3</month>
+  <year>2022</year>
 </item>
   <item type="sc">
     <text>情報処理学会 音楽情報科学研究会 主査（2015年度〜2016年度）</text>
