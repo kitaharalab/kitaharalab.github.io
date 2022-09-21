@@ -2756,8 +2756,8 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 
 <item id="KitaharaIEEEMIPR2021" type="ic" lang="en">
   <authors>
-    <author>Naoto Homma</author>
-    <author>Aiko Uemura</author>
+    <author>Naoto Homm</author>
+    <author>)Aiko Uemura</author>
     <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>Are Theme Songs Usable for Anime Retrieval?</title>
@@ -2853,21 +2853,6 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <month>3</month>
   <year>2022</year>
 </item>
-
-
-<item id="UemuraAIMC2022" type="ic" lang="en">
-  <authors>
-    <author>Aiko Uemura</author>
-    <author me="yes">Tetsuro Kitahara</author>
-  </authors>
-  <title>Morphing-based Reharmonization with VAE: Reducing Dissonance with Consonance-based Loss Function</title>
-  <booktitle>Proceedings of the 3rd Conference on AI Music Creativity (AIMC 2022)</booktitle>
-  <doi>10.5281/zenodo.7088426</doi>
-  <month>9</month>
-  <year>2022</year>
-</item>
-
-  
 
 <!--
 <item id="" type="" lang="">
