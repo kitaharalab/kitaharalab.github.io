@@ -2867,6 +2867,18 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <year>2022</year>
 </item>
 
+
+<item id="TestSIG2022" type="dt" lang="ja">
+  <authors>
+    <author> テスト テスト</author>
+    <author me="yes">北原 鉄朗</author>
+  </authors>
+  <title>これはテストの論文です。</title>
+  <booktitle>これはテストデータです。</booktitle>
+  <month>12</month>
+  <year>2022</year>
+</item>
+
   
 
 <!--
