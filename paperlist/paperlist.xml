@@ -2997,7 +2997,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 <year>2023</year>
 </item>
 
-<item id="KitaharaIIAI2023" type="It" lang="ja">
+<item id="KitaharaIIAI2023" type="lt" lang="ja">
 <authors>
   <author me="yes">北原 鉄朗</author>
 </authors>
@@ -3020,8 +3020,8 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 
 <item id="KitaharaACMMMAsia2022" type="ic" lang="ja">
 <authors>
-  <author>Akio Yonamine</author>
   <author me="yes">Tetsuro Kitahara</author>
+  <author>Akio Yonamine</author>
 </authors>
 <title>JamSketch Deep α: A CNN-Based Improvisation System in Accordance with User's Melodic Outline Drawing</title>
 <booktitle>Proceedings of the 4th ACM International Conference on Multimedia in Asia</booktitle>
@@ -3029,7 +3029,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 <year>2022</year>
 </item>
 
-<item id="KItaharaASJ2022" type="rv" lang="ja">
+<item id="KitaharaASJ2022" type="rv" lang="ja">
 <authors>
   <author me="yes">北原 鉄朗</author>
 </authors>
