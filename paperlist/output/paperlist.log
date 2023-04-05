@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.4.4)  4 APR 2023 07:34
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.4.5)  5 APR 2023 02:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,10 +954,10 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 Here is how much of TeX's memory you used:
  792 strings out of 479850
  13617 string characters out of 5887379
- 316848 words of memory out of 5000000
+ 316850 words of memory out of 5000000
  19139 multiletter control sequences out of 15000+600000
  488990 words of font info for 103 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  43i,6n,40p,296b,284s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on output//paperlist.dvi (32 pages, 147804 bytes).
+Output written on output//paperlist.dvi (32 pages, 147800 bytes).
