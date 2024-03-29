@@ -4429,7 +4429,11 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 <series>ABS-0467</series>
 <month>10</month>
 <year>2022</year>
+<<<<<<< HEAD
 </item><item id="aaa" type="ic">
+=======
+</item><item id="aaa"> type="ic"&gt;
+>>>>>>> 3a4f153b561e49f216b9da2b35e626c58517eaa9
   <authors>
       <author>aaaa</author>
   </authors>
