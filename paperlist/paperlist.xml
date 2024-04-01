@@ -2774,7 +2774,9 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
     <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>A Web-based Application that Enables Users to Practice Wind Instrument Performance</title>
-  <booktitle>15th International Symposium on CMMR, Online, Nov. 15-19, 2021</booktitle>
+  <booktitle>15th International Symposium on Computer Music Multidisciplinary Research</booktitle>
+  <month>11</month>
+  <year>2021</year>
 </item>
 
 <item id="ShimamuraASJ2022" type="dc" lang="ja">
@@ -3182,6 +3184,226 @@ based on Human-machine Collaboration</title>
   <booktitle>NeurIPS 2023 Workshop on Machine Learning for Creativity and Design</booktitle>
   <month>12</month>
   <year>2023</year>
+</item>
+
+<item id="KawaharaOtogaku2023" type="dt">
+  <authors>
+    <author>川原瑞樹</author>
+    <author>奥田真輝</author>
+    <author>香西智雄</autor>
+    <author me="yes">北原鉄朗</author>
+  </authors>
+  <title>CNN-VAEを用いたドラム音源のモーフィングの試み</title>
+  <booktitle>音学シンポジウム2023</booktitle>
+  <series>2023-MUS-137-52 / 2023-SLP-147-52</series>
+  <month>6</month>
+  <year>2023</year>
+</item>
+
+<!--
+<item id="KawaharaOhmori2023" type="dt">
+  <authors>
+    <author>大森陽</author>
+    <author me="yes">北原鉄朗</author>
+    <author>菅野由弘</author>
+  </authors>
+  <title>少量データからの対旋律生成を目的とした深層学習モデルの検討</title>
+  <booktitle>音学シンポジウム2023</booktitle>
+  <series>2023-MUS-137-11 / 2023-SLP-147-11</series>
+  <month>6</month>
+  <year>2023</year>
+</item>
+-->
+
+<item id="OshitaASJ2023" type="dc">
+<authors> 
+  <author>大下 沙偉</author>
+  <author>大澤 智恵</author>
+  <author me="yes">北原 鉄朗</author>
+</authors>
+<title>フルートの支援システムのための音響分析：演奏音の自動分類の検討</title>
+<series>2-4-4</series>
+<month>9</month>
+<year>2023</year>
+</item>
+
+<item id="HayashiASJ2023" type="dc">
+<authors> 
+  <author>林 龍星</author>
+  <author me="yes">北原 鉄朗</author>
+</authors>
+<title>ゲーム映像から BGM を予測するための機械学習モデル</title>
+<series>3-4-13</series>
+<month>9</month>
+<year>2023</year>
+</item>
+
+<item id="KouzaiASJ2023" type="dc">
+<authors> 
+  <author>香西 智雄</author>
+  <author me="yes">北原 鉄朗</author>
+</authors>
+<title>クロマグラムと CNN を用いたギター音源からベース音源の生成の試み</title>
+<series>3-4-15</series>
+<month>9</month>
+<year>2023</year>
+</item>
+
+<item id="KouzaiASJ2023" type="dc">
+<authors> 
+  <author>岩本 祐輝</author>
+  <author>尾上 洋介</author>
+  <author me="yes">北原 鉄朗</author>
+</authors>
+<title>盛り上がり度に基づくループシーケンサ：Web アプリ化のためのフロントエンドの実装</title>
+<series>3-4-19</series>
+<month>9</month>
+<year>2023</year>
+</item>
+
+<item id="WatanabeCMMR2021post" type="ln">
+<authors>
+<author>Misato Watanabe</author>
+<author>Yosuke Onoue</author>
+<author>Aiko Uemura</author>
+<author>Tetsuro Kitahara</author>
+</authors>
+<title>Suiview: A Web-based Application that Enables Users to Practice Wind Instrument Performance</title>
+<booktitle>Music in the AI Era: 15th International Symposium, CMMR 2021, Virtual Event, November 15-19, 2021, Revised Selected Papers</booktitle>
+<series>LNCS 13770</series>
+<pp>69--75</pp>
+<month>6</month>
+<year>2023</year>
+</item>
+
+<item id="OkawaInteraction2024" type="dt">
+<authors>
+<author>大川 真由子</author>
+<author>姜 楊禹辰</author>
+<author>北原 鉄朗</author>
+</authors>
+<title>スケール練習のための楽譜生成システムの試作</title>
+<booktitle>インタラクション2024（インタラクティブ発表）</booktitle>
+<series>2B46</series>
+<month>3</month>
+<year>2024</year>
+</item>
+
+<item id="FukudaInteraction2024" type="dt">
+<authors>
+<author>福田 康太</author>
+<author>川原 未波</author>
+<author>北原 鉄朗</author>
+</authors>
+<title>ハモリパート練習支援システムのための音響信号を対象とした副旋律生成の検討</title>
+<booktitle>インタラクション2024（インタラクティブ発表）</booktitle>
+<series>3B25</series>
+<month>3</month>
+<year>2024</year>
+</item>
+
+<item id="OkazakiInteraction2024" type="dt">
+<authors>
+<author>岡崎 光栄</author>
+<author>刀祢 賢志</author>
+<author>与那嶺 あきお</author>
+<author>北原 鉄朗</author>
+</authors>
+<title>GPT-4を用いた配信動画中のQ&A切り抜きを目指して</title>
+<booktitle>インタラクション2024（インタラクティブ発表）</booktitle>
+<series>3B33</series>
+<month>3</month>
+<year>2024</year>
+</item>
+
+<item id="KitaharaIPSJNC2024" type="dc">
+<authors>
+  <author>北原瑠伊</author>
+  <author>北原鉄朗</author>
+</authors>
+<title>ヒップホップ風編曲に向けた一検討</title>
+<booktitle>情報処理学会 第86回全国大会</booktitle>
+<series>4V-02</series>
+<month>3</month>
+<year>2024</year>
+</item>
+
+<item id="SakaiIPSJNC2024" type="dc">
+<authors>
+  <author>坂井俊亮</author>
+  <author>瀬川日向</author>
+  <author me="yes">北原鉄朗</author>
+</authors>
+<title>主旋律と和音を同時に演奏するソロギターのためのタブ譜生成システム</title>
+<booktitle>情報処理学会 第86回全国大会</booktitle>
+<series>4V-03</series>
+<month>3</month>
+<year>2024</year>
+</item>
+
+<item id="SegawaIPSJNC2024" type="dc">
+<authors>
+  <author>瀬川日向</author>
+  <author>坂井俊亮</author>
+  <author me="yes">北原鉄朗</author>
+</authors>
+<title>押弦位置の変更によるギター初心者向け簡略化タブ譜の生成</title>
+<booktitle>情報処理学会 第86回全国大会</booktitle>
+<series>5V-04</series>
+<month>3</month>
+<year>2024</year>
+</item>
+
+<item id="WulfIPSJNC2024" type="dc">
+<authors>
+  <author>ウルフ ジャスティン智也</author>
+  <author me="yes">北原鉄朗</author>
+</authors>
+<title>ハウスミュージックの楽曲構成を決定する要因の調査</title>
+<booktitle>情報処理学会 第86回全国大会</booktitle>
+<series>6V-02</series>
+<month>3</month>
+<year>2024</year>
+</item>
+
+<item id="WulfIPSJNC2024" type="dc">
+<authors>
+  <author>奥田真輝</author>
+  <author me="yes">北原鉄朗</author>
+</authors>
+<title>サッカーにおける選手位置とパスコースの可聴化システム</title>
+<booktitle>情報処理学会 第86回全国大会</booktitle>
+<series>6V-03</series>
+<month>3</month>
+<year>2024</year>
+</item>
+
+<item id="WulfIPSJNC2024" type="dc">
+<authors>
+  <author>川原瑞樹</author>
+  <author>香西智雄</author>
+  <author me="yes">北原鉄朗</author>
+</authors>
+<title>モーフィングを用いたドラムループ素材の生成</title>
+<booktitle>情報処理学会 第86回全国大会</booktitle>
+<series>6V-07</series>
+<month>3</month>
+<year>2024</year>
+</item>
+
+<item id="OshitaMA2024" type="dt">
+<authors>
+  <author>大下沙偉</author>
+  <author>大澤智恵</author>
+  <author me="yes">北原鉄朗</author>
+</authors>
+<title>フルート支援システムのための音響分析: 決定木と線形回帰を用いた自動評価の検討</title>
+<booktitle>日本音響学会音楽音響研究会資料</booktitle>
+<vol>42</vol>
+<no>9</no>
+<pp>5--10</pp>
+<month>2</month>
+<year>2024</year>
 </item>
 
 
