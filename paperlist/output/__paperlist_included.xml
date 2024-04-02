@@ -4450,7 +4450,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 </item><item id="KouzaiCMMR2023" type="ic">
   <authors>
     <author>Tomoo Kouzai</author>
-    <author>Tetsuro Kitahara</author>
+    <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>An Audio-to-Audio Approach to Generate Bass Lines from Guitar’s Chord Backing</title>
   <booktitle>Proceedings of the 16th International Symposium on Computer Music Multidisciplinary Research</booktitle>
@@ -4460,7 +4460,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 </item><item id="OshitaCMMR2023" type="ic">
   <authors>
     <author>Sai Oshita</author>
-    <author>Tetsuro Kitahara</author>
+    <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>NUFluteDB: Flute Sound Dataset with Appropriate and Inappropriate Blowing Styles</title>
    <booktitle>Proceedings of the 16th International Symposium on Computer Music Multidisciplinary Research</booktitle>
@@ -4470,7 +4470,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 </item><item id="HayashiCMMR2023" type="ic">
   <authors>
     <author>Ryusei Hayashi</author>
-    <author>Tetsuro Kitahara</author>
+    <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>Predicting Audio Features of Background Music from Game Scenes</title>
   <booktitle>Proceedings of the 16th International Symposium on Computer Music Multidisciplinary Research</booktitle>
@@ -4481,7 +4481,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <authors>
     <author>Hinata Segawa</author>
     <author>Shunsuke Sakai</author> 
-    <author>Tetsuro Kitahara</author>
+    <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>Melody Reduction for Beginners' Guitar Practice</title>
   <booktitle>Proceedings of the 16th International Symposium on Computer Music Multidisciplinary Research</booktitle>
@@ -4491,7 +4491,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 </item><item id="OkutaCMMR2023" type="ic">
   <authors>
     <author>Masaki Okuta</author>
-    <author>Tetsuro Kitahara</author>
+    <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>Sonifying Players' Positional Relation in Football</title>
   <booktitle>Proceedings of the 16th International Symposium on Computer Music Multidisciplinary Research</booktitle>
@@ -4502,7 +4502,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <authors>
     <author>Mizuki Kawahara</author>
     <author>Tomoo Kouzai</author>
-    <author>Tetsuro Kitahara</author>
+    <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>Morphing of Drum Loop Sound Sources Using CNN-VAE</title>
   <booktitle>Proceedings of the 16th International Symposium on Computer Music Multidisciplinary Research</booktitle>
@@ -4513,7 +4513,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <authors>
     <author>Shunsuke Sakai</author>
     <author>Hinata Segawa</author>
-    <author>Tetsuro Kitahara</author>
+    <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>Generating Tablature of Polyphony Consisting of Melody and Bass Line</title>
   <booktitle>Proceedings of the 16th International Symposium on Computer Music Multidisciplinary Research</booktitle>
@@ -4523,7 +4523,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
 </item><item id="WulfCMMR2023" type="ic">
   <authors>
     <author>Justin Tomoya Wulf</author>
-    <author>Tetsuro Kitahara</author>
+    <author me="yes">Tetsuro Kitahara</author>
   </authors>
   <title>Visualizing Musical Structure of House Music</title>
   <booktitle>Proceedings of the 16th International Symposium on Computer Music Multidisciplinary Research</booktitle>
@@ -4532,7 +4532,7 @@ Proceedings of 3rd International Conference on Computer Simulation of Musical Cr
   <year>2023</year>
 </item><item id="KitaharaMLCD2023" type="ic">
   <authors>
-    <author>Tetsuro Kitahara</author>
+    <author me="yes">Tetsuro Kitahara</author>
     <author>Akio Yonamine</author>
   </authors>
   <title>JamSketch Deep α: Towards Musical Improvisation
@@ -4599,7 +4599,7 @@ based on Human-machine Collaboration</title>
 <author>Misato Watanabe</author>
 <author>Yosuke Onoue</author>
 <author>Aiko Uemura</author>
-<author>Tetsuro Kitahara</author>
+<author me="yes">Tetsuro Kitahara</author>
 </authors>
 <title>Suiview: A Web-based Application that Enables Users to Practice Wind Instrument Performance</title>
 <booktitle>Music in the AI Era: 15th International Symposium, CMMR 2021, Virtual Event, November 15-19, 2021, Revised Selected Papers</booktitle>
@@ -4611,7 +4611,7 @@ based on Human-machine Collaboration</title>
 <authors>
 <author>大川 真由子</author>
 <author>姜 楊禹辰</author>
-<author>北原 鉄朗</author>
+<author me="yes">北原 鉄朗</author>
 </authors>
 <title>スケール練習のための楽譜生成システムの試作</title>
 <booktitle>インタラクション2024（インタラクティブ発表）</booktitle>
@@ -4622,7 +4622,7 @@ based on Human-machine Collaboration</title>
 <authors>
 <author>福田 康太</author>
 <author>川原 未波</author>
-<author>北原 鉄朗</author>
+<author me="yes">北原 鉄朗</author>
 </authors>
 <title>ハモリパート練習支援システムのための音響信号を対象とした副旋律生成の検討</title>
 <booktitle>インタラクション2024（インタラクティブ発表）</booktitle>
@@ -4634,7 +4634,7 @@ based on Human-machine Collaboration</title>
 <author>岡崎 光栄</author>
 <author>刀祢 賢志</author>
 <author>与那嶺 あきお</author>
-<author>北原 鉄朗</author>
+<author me="yes">北原 鉄朗</author>
 </authors>
 <title>GPT-4を用いた配信動画中のQ＆A切り抜きを目指して</title>
 <booktitle>インタラクション2024（インタラクティブ発表）</booktitle>
@@ -4644,7 +4644,7 @@ based on Human-machine Collaboration</title>
 </item><item id="KitaharaIPSJNC2024" type="dc">
 <authors>
   <author>北原瑠伊</author>
-  <author>北原鉄朗</author>
+  <author me="yes">北原鉄朗</author>
 </authors>
 <title>ヒップホップ風編曲に向けた一検討</title>
 <booktitle>情報処理学会 第86回全国大会</booktitle>
