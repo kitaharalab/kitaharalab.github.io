@@ -3423,7 +3423,18 @@ based on Human-machine Collaboration</title>
     <year>2024</year>
   </item>
 
-<!--
+  <item id="HayashiAES2024" type="ic" lang="en">
+    <authors>
+      <author>Ryusei Hayashi</author>
+      <author me="yes">Tetsuro Kitahara</author>
+    </authors>
+    <title>A System for Retrieving Video Game Music</title>
+    <booktitle>2024 AES 6th International Conference on Audio for Games (AES 2024)</booktitle>
+    <month>4</month>
+    <year>2024</year>
+  </item>
+
+  <!--
 <item id="" type="" lang="">
   <authors>
     <author></author>
