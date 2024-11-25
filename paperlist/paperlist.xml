@@ -3434,6 +3434,18 @@ based on Human-machine Collaboration</title>
     <year>2024</year>
   </item>
 
+  <item id="KouzaiMUS2024" type="dc" lang="en">
+    <authors>
+      <author>香西智雄</author>
+      <author>小口純矢</author>
+      <author me="yes">北原鉄朗</author>
+    </authors>
+    <title>ギター音源からベース音源の生成：NMFを用いた改善の検討</title>
+    <booktitle>第141回音楽情報科学研究発表会 (MUS141)</booktitle>
+    <month>8</month>
+    <year>2024</year>
+  </item>
+
   <!--
 <item id="" type="" lang="">
   <authors>
