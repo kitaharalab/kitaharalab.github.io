@@ -1,8 +1,7 @@
 name: Update list CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
-
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     # branches: [ master ]
@@ -13,38 +12,37 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Install xsltproc
-      run: sudo apt install xsltproc
-    - name: Install xmllint
-      run: sudo apt install libxml2-utils
-    - name: Install platex
-      run: sudo apt install texlive-lang-japanese
-    - name: Install dvipdfmx
-      run: sudo apt install texlive-binaries
-    - name: Install html2text
-      run: sudo apt install html2text
-    - name: Install nkf
-      run: sudo apt install nkf
-    - run: chmod +x paperlist/update-paperlist
-    #- run: mkdir -p paperlist/output
-    - name: Convert with xsltproc
-      run: ./paperlist/update-paperlist
-    - run: ls -Ral
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: output
-        path: paperlist/output
-    - name: Commit & Push
-      run: |
-        git config user.email "action@github.com"
-        git config user.name "GitHub Action"
-        git add .
-        git commit -m "Update list" -a
-        git pull
-        git push origin main
+      - uses: actions/checkout@v4
+      - name: Install xsltproc
+        run: sudo apt install xsltproc
+      - name: Install xmllint
+        run: sudo apt install libxml2-utils
+      - name: Install platex
+        run: sudo apt install texlive-lang-japanese
+      - name: Install dvipdfmx
+        run: sudo apt install texlive-binaries
+      - name: Install html2text
+        run: sudo apt install html2text
+      - name: Install nkf
+        run: sudo apt install nkf
+      - run: chmod +x paperlist/update-paperlist
+      #- run: mkdir -p paperlist/output
+      - name: Convert with xsltproc
+        run: ./paperlist/update-paperlist
+      - run: ls -Ral
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: output
+          path: paperlist/output
+      - name: Commit & Push
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add .
+          git commit -m "Update list" -a
+          git pull
+          git push origin ${{ github.ref }}
