@@ -3457,11 +3457,22 @@ based on Human-machine Collaboration</title>
     <month>9</month>
     <year>2024</year>
   </item>
+
+  <item id="HayashiMUS142" type="dc" lang="ja">
+    <authors>
+      <author>林 龍星</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+    <title>ゲームとシーンの特徴を考慮するBGM検索エンジンの開発：主観評価の実施</title>
+    <booktitle>第142回音楽情報科学研究発表会 (MUS142)</booktitle>
+    <month>3</month>
+    <year>2025</year>
+  </item>
   <!--
 <item id="" type="" lang="">
   <authors>
     <author></author>
-    <author me="yes"></author>
+    <author me="yes">北原鉄朗</author>
   </authors>
   <title></title>
   <booktitle></booktitle>
