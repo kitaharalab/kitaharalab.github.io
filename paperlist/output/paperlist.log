@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.euc) (TeX Live 2023/Debian) (preloaded format=platex 2024.12.16)  16 DEC 2024 08:58
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.euc) (TeX Live 2023/Debian) (preloaded format=platex 2025.4.1)  1 APR 2025 08:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -951,69 +951,71 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 3104.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3118.
+(Font)              No change on input line 3111.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3130.
+(Font)              No change on input line 3125.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3138.
+(Font)              No change on input line 3137.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3146.
+(Font)              No change on input line 3145.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3159.
+(Font)              No change on input line 3153.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3165.
+(Font)              No change on input line 3166.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3175.
+(Font)              No change on input line 3172.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3181.
+(Font)              No change on input line 3182.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3187.
+(Font)              No change on input line 3188.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 3194.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 3201.
  [29]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3207.
+(Font)              No change on input line 3208.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3218.
+(Font)              No change on input line 3214.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3224.
+(Font)              No change on input line 3225.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3230.
+(Font)              No change on input line 3231.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3236.
+(Font)              No change on input line 3237.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3248.
+(Font)              No change on input line 3243.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 3255.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 3262.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3273.
+(Font)              No change on input line 3269.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3279.
+(Font)              No change on input line 3280.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3285.
+(Font)              No change on input line 3286.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3291.
+(Font)              No change on input line 3292.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3297.
+(Font)              No change on input line 3298.
  [30]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3303.
+(Font)              No change on input line 3304.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3309.
+(Font)              No change on input line 3310.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3315.
+(Font)              No change on input line 3316.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3321.
+(Font)              No change on input line 3322.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3327.
+(Font)              No change on input line 3328.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3333.
+(Font)              No change on input line 3334.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 3339.
+(Font)              No change on input line 3340.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 3346.
  [31]
 [32] [33] [34] (output//paperlist.aux)
  ***********
@@ -1024,11 +1026,11 @@ L3 programming layer <2024-01-22>
  ) 
 Here is how much of TeX's memory you used:
  817 strings out of 475989
- 14246 string characters out of 5789698
+ 14246 string characters out of 5789700
  1928820 words of memory out of 5000000
  22999 multiletter control sequences out of 15000+600000
  577800 words of font info for 111 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  45i,6n,50p,296b,286s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on output//paperlist.dvi (34 pages, 158456 bytes).
+Output written on output//paperlist.dvi (34 pages, 158784 bytes).

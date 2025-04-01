@@ -4756,6 +4756,15 @@ based on Human-machine Collaboration</title>
     <booktitle>Entertainment Computing 2024</booktitle>
     <month>9</month>
     <year>2024</year>
+  </item><item id="HayashiMUS142" type="dc" lang="ja">
+    <authors>
+      <author>林 龍星</author>
+      <author me="yes">北原 鉄朗</author>
+    </authors>
+    <title>ゲームとシーンの特徴を考慮するBGM検索エンジンの開発：主観評価の実施</title>
+    <booktitle>第142回音楽情報科学研究発表会 (MUS142)</booktitle>
+    <month>3</month>
+    <year>2025</year>
   </item>
   <item type="sc">
     <text>情報処理学会 音楽情報科学研究会 主査（2015年度〜2016年度）</text>
